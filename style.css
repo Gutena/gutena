@@ -1,0 +1,105 @@
+/*
+Theme Name: Gutena
+Theme URI: https://gutena.io/
+Author: ExpressTech
+Author URI: https://expresstech.io
+Description: Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates. 
+Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
+Version: 1.0.1
+Requires at least: 5.8
+Tested up to: 5.8
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gutena
+*/
+html,body{
+   width: 100%;
+   overflow-x: hidden;
+}
+/* Space Around Page */
+.wp-site-blocks{
+   padding: 0px var(--wp--custom--spacing--small);
+}
+.wp-site-blocks .alignfull, .is-root-container .wp-block[data-align="full"] {
+   margin-left: calc(-1 * var(--wp--custom--spacing--small)) !important;
+   margin-right: calc(-1 * var(--wp--custom--spacing--small)) !important;
+   width: unset;
+}
+/* Site-logo size */
+.gutena-pattern .wp-block-site-logo.is-default-size img {
+   height: auto;
+   width: 100%;
+}
+/* Inline Image gap */
+.gutena-pattern .wp-block-button a img, .gutena-pattern .wp-block-group h6 a img,.gutena-pattern .wp-block-post-excerpt__more-link img{
+    margin-left: 6px;
+ }
+
+/* Post Excerpt More link */
+.gutena-pattern .wp-block-post-excerpt__more-link{
+    font-size: var(--wp--custom--typography--font-size--p);
+    font-family: var(--wp--preset--font-family--manrope-font);
+ }
+ 
+ /*Link*/
+ a{
+   text-decoration-thickness: 1px;
+   text-underline-offset: 0.1em;
+ }
+ /* Link hover color */
+ a:hover,.wp-block-post a:hover{
+    color:var(--wp--preset--color--primary);
+ }
+ 
+/*File and search button*/
+.wp-block-search__button:not(.has-icon),
+.wp-block-file .wp-block-file__button {
+   background-color: var(--wp--preset--color--primary);
+   font-family: var(--wp--preset--font-family--manrope-font);
+   font-weight: var(--wp--custom--typography--font-weight--bold);
+   line-height: 1.4;
+   padding: 12px 18px;
+	border-radius: 0;
+	border: none;
+}
+
+/*Button hover effect*/
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+   box-shadow: inset 0 0 0 100px rgba(0,0,0,.1);
+}
+ /* Navigation active and hover color */
+ .wp-block-navigation .wp-block-navigation-item.current-menu-item a,.wp-block-navigation .wp-block-navigation-item a:hover,.wp-block-navigation .wp-block-navigation-item a:focus {
+   color:var(--wp--preset--color--primary);
+ }
+ /* Inline svg image hover color */
+ .gutena-pattern .wp-block-image:not(.no-hover-color) a img:hover, .gutena-pattern:not(.no-hover-color) p a img:hover{
+    filter: url('#wp-duotone-foreground-and-primary');
+ }
+/* Input Focus */
+input:not([type="submit"]):not([type="checkbox"]):focus,textarea:focus{
+   outline:solid 1px var(--wp--preset--color--primary);
+}
+/* Comment Spacing */
+.wp-block-post-comments .commentlist li.comment{
+padding-top: var(--wp--custom--spacing--small);
+}
+/* Comment reply */
+.wp-block-post-comments .reply {
+   font-size: .85em;
+}
+/* Comment metadata */
+.wp-block-post-comments .comment-meta .comment-metadata{
+   font-size: 13px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+ }
+
+ @media only screen and (max-width: 600px) {
+   /* Header button */
+   .gutena-header-with-button .wp-block-buttons.hide-in-mobile{
+      display: none;
+   }
+ }
