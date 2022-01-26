@@ -6,7 +6,7 @@ return array(
 	'title'      => __( 'Two columns with image, text and quote', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
 	'content'    => '<!-- wp:group {"align":"wide","className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"0vh"}}}} -->
+    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"0vh"},"blockGap":"60px"}}} -->
     <div class="wp-block-columns alignwide" style="padding-top:100px;padding-bottom:0vh"><!-- wp:column {"verticalAlignment":"center","width":""} -->
     <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group -->
     <div class="wp-block-group"><!-- wp:heading {"level":1} -->

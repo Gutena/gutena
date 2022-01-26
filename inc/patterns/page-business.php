@@ -94,9 +94,9 @@ return array(
     <!-- /wp:group --></div>
     <!-- /wp:group -->
 	
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"70px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-	<div class="wp-block-group alignwide gutena-pattern" style="padding-top:100px;padding-bottom:70px"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"30px"}}}} -->
-	<div class="wp-block-group alignwide" style="padding-bottom:30px"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.9"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"primary","fontSize":"extra-small"} -->
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+	<div class="wp-block-group alignwide gutena-pattern" style="padding-top:100px;padding-bottom:100px"><!-- wp:group {"align":"wide"} -->
+	<div class="wp-block-group alignwide"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.9"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"primary","fontSize":"extra-small"} -->
 	<h6 class="has-primary-color has-text-color has-extra-small-font-size" id="our-services" style="font-style:normal;font-weight:700;line-height:1.9;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.25em">' . esc_html__( 'OUR SERVICES', 'gutena' ) . '</h6>
 	<!-- /wp:heading -->
 	
@@ -117,8 +117,12 @@ return array(
 	<!-- /wp:columns --></div>
 	<!-- /wp:group -->
 	
+    <!-- wp:spacer {"height":"60px"} -->
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 	<!-- wp:group {"align":"wide","layout":{"inherit":false}} -->
-	<div class="wp-block-group alignwide"><!-- wp:columns -->
+	<div class="wp-block-group alignwide"><!-- wp:columns {"style":{"spacing":{"blockGap":"50px"}}} -->
 	<div class="wp-block-columns"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
 	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1598,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
@@ -186,7 +190,11 @@ return array(
 	<!-- /wp:column --></div>
 	<!-- /wp:columns -->
 	
-	<!-- wp:columns -->
+    <!-- wp:spacer {"height":"50px"} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+	<!-- wp:columns {"style":{"spacing":{"blockGap":"50px"}}} -->
 	<div class="wp-block-columns"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
 	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1601,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
@@ -306,8 +314,8 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:group -->
 
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"55px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:100px;padding-bottom:55px"><!-- wp:group {"align":"wide"} -->
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"85px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:100px;padding-bottom:85px"><!-- wp:group {"align":"wide"} -->
     <div class="wp-block-group alignwide"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.9"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"primary","fontSize":"extra-small"} -->
     <h6 class="has-primary-color has-text-color has-extra-small-font-size" id="our-team" style="font-style:normal;font-weight:700;line-height:1.9;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.25em">' . esc_html__( 'OUR TEAM', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
@@ -331,8 +339,12 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:group -->
     
+    <!-- wp:spacer {"height":"35px"} -->
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
     <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"16px"}}},"layout":{"inherit":false}} -->
-    <div class="wp-block-group alignwide" style="padding-top:16px"><!-- wp:columns -->
+    <div class="wp-block-group alignwide" style="padding-top:16px"><!-- wp:columns {"style":{"spacing":{"blockGap":"32px"}}} -->
     <div class="wp-block-columns"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"align":"center","id":2377,"sizeSlug":"full","linkDestination":"none"} -->
     <div class="wp-block-image"><figure class="aligncenter size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/team-member-1-min.jpg" alt="" class="wp-image-2377"/></figure></div>
@@ -392,8 +404,8 @@ return array(
     <!-- /wp:group --></div>
     <!-- /wp:group -->
 	
-	<!-- wp:group {"align":"full","style":{"color":{"background":"#ebf3ff"},"spacing":{"padding":{"top":"100px","bottom":"70px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern has-background" style="background-color:#ebf3ff;padding-top:100px;padding-right:20px;padding-bottom:70px;padding-left:20px"><!-- wp:columns {"align":"wide"} -->
+	<!-- wp:group {"align":"full","style":{"color":{"background":"#ebf3ff"},"spacing":{"padding":{"top":"100px","bottom":"85px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-background" style="background-color:#ebf3ff;padding-top:100px;padding-right:20px;padding-bottom:85px;padding-left:20px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"55px"}}} -->
     <div class="wp-block-columns alignwide"><!-- wp:column {"width":"55%"} -->
     <div class="wp-block-column" style="flex-basis:55%"><!-- wp:image {"align":"center","id":2381,"sizeSlug":"large","linkDestination":"none"} -->
     <div class="wp-block-image"><figure class="aligncenter size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/man-working-min.jpg" alt="man-working" class="wp-image-2381"/></figure></div>
@@ -433,6 +445,10 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:group -->
     
+    <!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
     <!-- wp:group -->
     <div class="wp-block-group"><!-- wp:columns {"isStackedOnMobile":false} -->
     <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"50px","style":{"spacing":{"padding":{"top":"15px"}}}} -->
@@ -458,13 +474,13 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:group -->
 	
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"90px","bottom":"70px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:90px;padding-bottom:70px"><!-- wp:group {"align":"wide"} -->
-    <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"40px"}}}} -->
-    <h2 class="has-text-align-center" id="client-saying" style="margin-bottom:40px">' . esc_html__( 'Client saying', 'gutena' ) . '</h2>
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"90px","bottom":"100px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:90px;padding-bottom:100px"><!-- wp:group {"align":"wide"} -->
+    <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"50px"}}}} -->
+    <h2 class="has-text-align-center" id="client-saying" style="margin-bottom:50px">' . esc_html__( 'Client saying', 'gutena' ) . '</h2>
     <!-- /wp:heading -->
     
-    <!-- wp:columns -->
+    <!-- wp:columns {"style":{"spacing":{"blockGap":"45px"}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"17px","right":"17px","bottom":"17px","left":"17px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
     <div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:17px;padding-right:17px;padding-bottom:17px;padding-left:17px"><!-- wp:media-text {"mediaId":2383,"mediaLink":"' . esc_url( get_template_directory_uri() ) . '/assets/img/common/testimonial-headshot-1-min.jpg","mediaType":"image","mediaWidth":38} -->

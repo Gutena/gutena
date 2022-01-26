@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Team members with name and position', 'gutena' ),
 	'categories' => array( 'gutena-team-members' ),
-	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"55px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:100px;padding-bottom:55px"><!-- wp:group {"align":"wide"} -->
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"85px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:100px;padding-bottom:85px"><!-- wp:group {"align":"wide"} -->
     <div class="wp-block-group alignwide"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.9"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"primary","fontSize":"extra-small"} -->
     <h6 class="has-primary-color has-text-color has-extra-small-font-size" id="our-team" style="font-style:normal;font-weight:700;line-height:1.9;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.25em">' . esc_html__( 'OUR TEAM', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
@@ -30,8 +30,12 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:group -->
     
+    <!-- wp:spacer {"height":"35px"} -->
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
     <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"16px"}}},"layout":{"inherit":false}} -->
-    <div class="wp-block-group alignwide" style="padding-top:16px"><!-- wp:columns -->
+    <div class="wp-block-group alignwide" style="padding-top:16px"><!-- wp:columns {"style":{"spacing":{"blockGap":"32px"}}} -->
     <div class="wp-block-columns"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"align":"center","id":2377,"sizeSlug":"full","linkDestination":"none"} -->
     <div class="wp-block-image"><figure class="aligncenter size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/team-member-1-min.jpg" alt="" class="wp-image-2377"/></figure></div>

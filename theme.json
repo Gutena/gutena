@@ -239,20 +239,6 @@
                     "fontWeight": "light"
                 }
 			},
-            "core/column": {
-				"spacing": {
-					"margin": {
-                        "bottom":"var(--wp--style--block-gap,2em)"
-                    }
-				}
-			},
-            "core/columns": {
-				"spacing": {
-					"margin": {
-                        "bottom":"0px"
-                    }
-				}
-			},
             "core/button": {
                 "border": {
 					"radius": "0"

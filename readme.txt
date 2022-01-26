@@ -14,6 +14,10 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
+= 1.0.2 Beta =
+* Fixed patterns spacing
+* Replaced social icons with wp social icons
+
 = 1.0.1 =
 * Screenshot changed
 
