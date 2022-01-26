@@ -57,29 +57,14 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:columns {"style":{"spacing":{"blockGap":"0px"}}} -->
-    <div class="wp-block-columns"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
-    <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1812,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/facebook.svg" alt="facebook" class="wp-image-1812"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1813,"sizeSlug":"large","linkDestination":"custom","style":{"color":{}}} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/twitter.svg" alt="twitter" class="wp-image-1813"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group -->
-    <div class="wp-block-group"><!-- wp:image {"id":1814,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/instagram.svg" alt="instagram" class="wp-image-1814"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:column --></div>
-    <!-- /wp:columns --></div>
+    <!-- wp:social-links {"iconColor":"tertiary","iconColorValue":"#575B7A","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"25px"}}} -->
+<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook","label":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter","label":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links -->
+    </div>
     <!-- /wp:column --></div>
     <!-- /wp:columns -->
     
@@ -102,30 +87,14 @@ return array(
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Get started swiftly &amp; easily by importing a demo of your choice in a single click. High quality professionally designed pre-built website concepts to choose from. Gutena is a modern business theme, that lets you build stunning high performance websites using a fully visual interface. Start with any of the demos below or build one on your own.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
-    
-    <!-- wp:columns {"style":{"spacing":{"blockGap":"0px"}}} -->
-    <div class="wp-block-columns"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
-    <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1812,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/facebook.svg" alt="facebook" class="wp-image-1812"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1813,"sizeSlug":"large","linkDestination":"custom","style":{"color":{}}} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/twitter.svg" alt="twitter" class="wp-image-1813"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group -->
-    <div class="wp-block-group"><!-- wp:image {"id":1814,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/instagram.svg" alt="instagram" class="wp-image-1814"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:column --></div>
-    <!-- /wp:columns --></div>
+    <!-- wp:social-links {"iconColor":"tertiary","iconColorValue":"#575B7A","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"25px"}}} -->
+<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook","label":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter","label":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links -->
+    </div>
     <!-- /wp:column -->
     
     <!-- wp:column {"width":""} -->
@@ -161,29 +130,14 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:columns {"style":{"spacing":{"blockGap":"0px"}}} -->
-    <div class="wp-block-columns"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
-    <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1812,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/facebook.svg" alt="facebook" class="wp-image-1812"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1813,"sizeSlug":"large","linkDestination":"custom","style":{"color":{}}} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/twitter.svg" alt="twitter" class="wp-image-1813"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group -->
-    <div class="wp-block-group"><!-- wp:image {"id":1814,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/instagram.svg" alt="instagram" class="wp-image-1814"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:column --></div>
-    <!-- /wp:columns --></div>
+    <!-- wp:social-links {"iconColor":"tertiary","iconColorValue":"#575B7A","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"25px"}}} -->
+<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook","label":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter","label":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links -->
+    </div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div>
     <!-- /wp:group --></div>
