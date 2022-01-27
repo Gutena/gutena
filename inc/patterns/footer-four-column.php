@@ -92,7 +92,7 @@ return array(
 	<!-- /wp:group -->
 	
 	<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px","lineHeight":"1.6"}}} -->
-	<p style="font-size:14px;line-height:1.6">Express Chambers II Spaces<br>Works, Level 5, Royapettah,<br>Chennai – 600014</p>
+	<p style="font-size:14px;line-height:1.6">780, HSR Layout<br> 23A Cross, 8B Main <br> Sector 7, Bangalore 560102</p>
 	<!-- /wp:paragraph --></div>
 	<!-- /wp:group -->
 	
