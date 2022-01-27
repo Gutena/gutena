@@ -6,8 +6,8 @@ return array(
 	'title'      => __( 'Two columns with text, button and image right aligned', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
 	'content'    => '<!-- wp:group {"align":"wide","className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"70px"}}}} -->
-    <div class="wp-block-columns alignwide" style="padding-top:100px;padding-bottom:70px"><!-- wp:column {"verticalAlignment":"center","width":""} -->
+    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"},"blockGap":"70px"}}} -->
+    <div class="wp-block-columns alignwide" style="padding-top:100px;padding-bottom:100px"><!-- wp:column {"verticalAlignment":"center","width":""} -->
     <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1} -->
     <h1 id="start-your-online-business-today">' . esc_html__( 'Start your online business today', 'gutena' ) . '</h1>
     <!-- /wp:heading -->
@@ -18,8 +18,8 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"bottom":"20px"}}}} -->
-    <div class="wp-block-buttons" style="margin-bottom:20px"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
+    <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
+    <div class="wp-block-buttons" ><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
     <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>

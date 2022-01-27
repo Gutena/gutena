@@ -5,7 +5,7 @@ Author: ExpressTech
 Author URI: https://expresstech.io
 Description: Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates. 
 Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 5.8
 Tested up to: 5.8
 Requires PHP: 7.0
@@ -48,7 +48,7 @@ html,body{
    text-underline-offset: 0.1em;
  }
  /* Link hover color */
- a:hover,.wp-block-post a:hover{
+ .gutena-pattern .wp-block-social-links .wp-block-social-link-anchor:hover,a:hover,.wp-block-post a:hover{
     color:var(--wp--preset--color--primary);
  }
  
@@ -74,10 +74,7 @@ html,body{
  .wp-block-navigation .wp-block-navigation-item.current-menu-item a,.wp-block-navigation .wp-block-navigation-item a:hover,.wp-block-navigation .wp-block-navigation-item a:focus {
    color:var(--wp--preset--color--primary);
  }
- /* Inline svg image hover color */
- .gutena-pattern .wp-block-image:not(.no-hover-color) a img:hover, .gutena-pattern:not(.no-hover-color) p a img:hover{
-    filter: url('#wp-duotone-foreground-and-primary');
- }
+ 
 /* Input Focus */
 input:not([type="submit"]):not([type="checkbox"]):focus,textarea:focus{
    outline:solid 1px var(--wp--preset--color--primary);

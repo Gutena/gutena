@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Two columns with image, text and icon boxes', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#ebf3ff"},"spacing":{"padding":{"top":"100px","bottom":"70px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern has-background" style="background-color:#ebf3ff;padding-top:100px;padding-right:20px;padding-bottom:70px;padding-left:20px"><!-- wp:columns {"align":"wide"} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#ebf3ff"},"spacing":{"padding":{"top":"100px","bottom":"85px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-background" style="background-color:#ebf3ff;padding-top:100px;padding-right:20px;padding-bottom:85px;padding-left:20px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"55px"}}} -->
     <div class="wp-block-columns alignwide"><!-- wp:column {"width":"55%"} -->
     <div class="wp-block-column" style="flex-basis:55%"><!-- wp:image {"align":"center","id":2381,"sizeSlug":"large","linkDestination":"none"} -->
     <div class="wp-block-image"><figure class="aligncenter size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/man-working-min.jpg" alt="man-working" class="wp-image-2381"/></figure></div>
@@ -46,6 +46,10 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:group -->
     
+    <!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
     <!-- wp:group -->
     <div class="wp-block-group"><!-- wp:columns {"isStackedOnMobile":false} -->
     <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"50px","style":{"spacing":{"padding":{"top":"15px"}}}} -->

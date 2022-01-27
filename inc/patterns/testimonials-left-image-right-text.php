@@ -5,13 +5,13 @@
 return array(
 	'title'      => __( 'Testimonial with image and text', 'gutena' ),
 	'categories' => array( 'gutena-testimonials' ),
-	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"90px","bottom":"70px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:90px;padding-bottom:70px"><!-- wp:group {"align":"wide"} -->
-    <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"40px"}}}} -->
-    <h2 class="has-text-align-center" id="client-saying" style="margin-bottom:40px">' . esc_html__( 'Client saying', 'gutena' ) . '</h2>
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"90px","bottom":"100px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:90px;padding-bottom:100px"><!-- wp:group {"align":"wide"} -->
+    <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"50px"}}}} -->
+    <h2 class="has-text-align-center" id="client-saying" style="margin-bottom:50px">' . esc_html__( 'Client saying', 'gutena' ) . '</h2>
     <!-- /wp:heading -->
     
-    <!-- wp:columns -->
+    <!-- wp:columns {"style":{"spacing":{"blockGap":"45px"}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"17px","right":"17px","bottom":"17px","left":"17px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
     <div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:17px;padding-right:17px;padding-bottom:17px;padding-left:17px"><!-- wp:media-text {"mediaId":2383,"mediaLink":"' . esc_url( get_template_directory_uri() ) . '/assets/img/common/testimonial-headshot-1-min.jpg","mediaType":"image","mediaWidth":38} -->

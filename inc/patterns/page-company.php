@@ -6,8 +6,8 @@ return array(
 	'title'      => __( 'Company page with columns, team members, icon boxes and Client logos', 'gutena' ),
 	'categories' => array( 'gutena-pages' ),
 	'content'    => '<!-- wp:group {"align":"wide","className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"70px"}}}} -->
-    <div class="wp-block-columns alignwide" style="padding-top:100px;padding-bottom:70px"><!-- wp:column {"verticalAlignment":"center","width":""} -->
+    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"},"blockGap":"70px"}}} -->
+    <div class="wp-block-columns alignwide" style="padding-top:100px;padding-bottom:100px"><!-- wp:column {"verticalAlignment":"center","width":""} -->
     <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1} -->
     <h1 id="start-your-online-business-today">' . esc_html__( 'Start your online business today', 'gutena' ) . '</h1>
     <!-- /wp:heading -->
@@ -18,8 +18,8 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"bottom":"20px"}}}} -->
-    <div class="wp-block-buttons" style="margin-bottom:20px"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
+    <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
+    <div class="wp-block-buttons" ><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
     <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
@@ -60,19 +60,15 @@ return array(
     <!-- /wp:group -->
 
     <!-- wp:group {"align":"full","style":{"color":{"gradient":"linear-gradient(135deg,rgb(90,133,242) 5%,rgb(61,57,229) 100%)"}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern has-background" style="background:linear-gradient(135deg,rgb(90,133,242) 5%,rgb(61,57,229) 100%)"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"80px","bottom":"50px","right":"20px","left":"20px"}}}} -->
-    <div class="wp-block-columns alignwide" style="padding-top:80px;padding-right:20px;padding-bottom:50px;padding-left:20px"><!-- wp:column {"width":"50%"} -->
+    <div class="wp-block-group alignfull gutena-pattern has-background" style="background:linear-gradient(135deg,rgb(90,133,242) 5%,rgb(61,57,229) 100%)"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"80px","bottom":"65px","right":"20px","left":"20px"},"blockGap":"32px"}}} -->
+    <div class="wp-block-columns alignwide" style="padding-top:80px;padding-right:20px;padding-bottom:65px;padding-left:20px"><!-- wp:column {"width":"50%"} -->
     <div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textColor":"white"} -->
     <h2 class="has-white-color has-text-color" id="scale-your-business-using-our-solutions">' . esc_html__( 'Scale your business using our solutions', 'gutena' ) . '</h2>
     <!-- /wp:heading --></div>
     <!-- /wp:column -->
     
-    <!-- wp:column {"width":"5%"} -->
-    <div class="wp-block-column" style="flex-basis:5%"></div>
-    <!-- /wp:column -->
-    
-    <!-- wp:column {"verticalAlignment":"bottom","width":"22.5%"} -->
-    <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:22.5%"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"6px"}}},"textColor":"white"} -->
+    <!-- wp:column {"verticalAlignment":"bottom","width":"25%"} -->
+    <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:25%"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"6px"}}},"textColor":"white"} -->
     <h2 class="has-white-color has-text-color" id="98-5" style="margin-bottom:6px">' . esc_html__( '98.5%', 'gutena' ) . '</h2>
     <!-- /wp:heading -->
     
@@ -81,8 +77,8 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
-    <!-- wp:column {"verticalAlignment":"bottom","width":"22.5%"} -->
-    <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:22.5%"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"6px"}}},"textColor":"white"} -->
+    <!-- wp:column {"verticalAlignment":"bottom","width":"25%"} -->
+    <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:25%"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"6px"}}},"textColor":"white"} -->
     <h2 class="has-white-color has-text-color" id="100k" style="margin-bottom:6px">' . esc_html__( '100K+', 'gutena' ) . '</h2>
     <!-- /wp:heading -->
     
@@ -106,10 +102,10 @@ return array(
     <!-- /wp:group --></div>
     <!-- /wp:group -->
     
-    <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"59px"}}} -->
-    <div class="wp-block-columns alignwide"><!-- wp:column {"width":"","style":{"spacing":{"padding":{"bottom":"33px"}}}} -->
-    <div class="wp-block-column" style="padding-bottom:33px"><!-- wp:columns {"isStackedOnMobile":false} -->
-    <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
+    <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"65px"}}} -->
+    <div class="wp-block-columns alignwide"><!-- wp:column {"width":""} -->
+    <div class="wp-block-column" ><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+    <div  class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
     <div class="wp-block-column is-vertically-aligned-top" style="padding-top:10px;padding-right:20px;flex-basis:12.5%"><!-- wp:image {"id":1605,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
     <figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/clock.svg" alt="Guten UI Kit" class="wp-image-1605"/></figure>
     <!-- /wp:image --></div>
@@ -120,8 +116,8 @@ return array(
     <h6 id="aesthetic-design" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">' . esc_html__( 'Digital Marketing', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
     
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px","right":"10px"}}}} -->
-    <div class="wp-block-group" style="padding-top:12px;padding-right:10px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px"}}}} -->
+    <div class="wp-block-group" style="padding-top:12px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Gutena is a modern business theme, that lets you build stunning high performance websites.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group --></div>
@@ -129,9 +125,9 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:column -->
     
-    <!-- wp:column {"width":"","style":{"spacing":{"padding":{"bottom":"33px"}}}} -->
-    <div class="wp-block-column" style="padding-bottom:33px"><!-- wp:columns {"isStackedOnMobile":false} -->
-    <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
+    <!-- wp:column {"width":""} -->
+    <div class="wp-block-column" ><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+    <div  class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
     <div class="wp-block-column is-vertically-aligned-top" style="padding-top:10px;padding-right:20px;flex-basis:12.5%"><!-- wp:image {"id":1603,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
     <figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/desktop-play-button.svg" alt="Online Investment" class="wp-image-1603"/></figure>
     <!-- /wp:image --></div>
@@ -142,8 +138,8 @@ return array(
     <h6 id="aesthetic-design" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">' . esc_html__( 'Ecommerce', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
     
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px","right":"10px"}}}} -->
-    <div class="wp-block-group" style="padding-top:12px;padding-right:10px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px"}}}} -->
+    <div class="wp-block-group" style="padding-top:12px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Gutena is a modern business theme, that lets you build stunning high performance websites.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group --></div>
@@ -151,9 +147,9 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:column -->
     
-    <!-- wp:column {"width":"","style":{"spacing":{"padding":{"bottom":"33px"}}}} -->
-    <div class="wp-block-column" style="padding-bottom:33px"><!-- wp:columns {"isStackedOnMobile":false} -->
-    <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
+    <!-- wp:column {"width":""} -->
+    <div class="wp-block-column" ><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+    <div  class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
     <div class="wp-block-column is-vertically-aligned-top" style="padding-top:10px;padding-right:20px;flex-basis:12.5%"><!-- wp:image {"id":1602,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
     <figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/user.svg" alt="Tax Planning" class="wp-image-1602"/></figure>
     <!-- /wp:image --></div>
@@ -164,8 +160,8 @@ return array(
     <h6 id="aesthetic-design" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">' . esc_html__( 'Hosting Service', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
     
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px","right":"10px"}}}} -->
-    <div class="wp-block-group" style="padding-top:12px;padding-right:10px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px"}}}} -->
+    <div class="wp-block-group" style="padding-top:12px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Gutena is a modern business theme, that lets you build stunning high performance websites.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group --></div>
@@ -174,10 +170,14 @@ return array(
     <!-- /wp:column --></div>
     <!-- /wp:columns -->
     
-    <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"59px"}}} -->
-    <div class="wp-block-columns alignwide"><!-- wp:column {"width":"","style":{"spacing":{"padding":{"bottom":"33px"}}}} -->
-    <div class="wp-block-column" style="padding-bottom:33px"><!-- wp:columns {"isStackedOnMobile":false} -->
-    <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
+    <!-- wp:spacer {"height":"65px"} -->
+<div style="height:65px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+    <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"65px"}}} -->
+    <div class="wp-block-columns alignwide"><!-- wp:column {"width":""} -->
+    <div class="wp-block-column" ><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+    <div  class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
     <div class="wp-block-column is-vertically-aligned-top" style="padding-top:10px;padding-right:20px;flex-basis:12.5%"><!-- wp:image {"id":1601,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
     <figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/node-link.svg" alt="PPC Advertising" class="wp-image-1601"/></figure>
     <!-- /wp:image --></div>
@@ -188,8 +188,8 @@ return array(
     <h6 id="aesthetic-design" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">' . esc_html__( 'PPC Advertising', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
     
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px","right":"10px"}}}} -->
-    <div class="wp-block-group" style="padding-top:12px;padding-right:10px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px"}}}} -->
+    <div class="wp-block-group" style="padding-top:12px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Gutena is a modern business theme, that lets you build stunning high performance websites.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group --></div>
@@ -197,9 +197,9 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:column -->
     
-    <!-- wp:column {"width":"","style":{"spacing":{"padding":{"bottom":"33px"}}}} -->
-    <div class="wp-block-column" style="padding-bottom:33px"><!-- wp:columns {"isStackedOnMobile":false} -->
-    <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
+    <!-- wp:column {"width":""} -->
+    <div class="wp-block-column" ><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+    <div  class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
     <div class="wp-block-column is-vertically-aligned-top" style="padding-top:10px;padding-right:20px;flex-basis:12.5%"><!-- wp:image {"id":1600,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
     <figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/open-book.svg" alt="Hosting Service" class="wp-image-1600"/></figure>
     <!-- /wp:image --></div>
@@ -210,8 +210,8 @@ return array(
     <h6 id="aesthetic-design" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">' . esc_html__( 'Tax Planning', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
     
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px","right":"10px"}}}} -->
-    <div class="wp-block-group" style="padding-top:12px;padding-right:10px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px"}}}} -->
+    <div class="wp-block-group" style="padding-top:12px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Gutena is a modern business theme, that lets you build stunning high performance websites.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group --></div>
@@ -219,9 +219,9 @@ return array(
     <!-- /wp:columns --></div>
     <!-- /wp:column -->
     
-    <!-- wp:column {"width":"","style":{"spacing":{"padding":{"bottom":"33px"}}}} -->
-    <div class="wp-block-column" style="padding-bottom:33px"><!-- wp:columns {"isStackedOnMobile":false} -->
-    <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
+    <!-- wp:column {"width":""} -->
+    <div class="wp-block-column" ><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->
+    <div  class="wp-block-columns is-not-stacked-on-mobile" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"top","width":"12.5%","style":{"spacing":{"padding":{"right":"20px","top":"10px"}}}} -->
     <div class="wp-block-column is-vertically-aligned-top" style="padding-top:10px;padding-right:20px;flex-basis:12.5%"><!-- wp:image {"id":1598,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
     <figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/aspect-ratio.svg" alt="Digital Marketing" class="wp-image-1598"/></figure>
     <!-- /wp:image --></div>
@@ -232,8 +232,8 @@ return array(
     <h6 id="aesthetic-design" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">' . esc_html__( 'Online Investment', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
     
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px","right":"10px"}}}} -->
-    <div class="wp-block-group" style="padding-top:12px;padding-right:10px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px"}}}} -->
+    <div class="wp-block-group" style="padding-top:12px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Gutena is a modern business theme, that lets you build stunning high performance websites.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group --></div>
@@ -242,6 +242,10 @@ return array(
     <!-- /wp:column --></div>
     <!-- /wp:columns -->
     
+    <!-- wp:spacer {"height":"70px"} -->
+<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"13px"}}}} -->
     <div class="wp-block-buttons" style="margin-top:13px"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
     <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
@@ -301,29 +305,14 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:columns {"style":{"spacing":{"blockGap":"0px"}}} -->
-    <div class="wp-block-columns"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
-    <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1812,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/facebook.svg" alt="facebook" class="wp-image-1812"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1813,"sizeSlug":"large","linkDestination":"custom","style":{"color":{}}} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/twitter.svg" alt="twitter" class="wp-image-1813"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group -->
-    <div class="wp-block-group"><!-- wp:image {"id":1814,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/instagram.svg" alt="instagram" class="wp-image-1814"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:column --></div>
-    <!-- /wp:columns --></div>
+    <!-- wp:social-links {"iconColor":"tertiary","iconColorValue":"#575B7A","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"25px"}}} -->
+<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook","label":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter","label":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links -->
+    </div>
     <!-- /wp:column --></div>
     <!-- /wp:columns -->
     
@@ -346,30 +335,14 @@ return array(
     <p class="has-small-font-size" style="line-height:1.9">' . esc_html__( 'Get started swiftly &amp; easily by importing a demo of your choice in a single click. High quality professionally designed pre-built website concepts to choose from. Gutena is a modern business theme, that lets you build stunning high performance websites using a fully visual interface. Start with any of the demos below or build one on your own.', 'gutena' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
-    
-    <!-- wp:columns {"style":{"spacing":{"blockGap":"0px"}}} -->
-    <div class="wp-block-columns"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
-    <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1812,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/facebook.svg" alt="facebook" class="wp-image-1812"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1813,"sizeSlug":"large","linkDestination":"custom","style":{"color":{}}} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/twitter.svg" alt="twitter" class="wp-image-1813"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group -->
-    <div class="wp-block-group"><!-- wp:image {"id":1814,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/instagram.svg" alt="instagram" class="wp-image-1814"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:column --></div>
-    <!-- /wp:columns --></div>
+    <!-- wp:social-links {"iconColor":"tertiary","iconColorValue":"#575B7A","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"25px"}}} -->
+<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook","label":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter","label":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links -->
+    </div>
     <!-- /wp:column -->
     
     <!-- wp:column {"width":""} -->
@@ -405,33 +378,20 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:columns {"style":{"spacing":{"blockGap":"0px"}}} -->
-    <div class="wp-block-columns"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
-    <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1812,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/facebook.svg" alt="facebook" class="wp-image-1812"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group {"style":{"spacing":{"padding":{"right":"25px"}}}} -->
-    <div class="wp-block-group" style="padding-right:25px"><!-- wp:image {"id":1813,"sizeSlug":"large","linkDestination":"custom","style":{"color":{}}} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/twitter.svg" alt="twitter" class="wp-image-1813"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group -->
-    
-    <!-- wp:group -->
-    <div class="wp-block-group"><!-- wp:image {"id":1814,"sizeSlug":"large","linkDestination":"custom"} -->
-    <figure class="wp-block-image size-large"><a href="#" target="_blank" rel="noopener"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/instagram.svg" alt="instagram" class="wp-image-1814"/></a></figure>
-    <!-- /wp:image --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:group --></div>
-    <!-- /wp:column --></div>
-    <!-- /wp:columns --></div>
+    <!-- wp:social-links {"iconColor":"tertiary","iconColorValue":"#575B7A","size":"has-small-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"25px"}}} -->
+<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook","label":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter","label":"twitter"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /--></ul>
+<!-- /wp:social-links -->
+    </div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div>
     <!-- /wp:group --></div>
     <!-- /wp:group -->
+    
+
 
     <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"70px"}}},"backgroundColor":"secondary","className":"gutena-pattern"} -->
     <div class="wp-block-group alignfull gutena-pattern has-secondary-background-color has-background" style="padding-top:100px;padding-bottom:70px"><!-- wp:heading {"textAlign":"center","level":4,"style":{"spacing":{"margin":{"bottom":"60px"}}},"textColor":"white"} -->
