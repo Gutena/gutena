@@ -14,7 +14,7 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
-= 1.0.3 Beta =
+= 1.0.3 =
 * Added medium large font size option in typography
 * Added orange color palette
 * Added orange color duotone
