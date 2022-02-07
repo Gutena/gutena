@@ -15,7 +15,7 @@ return array(
     </div>
     <!-- /wp:group -->
     
-    <!-- wp:navigation {"__unstableLocation":"main_nav","className":"is-style-gutena-navigation-style","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} /--></div>
+    <!-- wp:navigation {"__unstableLocation":"main_nav","className":"is-style-gutena-navigation-style","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"spacing":{"blockGap":"34px"}}} /--></div>
     <!-- /wp:group --></div>
     <!-- /wp:group -->',
 );
