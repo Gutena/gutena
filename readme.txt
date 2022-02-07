@@ -1,8 +1,8 @@
 === Gutena ===
 Contributors: expresstech
 Requires at least: 5.8
-Tested up to: 5.8
-Requires PHP: 7.0
+Tested up to: 5.9
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,13 @@ Gutena is a block based theme with a goal of modern & clean design.
 Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates.
 
 == Changelog ==
+
+= 1.0.3 Beta =
+* Added medium large font size option in typography
+* Added orange color palette
+* Added orange color duotone
+* Fixed Navigation Spacing
+* Fixed Templates
 
 = 1.0.2 =
 * Fixed patterns spacing

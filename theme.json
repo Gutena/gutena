@@ -29,7 +29,7 @@
                 {
 					"slug": "extra-small",
 					"size": "13px",
-					"name": "Extra Small (UPPER Heading)"
+					"name": "Extra Small"
 				},
 				{
 					"slug": "small",
@@ -44,7 +44,12 @@
 				{
 					"slug": "large",
 					"size": "clamp(40px,4.2vw,52px)",
-					"name": "Large (CTA Heading)"
+					"name": "Large"
+				},
+                {
+					"slug": "medium-large",
+					"size": "clamp(40px,4.8vw,60px)",
+					"name": "Medium Large"
 				},
                 {
 					"slug": "extra-large",
@@ -54,7 +59,7 @@
                 {
 					"slug": "huge",
 					"size": "clamp(40px,7.2vw,90px)",
-					"name": "Huge (Display)"
+					"name": "Huge"
 				}
 			],
             "fontFamilies": [
@@ -102,6 +107,11 @@
                     "name": "Tertiary"
                 },
                 {
+                    "slug": "orange",
+                    "color": "#E7694E",
+                    "name": "Orange"
+                },
+                {
                     "slug": "light-gray",
                     "color": "rgba(37,39,64,0.25)",
                     "name": "Light gray"
@@ -111,17 +121,22 @@
 				{
 					"colors": [ "#3F6DE4", "#3F6DE4" ],
 					"slug": "foreground-and-primary",
-					"name": "Foreground and background"
+					"name": "Foreground and primary"
 				},
                 {
 					"colors": [ "#252740", "#252740" ],
 					"slug": "foreground-and-secondary",
-					"name": "Foreground and background"
+					"name": "Foreground and secondary"
 				},
                 {
 					"colors": [ "#575B7A", "#575B7A" ],
 					"slug": "foreground-and-tertiary",
-					"name": "Foreground and background"
+					"name": "Foreground and tertiary"
+				},
+                {
+					"colors": [ "#E7694E", "#E7694E" ],
+					"slug": "orange-and-orange",
+					"name": "Orange and orange"
 				}
 			]
         },
