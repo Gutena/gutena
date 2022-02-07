@@ -5,10 +5,10 @@ Author: ExpressTech
 Author URI: https://expresstech.io
 Description: Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates. 
 Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.8
-Tested up to: 5.8
-Requires PHP: 7.0
+Tested up to: 5.9
+Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: gutena
@@ -92,6 +92,14 @@ padding-top: var(--wp--custom--spacing--small);
    font-size: 13px;
    padding-top: 5px;
    padding-bottom: 10px;
+ }
+
+ /*Pattern where heading color #202020 and body color #555555*/
+ .gutena-h202020-b555555{
+    color:#555555;
+ }
+ .gutena-h202020-b555555 h1,.gutena-h202020-b555555 h2,.gutena-h202020-b555555 h3,.gutena-h202020-b555555 h4,.gutena-h202020-b555555 h5,.gutena-h202020-b555555 h6{
+   color:#202020;
  }
 
  @media only screen and (max-width: 600px) {

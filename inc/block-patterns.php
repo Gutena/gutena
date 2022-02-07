@@ -80,7 +80,7 @@ function gutena_register_block_patterns() {
 	$block_patterns = apply_filters( 'gutena_block_patterns', $block_patterns );
 
 	foreach ( $block_patterns as $block_pattern ) {
-		$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
+		$pattern_file = GUTENA_THEME_FILE_PATH . '/inc/patterns/' . $block_pattern . '.php';
 
 		register_block_pattern(
 			'gutena/' . $block_pattern,
