@@ -64,8 +64,8 @@ if ( ! function_exists( 'gutena_setup' ) ){
 //Preload fonts
 function gutena_preload_fonts(){
 	echo '
-    <link rel="preload" as="style" type="text/css"  href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;600&display=swap" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;600&display=swap" crossorigin="anonymous">
+    <link rel="preload" as="style" type="text/css"  href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400..800&display=swap" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400..800&display=swap" media="print" onload="this.media=\'all\'" crossorigin="anonymous">
     ';
 }
 add_action('wp_head' ,'gutena_preload_fonts');
