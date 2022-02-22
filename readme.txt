@@ -14,6 +14,16 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
+= 1.0.4Beta =
+* Fixed Spacing in single post content
+* Fixed Post title heading level
+* Fixed 404 page template
+* Fixed search page template
+* Added single-content template part 
+* Added variable google fonts 
+* Added sidebar template
+* Added background color
+
 = 1.0.3 =
 * Added medium large font size option in typography
 * Added orange color palette
