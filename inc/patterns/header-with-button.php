@@ -19,7 +19,7 @@ return array(
 
 <!-- wp:buttons {"className":"hide-in-mobile","layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons hide-in-mobile"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"spacing":{"padding":{"top":"12px","bottom":"12px","left":"18px","right":"18px"}}},"className":"be-cover-button","fontSize":"small"} -->
-<div class="wp-block-button has-custom-font-size be-cover-button has-small-font-size"><a class="wp-block-button__link has-primary-background-color has-background" href="/contact" style="border-radius:0px;padding-top:12px;padding-right:18px;padding-bottom:12px;padding-left:18px">'.esc_html__( 'Get in touch', 'gutena' ).'    <img class="wp-image-1140" style="width: 15px;" src="'.esc_url( get_template_directory_uri() ) . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
+<div class="wp-block-button has-custom-font-size be-cover-button has-small-font-size"><a class="wp-block-button__link has-primary-background-color has-background" href="/contact" style="border-radius:0px;padding-top:12px;padding-right:18px;padding-bottom:12px;padding-left:18px">'.esc_html__( 'Get in touch', 'gutena' ).'    <img class="wp-image-1140" style="width: 15px;" src="'.GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

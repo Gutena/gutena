@@ -104,6 +104,20 @@ function gutena_excerpt_length() {
     return apply_filters( 'gutena_excerpt_length', 15 );
 }
 
+//Get gutena theme pattern content: input parameter is an array of patterns name
+if(!function_exists( 'gutena_get_pattern_content')){
+	function gutena_get_pattern_content($patterns){
+		$pattern_content = '';
+		if(!empty($patterns) && is_array($patterns)){
+			foreach ($patterns as $pattern) {
+				$pattern = require GUTENA_THEME_FILE_PATH .'/inc/patterns/'.$pattern.'.php';
+				$pattern_content .= (empty($pattern) || !is_array($pattern))?'':$pattern['content'];
+			}
+		}
+		return $pattern_content;
+	}
+}
+
 // Block Patterns.
 require GUTENA_THEME_DIR . '/inc/block-patterns.php';
 

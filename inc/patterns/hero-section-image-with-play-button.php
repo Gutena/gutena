@@ -19,9 +19,9 @@ return array(
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/img/common/video-img-min.jpg","id":2375,"dimRatio":30,"isDark":false,"align":"wide"} -->
-    <div class="wp-block-cover alignwide is-light"><span aria-hidden="true" class="has-background-dim-30 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2375" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/video-img-min.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:image {"align":"center","id":1597,"sizeSlug":"large","linkDestination":"custom","className":"no-hover-color"} -->
-    <div class="wp-block-image no-hover-color"><figure class="aligncenter size-large"><a href="#"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/play-button.svg" alt="play-button" class="wp-image-1597"/></a></figure></div>
+    <!-- wp:cover {"url":"' . GUTENA_THEME_URI . '/assets/img/common/video-img-min.jpg","id":2375,"dimRatio":30,"isDark":false,"align":"wide"} -->
+    <div class="wp-block-cover alignwide is-light"><span aria-hidden="true" class="has-background-dim-30 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2375" alt="" src="' . GUTENA_THEME_URI . '/assets/img/common/video-img-min.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:image {"align":"center","id":1597,"sizeSlug":"large","linkDestination":"custom","className":"no-hover-color"} -->
+    <div class="wp-block-image no-hover-color"><figure class="aligncenter size-large"><a href="#"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/play-button.svg" alt="play-button" class="wp-image-1597"/></a></figure></div>
     <!-- /wp:image --></div></div>
     <!-- /wp:cover --></div>
     <!-- /wp:group --></div>

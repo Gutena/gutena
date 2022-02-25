@@ -28,7 +28,7 @@ return array(
     <!-- wp:columns {"isStackedOnMobile":false} -->
     <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"width":"100px","style":{"spacing":{"padding":{"right":"15px"}}}} -->
     <div class="wp-block-column" style="padding-right:15px;flex-basis:100px"><!-- wp:image {"id":2398,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-    <figure class="wp-block-image size-full is-style-rounded"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/quote-min-1.jpg" alt="" class="wp-image-2398"/></figure>
+    <figure class="wp-block-image size-full is-style-rounded"><img src="' . GUTENA_THEME_URI . '/assets/img/common/quote-min-1.jpg" alt="" class="wp-image-2398"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:column -->
     
@@ -47,7 +47,7 @@ return array(
     
     <!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:image {"id":2397,"sizeSlug":"large","linkDestination":"none"} -->
-    <figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/service-intro-img-min-1.png" alt="" class="wp-image-2397"/></figure>
+    <figure class="wp-block-image size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/common/service-intro-img-min-1.png" alt="" class="wp-image-2397"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div>
