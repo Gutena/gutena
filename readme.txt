@@ -14,7 +14,7 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
-= 1.0.4Beta =
+= 1.0.4 =
 * Fixed Spacing in single post content
 * Fixed Post title heading level
 * Fixed 404 page template
