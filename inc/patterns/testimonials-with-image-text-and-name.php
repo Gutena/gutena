@@ -22,7 +22,7 @@ return array(
     <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
     <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
-    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
+    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:column --></div>
@@ -36,7 +36,7 @@ return array(
     <div class="wp-block-columns alignwide"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"44px","right":"36px","bottom":"39px","left":"36px"}}},"backgroundColor":"white","className":"guten-box-shadow is-style-gutena-box-shadow"} -->
     <div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow has-white-background-color has-background" style="padding-top:44px;padding-right:36px;padding-bottom:39px;padding-left:36px"><!-- wp:image {"align":"center","id":1907,"sizeSlug":"full","linkDestination":"none","style":{"color":{}},"className":"is-style-rounded"} -->
-    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/testimonial-1.webp" alt="testimonial" class="wp-image-1907"/></figure></div>
+    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/testimonial-1.webp" alt="testimonial" class="wp-image-1907"/></figure></div>
     <!-- /wp:image -->
     
     <!-- wp:spacer {"height":"19px"} -->
@@ -68,7 +68,7 @@ return array(
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"44px","right":"36px","bottom":"39px","left":"36px"}}},"backgroundColor":"white","className":"guten-box-shadow is-style-gutena-box-shadow"} -->
     <div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow has-white-background-color has-background" style="padding-top:44px;padding-right:36px;padding-bottom:39px;padding-left:36px"><!-- wp:image {"align":"center","id":1908,"sizeSlug":"full","linkDestination":"none","style":{"color":{}},"className":"is-style-rounded"} -->
-    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/testimonial-2.webp" alt="testimonial" class="wp-image-1908"/></figure></div>
+    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/testimonial-2.webp" alt="testimonial" class="wp-image-1908"/></figure></div>
     <!-- /wp:image -->
     
     <!-- wp:spacer {"height":"19px"} -->
@@ -100,7 +100,7 @@ return array(
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"44px","right":"36px","bottom":"39px","left":"36px"}}},"backgroundColor":"white","className":"guten-box-shadow is-style-gutena-box-shadow"} -->
     <div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow has-white-background-color has-background" style="padding-top:44px;padding-right:36px;padding-bottom:39px;padding-left:36px"><!-- wp:image {"align":"center","id":1909,"sizeSlug":"full","linkDestination":"none","style":{"color":{}},"className":"is-style-rounded"} -->
-    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/testimonial-3.webp" alt="testimonial" class="wp-image-1909"/></figure></div>
+    <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/testimonial-3.webp" alt="testimonial" class="wp-image-1909"/></figure></div>
     <!-- /wp:image -->
     
     <!-- wp:spacer {"height":"19px"} -->

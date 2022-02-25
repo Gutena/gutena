@@ -9,7 +9,7 @@ return array(
     <div class="wp-block-group alignwide gutena-pattern" style="padding-top:100px;padding-bottom:70px"><!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"top","width":""} -->
     <div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"align":"center","id":2374,"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-    <div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/Intro-img-min.jpg" alt="Intro" class="wp-image-2374"/></figure></div>
+    <div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/common/Intro-img-min.jpg" alt="Intro" class="wp-image-2374"/></figure></div>
     <!-- /wp:image --></div>
     <!-- /wp:column -->
     
@@ -31,7 +31,7 @@ return array(
     
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"37px"}}}} -->
     <div class="wp-block-buttons" style="margin-top:37px"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"16px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
-    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:16px"><a class="wp-block-button__link has-primary-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1594" style="width: 15px;" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
+    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:16px"><a class="wp-block-button__link has-primary-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1594" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:group --></div>

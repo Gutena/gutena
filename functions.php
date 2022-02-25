@@ -1,7 +1,7 @@
 <?php 
 define('GUTENA_THEME_DIR',get_template_directory());
 define('GUTENA_THEME_URI',esc_url(get_template_directory_uri()));
-define('GUTENA_THEME_VERSION','1.0.3');
+define('GUTENA_THEME_VERSION','1.0.4');
 define('GUTENA_THEME_FILE_PATH',get_theme_file_path());
 
 /* -------------------------------------------
@@ -64,8 +64,8 @@ if ( ! function_exists( 'gutena_setup' ) ){
 //Preload fonts
 function gutena_preload_fonts(){
 	echo '
-    <link rel="preload" as="style" type="text/css"  href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;600&display=swap" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;600&display=swap" crossorigin="anonymous">
+    <link rel="preload" as="style" type="text/css"  href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400..800&display=swap" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400..800&display=swap" media="print" onload="this.media=\'all\'" crossorigin="anonymous">
     ';
 }
 add_action('wp_head' ,'gutena_preload_fonts');
@@ -102,6 +102,20 @@ add_action( 'wp_enqueue_scripts', 'gutena_styles_and_scripts' );
 add_filter( 'excerpt_length', 'gutena_excerpt_length' );
 function gutena_excerpt_length() {
     return apply_filters( 'gutena_excerpt_length', 15 );
+}
+
+//Get gutena theme pattern content: input parameter is an array of patterns name
+if(!function_exists( 'gutena_get_pattern_content')){
+	function gutena_get_pattern_content($patterns){
+		$pattern_content = '';
+		if(!empty($patterns) && is_array($patterns)){
+			foreach ($patterns as $pattern) {
+				$pattern = require GUTENA_THEME_FILE_PATH .'/inc/patterns/'.$pattern.'.php';
+				$pattern_content .= (empty($pattern) || !is_array($pattern))?'':$pattern['content'];
+			}
+		}
+		return $pattern_content;
+	}
 }
 
 // Block Patterns.

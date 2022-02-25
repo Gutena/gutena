@@ -20,8 +20,8 @@ return array(
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-
-<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"' . esc_html__( "Search", "gutena" ) . '","textColor":"white"} /--></div>
+<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"' . esc_html__( "Search", "gutena" ) . '","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true} /-->
+</div>
 <!-- /wp:group -->
 ',
 );

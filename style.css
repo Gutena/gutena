@@ -5,7 +5,7 @@ Author: ExpressTech
 Author URI: https://expresstech.io
 Description: Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates. 
 Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
-Version: 1.0.3
+Version: 1.0.4
 Requires at least: 5.8
 Tested up to: 5.9
 Requires PHP: 5.6
@@ -18,13 +18,22 @@ html,body{
    overflow-x: hidden;
 }
 /* Space Around Page */
-.wp-site-blocks{
+.wp-site-blocks,
+.wp-block-group.has-background{
    padding: 0px var(--wp--custom--spacing--small);
 }
-.wp-site-blocks .alignfull, .is-root-container .wp-block[data-align="full"] {
+.wp-site-blocks .alignfull, .is-root-container .wp-block[data-align="full"],
+.wp-site-blocks > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-cover,
+.wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background,
+.wp-site-blocks > .wp-block-template-part > .wp-block-cover{
    margin-left: calc(-1 * var(--wp--custom--spacing--small)) !important;
    margin-right: calc(-1 * var(--wp--custom--spacing--small)) !important;
    width: unset;
+}
+/* Block gap in single post */
+body.single-post main .wp-block-post-content{
+   --wp--style--block-gap: var(--wp--custom--spacing--small);
 }
 /* Site-logo size */
 .gutena-pattern .wp-block-site-logo.is-default-size img {
@@ -62,6 +71,11 @@ html,body{
    padding: 12px 18px;
 	border-radius: 0;
 	border: none;
+}
+/*Search inner button*/
+.wp-block-search__button.has-icon {
+   background: transparent;
+   border: none;
 }
 
 /*Button hover effect*/
@@ -102,6 +116,28 @@ padding-top: var(--wp--custom--spacing--small);
    color:#202020;
  }
 
+ /*post tags cloud */
+ .gutena-pattern .wp-block-tag-cloud.is-style-outline a{
+   color: var(--wp--preset--color--tertiary);
+   border-radius: 2px;
+   border-color: rgba(34, 37, 71, 0.2);
+   padding: 7px 9px;
+   margin-right: 11px;
+   margin-bottom: 16px;
+ }
+ .gutena-pattern .wp-block-tag-cloud.is-style-outline a:hover{
+   color:var(--wp--preset--color--primary);
+   border-color: var(--wp--preset--color--primary);
+ }
+ /*Category list*/
+ .gutena-pattern ul.wp-block-categories-list{
+   list-style-type: none;
+   padding-left: 0px;
+ }
+/*Link Underline*/
+.gutena-link-decoration-line-none a{
+   text-decoration-line:none;
+}
  @media only screen and (max-width: 600px) {
    /* Header button */
    .gutena-header-with-button .wp-block-buttons.hide-in-mobile{

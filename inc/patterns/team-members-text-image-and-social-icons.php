@@ -38,7 +38,7 @@ return array(
     <div class="wp-block-group alignwide"><!-- wp:columns {"style":{"spacing":{"blockGap":"65px"}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:image {"id":2389,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/team-1-min.jpg" alt="" class="wp-image-2389"/></figure>
+    <figure class="wp-block-image size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/team-1-min.jpg" alt="" class="wp-image-2389"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:column -->
     
@@ -99,7 +99,7 @@ return array(
     
     <!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:image {"id":2390,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/team-2-min.jpg" alt="" class="wp-image-2390"/></figure>
+    <figure class="wp-block-image size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/team-2-min.jpg" alt="" class="wp-image-2390"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:column --></div>
     <!-- /wp:columns -->
@@ -111,7 +111,7 @@ return array(
     <!-- wp:columns {"style":{"spacing":{"blockGap":"65px"}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:image {"id":2391,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/team-3-min.jpg" alt="" class="wp-image-2391"/></figure>
+    <figure class="wp-block-image size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/team-3-min.jpg" alt="" class="wp-image-2391"/></figure>
     <!-- /wp:image --></div>
     <!-- /wp:column -->
     

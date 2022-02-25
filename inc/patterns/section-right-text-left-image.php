@@ -6,8 +6,8 @@ return array(
 	'title'      => __( 'Right text and image left aligned', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
 	'content'    => '<!-- wp:group {"align":"wide","className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:media-text {"mediaId":2388,"mediaLink":"' . esc_url( get_template_directory_uri() ) . '/assets/img/common/man-smiling-min.png","mediaType":"image"} -->
-    <div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/man-smiling-min.png" alt="" class="wp-image-2388 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"40px","top":"40px"}}}} -->
+    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:media-text {"mediaId":2388,"mediaLink":"' . GUTENA_THEME_URI . '/assets/img/common/man-smiling-min.png","mediaType":"image"} -->
+    <div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="' . GUTENA_THEME_URI . '/assets/img/common/man-smiling-min.png" alt="" class="wp-image-2388 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"40px","top":"40px"}}}} -->
     <div class="wp-block-group" style="padding-top:40px;padding-bottom:40px"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.9"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"primary","fontSize":"extra-small"} -->
     <h6 class="has-primary-color has-text-color has-extra-small-font-size" id="our-core-values" style="font-style:normal;font-weight:700;line-height:1.9;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.25em">' . esc_html__( 'our core values', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
