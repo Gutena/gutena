@@ -19,7 +19,7 @@ return array(
 
     <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0px","bottom":"10px","right":"20px","left":"20px"}}},"className":"gutena-pattern"} -->
 <div class="wp-block-group alignwide gutena-pattern" style="padding-top:0px;padding-right:20px;padding-bottom:10px;padding-left:20px"><!-- wp:image {"align":"center","id":2511,"sizeSlug":"full","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="aligncenter size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/common/contact-img.jpg" alt="" class="wp-image-2511"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/contact-img.jpg" alt="" class="wp-image-2511"/></figure></div>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
     

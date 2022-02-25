@@ -13,7 +13,7 @@ return array(
     <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"50px"}}} -->
     <div class="wp-block-columns alignwide"><!-- wp:column {"width":"32%"} -->
     <div class="wp-block-column" style="flex-basis:32%"><!-- wp:image {"align":"center","id":1604,"width":45,"height":45,"sizeSlug":"large","linkDestination":"none"} -->
-    <div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/signal-tower.svg" alt="Guten UI Kit" class="wp-image-1604" width="45" height="45"/></figure></div>
+    <div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/signal-tower.svg" alt="Guten UI Kit" class="wp-image-1604" width="45" height="45"/></figure></div>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":6,"style":{"spacing":{"margin":{"top":"24px","bottom":"12px"}}},"textColor":"white"} -->
@@ -27,7 +27,7 @@ return array(
     
     <!-- wp:column {"width":"32%"} -->
     <div class="wp-block-column" style="flex-basis:32%"><!-- wp:image {"align":"center","id":1605,"sizeSlug":"large","linkDestination":"none"} -->
-    <div class="wp-block-image"><figure class="aligncenter size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/clock.svg" alt="Guten UI Kit" class="wp-image-1605"/></figure></div>
+    <div class="wp-block-image"><figure class="aligncenter size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/clock.svg" alt="Guten UI Kit" class="wp-image-1605"/></figure></div>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":6,"style":{"spacing":{"margin":{"top":"24px","bottom":"12px"}}},"textColor":"white"} -->
@@ -41,7 +41,7 @@ return array(
     
     <!-- wp:column {"width":"32%"} -->
     <div class="wp-block-column" style="flex-basis:32%"><!-- wp:image {"align":"center","id":1606,"width":39,"height":48,"sizeSlug":"large","linkDestination":"none"} -->
-    <div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/img/icons/shield.svg" alt="Guten UI Kit" class="wp-image-1606" width="39" height="48"/></figure></div>
+    <div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/shield.svg" alt="Guten UI Kit" class="wp-image-1606" width="39" height="48"/></figure></div>
     <!-- /wp:image -->
     
     <!-- wp:heading {"textAlign":"center","level":6,"style":{"spacing":{"margin":{"top":"24px","bottom":"12px"}}},"textColor":"white"} -->

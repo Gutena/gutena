@@ -23,6 +23,7 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 * Added variable google fonts 
 * Added sidebar template
 * Added background color
+* Added 15 more block patterns
 
 = 1.0.3 =
 * Added medium large font size option in typography
