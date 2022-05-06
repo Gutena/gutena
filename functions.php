@@ -1,8 +1,20 @@
 <?php 
+/**
+ * Gutena functions and definitions
+ */
+
 define('GUTENA_THEME_DIR',get_template_directory());
 define('GUTENA_THEME_URI',esc_url(get_template_directory_uri()));
 define('GUTENA_THEME_VERSION','1.0.4');
-define('GUTENA_THEME_FILE_PATH',get_theme_file_path());
+
+/* -------------------------------------------
+			Check Webfonts Api
+---------------------------------------------  */
+if ( ! function_exists( 'gutena_is_webfont_api_enable' ) ) {
+	function gutena_is_webfont_api_enable() {
+		return function_exists( 'wp_register_webfonts' );
+	}
+}
 
 /* -------------------------------------------
 			Theme Setup
@@ -36,13 +48,24 @@ if ( ! function_exists( 'gutena_setup' ) ){
 		// Enqueue editor styles.
 		if(defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG){
 			add_editor_style(
-				array(
+				( gutena_is_webfont_api_enable() ) ? array(
+					'style.css',
+					'./assets/css/theme.css'
+				) : array(
+					'https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap',
 					'style.css',
 					'./assets/css/theme.css'
 				)
 			);
 		}else{
-			add_editor_style('./assets/css/gutena.min.css');
+			add_editor_style( 
+				( gutena_is_webfont_api_enable() ) ? array(
+					'./assets/css/gutena.min.css'
+				) : array(
+					'https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap',
+					'./assets/css/gutena.min.css'
+				)
+			);
 		}
 
 		// Add support for responsive embedded content.
@@ -61,14 +84,20 @@ if ( ! function_exists( 'gutena_setup' ) ){
 	}
 }
 
-//Preload fonts
-function gutena_preload_fonts(){
-	echo '
-    <link rel="preload" as="style" type="text/css"  href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400..800&display=swap" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400..800&display=swap" media="print" onload="this.media=\'all\'" crossorigin="anonymous">
-    ';
+if ( ! gutena_is_webfont_api_enable() && ! function_exists( 'gutena_preload_fonts' ) ) {
+	//Preload fonts
+	function gutena_preload_fonts() {
+		echo '
+		<link rel="preload" as="style" type="text/css"  href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap" media="print" onload="this.media=\'all\'" crossorigin="anonymous">
+		';
+	}
+	add_action( 'wp_head' , 'gutena_preload_fonts' );
 }
-add_action('wp_head' ,'gutena_preload_fonts');
+
+
+//Enable customize submenu
+add_action( 'customize_register', '__return_true' );
 
 //Include CSS and JS
 function gutena_styles_and_scripts(){
@@ -82,8 +111,7 @@ function gutena_styles_and_scripts(){
 		);
 		//registered theme styles
 		wp_enqueue_style( 'gutena-theme-style', GUTENA_THEME_URI.'/assets/css/theme.css', array(), GUTENA_THEME_VERSION );
-		//theme js
-		wp_enqueue_script( 'gutena-script', GUTENA_THEME_URI.'/assets/js/theme.js', array(), GUTENA_THEME_VERSION, true );
+		
 	}else{
 		//registered theme minify styles
 		wp_enqueue_style(
@@ -92,8 +120,7 @@ function gutena_styles_and_scripts(){
 			array(),
 			GUTENA_THEME_VERSION
 		);
-		//theme minify js
-		wp_enqueue_script( 'gutena-script', GUTENA_THEME_URI.'/assets/js/gutena.min.js', array(), GUTENA_THEME_VERSION, true );
+		
 	}
 }
 add_action( 'wp_enqueue_scripts', 'gutena_styles_and_scripts' );
@@ -110,7 +137,7 @@ if(!function_exists( 'gutena_get_pattern_content')){
 		$pattern_content = '';
 		if(!empty($patterns) && is_array($patterns)){
 			foreach ($patterns as $pattern) {
-				$pattern = require GUTENA_THEME_FILE_PATH .'/inc/patterns/'.$pattern.'.php';
+				$pattern = require GUTENA_THEME_DIR .'/inc/patterns/'.$pattern.'.php';
 				$pattern_content .= (empty($pattern) || !is_array($pattern))?'':$pattern['content'];
 			}
 		}
