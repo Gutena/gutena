@@ -5,7 +5,7 @@
 
 define('GUTENA_THEME_DIR',get_template_directory());
 define('GUTENA_THEME_URI',esc_url(get_template_directory_uri()));
-define('GUTENA_THEME_VERSION','1.0.4');
+define('GUTENA_THEME_VERSION','1.0.5');
 
 /* -------------------------------------------
 			Check Webfonts Api
