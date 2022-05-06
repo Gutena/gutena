@@ -14,6 +14,14 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
+= 1.0.5 (Beta) =
+* Added Outfit google font
+* Fixed Google font load in Block editor
+* Load fonts locally using WordPress Webfonts API
+* Fixed line height
+* Enable customize submenu
+* Screenshot changed
+
 = 1.0.4 =
 * Fixed Spacing in single post content
 * Fixed Post title heading level
@@ -70,6 +78,11 @@ Source: https://fonts.google.com/specimen/Manrope
 License: SIL Open Font License
 https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 Source: https://fonts.google.com/specimen/Inter
+
+# Outfit: Designed by On Brand Investments Pty Ltd and Rodrigo Fuenzalida
+License: SIL Open Font License
+https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+Source: https://fonts.google.com/specimen/Outfit
 
 == Images == 
 
