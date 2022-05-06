@@ -14,7 +14,7 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
-= 1.0.5 (Beta) =
+= 1.0.5 =
 * Added Outfit google font
 * Fixed Google font load in Block editor
 * Load fonts locally using WordPress Webfonts API
