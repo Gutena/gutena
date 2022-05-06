@@ -12,7 +12,7 @@ define('GUTENA_THEME_VERSION','1.0.4');
 ---------------------------------------------  */
 if ( ! function_exists( 'gutena_is_webfont_api_enable' ) ) {
 	function gutena_is_webfont_api_enable() {
-      return function_exists( 'wp_register_webfonts' );
+		return function_exists( 'wp_register_webfonts' );
 	}
 }
 
