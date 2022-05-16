@@ -6,6 +6,7 @@
 define('GUTENA_THEME_DIR',get_template_directory());
 define('GUTENA_THEME_URI',esc_url(get_template_directory_uri()));
 define('GUTENA_THEME_VERSION','1.0.5');
+define( 'GUTENA_THEME_WEB_URI', esc_url( 'https://gutena.io/' ) );
 
 /* -------------------------------------------
 			Check Webfonts Api
@@ -145,10 +146,28 @@ if(!function_exists( 'gutena_get_pattern_content')){
 	}
 }
 
+//Check admin capabilities
+if ( ! function_exists( 'is_gutena_admin' ) ) {
+	function is_gutena_admin(){
+		if ( ! function_exists( 'wp_get_current_user' )  && file_exists( ABSPATH . "wp-includes/pluggable.php" ) ) { 
+			require_once( ABSPATH . "wp-includes/pluggable.php" ); 
+		}
+		if ( ! function_exists( 'current_user_can' ) && file_exists( ABSPATH . "wp-includes/capabilities.php" ) ) { 
+			require_once( ABSPATH . "wp-includes/capabilities.php" ); 
+		}
+		return ( function_exists( 'current_user_can' ) && current_user_can( 'manage_options' ) && current_user_can( 'install_plugins' ) );
+	}
+}
+
 // Block Patterns.
 require GUTENA_THEME_DIR . '/inc/block-patterns.php';
 
 // Block Styles.
 require GUTENA_THEME_DIR . '/inc/block-styles.php';
+
+if ( function_exists( 'is_admin' ) && is_admin() ) {
+	// Theme dashboard
+	require GUTENA_THEME_DIR . '/inc/dashboard/class-dashboard.php';
+}
 
 ?>
