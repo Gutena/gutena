@@ -63,7 +63,7 @@ if ( ! class_exists( 'Gutena_Theme_Dashboard' ) ) {
                             'title' => esc_html__( 'Welcome to Gutena!', 'gutena' ),
                             'description' => esc_html__( 'Gutena is a block theme for WordPress built to work with the core editor. Our focus is to use core blocks to create modern designs applicable to variety of businesses. We do not add any bloat to our theme. Gutena comes with pre-built full page demos, available to be imported in 1-click using our companion plugin.', 'gutena' ),
                             'button_text' => esc_html__( 'Learn More', 'gutena' ),
-                            'button_link' => esc_url( site_url() ),
+                            'button_link' => esc_url( 'https://www.youtube.com/watch?v=qmK16jI9X1A' ),
                             'video_img_url' => esc_url( GUTENA_THEME_URI . '/inc/dashboard/assets/img/video.png' ),
                         ),
                         'templates' => array(
