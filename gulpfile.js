@@ -10,7 +10,27 @@ const gulp = require( 'gulp' ),
     zip = require( 'gulp-zip' );
 const {series, parallel} = require('gulp');
 
-var zipPath = [ './', './**', '!./node_modules', '!./node_modules/**', '!./build', '!./build/**', '!./gulpfile.js', '!./package.json', '!./package-lock.json','!./LICENSE','!./README.md' ];
+var zipPath = [ 
+    './',
+    './**',
+    '!./node_modules',
+    '!./node_modules/**',
+    '!./inc/dashboard/admin-notice/node_modules',
+    '!./inc/dashboard/admin-notice/node_modules/**',
+    '!./inc/dashboard/view/node_modules',
+    '!./inc/dashboard/view/node_modules/**',
+    '!./build',
+    '!./build/**',
+    '!./gulpfile.js',
+    '!./package.json', 
+    '!./package-lock.json', 
+    '!./inc/dashboard/admin-notice/package.json', 
+    '!./inc/dashboard/admin-notice/package-lock.json', 
+    '!./inc/dashboard/view/package.json', 
+    '!./inc/dashboard/view/package-lock.json',
+    '!./LICENSE',
+    '!./README.md' 
+];
 //Clean CSS, JS and zip
 function clean_files(){
     let cleanPath = ['./build/gutena.zip','./assets/js/gutena.min.js','./assets/css/gutena.min.css'];

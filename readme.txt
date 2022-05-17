@@ -14,7 +14,12 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
-= 1.0.5 =
+= 1.0.6 | 17th May 2022 =
+* Added Theme Admin dashboard
+* Added Gutena Kit Plugin Notice for Demo Import
+* Install Gutena Kit Plugin by admin from Theme admin dashboard or admin notice
+
+= 1.0.5 | 09th April 2022 =
 * Added Outfit google font
 * Fixed Google font load in Block editor
 * Load fonts locally using WordPress Webfonts API
@@ -22,7 +27,7 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 * Enable customize submenu
 * Screenshot changed
 
-= 1.0.4 =
+= 1.0.4 | 28th February 2022 =
 * Fixed Spacing in single post content
 * Fixed Post title heading level
 * Fixed 404 page template
@@ -33,20 +38,20 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 * Added background color
 * Added 15 more block patterns
 
-= 1.0.3 =
+= 1.0.3 | 07th February 2022 =
 * Added medium large font size option in typography
 * Added orange color palette
 * Added orange color duotone
 * Fixed Navigation Spacing
 * Fixed Templates
 
-= 1.0.2 =
+= 1.0.2 | 27th January 2022 =
 * Fixed patterns spacing
 * Replaced social icons with wp social icons
 * Included minified css and js files
 * Preload fonts 
 
-= 1.0.1 =
+= 1.0.1 | 24th January 2022 =
 * Screenshot changed
 
 = 1.0.0 =
