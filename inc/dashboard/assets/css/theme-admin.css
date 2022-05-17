@@ -1,0 +1,127 @@
+/*Gutena admin notice*/
+.gutena-admin-notice {
+    display: flex;
+}
+.gutena-admin-notice .gutena-theme-logo {
+    display: flex;
+}
+.gutena-admin-notice .gutena-theme-logo img {
+    width: 3.5rem;
+}
+.gutena-admin-notice .gutena-recommended-plugin {
+    padding: 1rem 0 1rem 1.5rem;
+}
+.gutena-admin-notice .gutena-recommended-plugin h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    color: #1d2327;
+    margin: 0;
+}
+
+.gutena-admin-notice .gutena-recommended-plugin p {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: #3c434a;
+}
+
+.gutena-admin-notice .gutena-action-button {
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.3;
+    padding: 0.56rem 1.19rem;
+}
+.gutena-action-button.bg-gutena-wp-primary-btn {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+/*Gutena action button*/
+.gutena-action-button {
+    position: relative;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.31;
+    padding: 0.8125rem 1.1875rem;
+    text-decoration: none;
+    display: flex;
+    max-height: 50px;
+    max-width: max-content;
+    overflow: hidden;
+}
+
+.gutena-action-button img {
+    margin-right: 0.5rem;
+}
+
+.gutena-action-button.bg-orange {
+    background: linear-gradient(97.91deg, #e96245 11.27%, #e15e42 86.28%);
+}
+
+.gutena-action-button.bg-blue {
+    background: linear-gradient(97.91deg, #2a65ff 11.27%, #2a65ff 86.28%);
+}
+
+.gutena-action-button.success-btn {
+    background: linear-gradient(97.91deg, #01ac83 11.27%, #01ac83 86.28%);
+}
+
+button.gutena-action-button {
+    border: none;
+    cursor: pointer;
+}
+
+.gutena-action-button::before{
+    background: linear-gradient(97.91deg, rgba(0,0,0,0.2) 11.27%, rgba(0,0,0,0.2) 86.28%);
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+}
+
+.gutena-action-button.start-btn::before {
+    animation: gutenainstalling 10s ease-in-out forwards;
+ } 
+
+ @keyframes gutenainstalling {
+    0%{
+        left:-100%;
+    } 
+    10%{
+        left:-90%;
+    } 
+    20%{
+        left:-80%;
+    } 
+    30%{
+        left:-70%;
+    } 
+    40%{
+        left:-60%;
+    } 
+    50%{
+        left:-50%;
+    } 
+    60%{
+        left:-40%;
+    } 
+    80%{
+        left:-20%;
+    } 
+    90%{
+        left:-10%;
+    } 
+    100%{
+        left:0%;
+    } 
+ }
