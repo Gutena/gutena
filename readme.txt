@@ -14,7 +14,7 @@ Gutena is a future looking block based theme with full site editing in mind. It 
 
 == Changelog ==
 
-= 1.0.6 | (Beta) =
+= 1.0.6 | 17th May 2022 =
 * Added Theme Admin dashboard
 * Added Gutena Kit Plugin Notice for Demo Import
 * Install Gutena Kit Plugin by admin from Theme admin dashboard or admin notice
