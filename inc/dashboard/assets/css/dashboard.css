@@ -203,7 +203,7 @@
     font-weight: 600;
     font-size: 0.9375rem;
     line-height: 1;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
 .gutena-tab-panel .components-tab-panel__tab-content .gutena-doc-tab .gutena-support .gutena-title,
