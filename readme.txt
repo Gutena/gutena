@@ -10,7 +10,7 @@ Gutena is a block based theme with a goal of modern & clean design.
 
 == Description ==
 
-Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates.
+Gutena is a free block theme for WordPress with modern block patterns in-built. It comes packed with beautiful design elements which suits a variety of use cases. Gutena aims to be the forefont of WordPress FSE (Full Site Editing) philosphy. Building on top of the core editor Gutena promises a performant website with a score of 95 and above on core web vitals for speed. Using Gutena is very easy, just import a pre-built demo via our companion plugin (Gutena Kit) or use fully built block patterns. Our customer love us for our simplicity and following the block standards.
 
 == Changelog ==
 
