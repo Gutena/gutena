@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Left content right image above client logos', 'gutena' ),
 	'categories' => array( 'gutena-hero-section' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#f5e9e6"},"spacing":{"padding":{"top":"60px","bottom":"90px"}}},"className":"gutena-pattern gutena-h202020-b555555","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern gutena-h202020-b555555 has-background" style="background-color:#f5e9e6;padding-top:60px;padding-bottom:90px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"60px"}}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"60px","bottom":"90px"}}},"backgroundColor":"quaternary","className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-quaternary-background-color has-background" style="padding-top:60px;padding-bottom:90px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"60px"}}} -->
     <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
     <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group -->
     <div class="wp-block-group"><!-- wp:heading {"level":5} -->
@@ -22,8 +22,8 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"34px","bottom":"10px"}}}} -->
-    <div class="wp-block-buttons" style="margin-top:34px;margin-bottom:10px"><!-- wp:button {"backgroundColor":"orange","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
-    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-orange-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
+    <div class="wp-block-buttons" style="margin-top:34px;margin-bottom:10px"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
+    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons -->
     

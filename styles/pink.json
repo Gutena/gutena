@@ -1,0 +1,91 @@
+{
+	"version": 2,
+	"title": "Pink",
+	"settings": {
+		"color": {
+            "gradients": [
+				{
+					"slug": "primary-gradient",
+					"gradient": "linear-gradient(to bottom, #E73B95 0%, #994CE7 100%)",
+					"name": "Primary Gradient"
+				}
+			],
+			"palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#E73B95",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#360D76",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#624D84",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#FFF3F7",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "orange",
+                    "color": "#E7694E",
+                    "name": "Orange"
+                },
+                {
+                    "slug": "light-gray",
+                    "color": "rgba(37,39,64,0.25)",
+                    "name": "Light gray"
+                }
+            ],
+            "duotone": [
+                {
+                    "colors": [
+                        "#E73B95",
+                        "#E73B95"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+            ]
+		}
+	},
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
+                }
+            },
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
+                }
+            },
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
+                }
+            }
+        }
+    }
+}

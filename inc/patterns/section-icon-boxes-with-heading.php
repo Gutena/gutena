@@ -5,8 +5,9 @@
 return array(
 	'title'      => __( 'Icon Boxes with heading', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"gradient":"linear-gradient(135deg,rgb(90,133,242) 0%,rgb(61,57,229) 100%)"},"spacing":{"padding":{"top":"100px","bottom":"45px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern has-background" style="background:linear-gradient(135deg,rgb(90,133,242) 0%,rgb(61,57,229) 100%);padding-top:100px;padding-right:20px;padding-bottom:45px;padding-left:20px"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"53px","right":"20px","left":"20px"}}},"textColor":"white"} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"85px","right":"20px","left":"20px"}}},"gradient":"primary-gradient","className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-primary-gradient-gradient-background has-background" style="padding-top:100px;padding-right:20px;padding-bottom:85px;padding-left:20px">
+    <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"53px","right":"20px","left":"20px"}}},"textColor":"white"} -->
     <h2 class="has-text-align-center has-white-color has-text-color" id="how-our-a-i-works" style="margin-right:20px;margin-bottom:53px;margin-left:20px">' . esc_html__( 'How our A.I works', 'gutena' ) . '</h2>
     <!-- /wp:heading -->
     

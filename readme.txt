@@ -1,7 +1,7 @@
 === Gutena ===
 Contributors: expresstech
 Requires at least: 5.8
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,6 +13,12 @@ Gutena is a block based theme with a goal of modern & clean design.
 Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates.
 
 == Changelog ==
+
+= 1.0.7 | 8th June 2022 =
+* Added 5 more Global Style Variations as Pink, Green Munsell, Gamboge, Madder Lake and Ruber
+* Added 5 more Google fonts as Bitter, Nunito, Open Sans, Playfair Display and Roboto Slab
+* Made compatible all block patterns with Global Style Variations
+* Fixed footer spacing
 
 = 1.0.6 | 17th May 2022 =
 * Added Theme Admin dashboard

@@ -9,11 +9,11 @@ return array(
 	'content'    => '<!-- wp:separator {"color":"light-gray","align":"full","className":"is-style-wide"} -->
 	<hr class="wp-block-separator alignfull has-text-color has-background has-light-gray-background-color has-light-gray-color is-style-wide"/>
 	<!-- /wp:separator -->
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"15px","bottom":"15px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull gutena-pattern" style="padding-top:15px;padding-bottom:15px;padding-right:20px;padding-left:20px"><!-- wp:columns {"align":"wide"} -->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
+	<div class="wp-block-group alignfull gutena-pattern" style="padding-top:32px;padding-right:20px;padding-bottom:32px;padding-left:20px"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"25%"} -->
-<div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"16px"}}},"layout":{"type":"flex","allowOrientation":false,"justifyContent":"center"}} -->
-<div class="wp-block-group alignwide" style="padding-top:16px"><!-- wp:site-title {"level":0,"textAlign":"left","style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} /-->
+<div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"align":"wide","layout":{"type":"flex","allowOrientation":false,"justifyContent":"center"}} -->
+<div class="wp-block-group alignwide"><!-- wp:site-title {"level":0,"textAlign":"left","style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} /-->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.9"}},"textColor":"secondary","fontSize":"small"} -->
 <p class="has-text-align-center has-secondary-color has-text-color has-small-font-size" style="line-height:1.9">  ©  '.date('Y').'. '.esc_html__( 'All Rights Reserved', 'gutena' ).'</p>

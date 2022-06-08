@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Team members with rounded image, name and social icons', 'gutena' ),
 	'categories' => array( 'gutena-team-members' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}},"color":{"background":"#fff3f0"}},"className":"gutena-pattern gutena-h202020-b555555","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern gutena-h202020-b555555 has-background" style="background-color:#fff3f0;padding-top:100px;padding-bottom:100px"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"11px"}}}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"backgroundColor":"quaternary","className":"gutena-pattern ","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-quaternary-background-color has-background" style="padding-top:100px;padding-bottom:100px"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"11px"}}}} -->
     <h2 class="has-text-align-center" id="our-leadership" style="margin-bottom:11px">' . esc_html__( 'Our Leadership', 'gutena' ) . '</h2>
     <!-- /wp:heading -->
     

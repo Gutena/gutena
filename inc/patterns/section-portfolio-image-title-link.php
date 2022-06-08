@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Portfolio section with image, title and link (3 column)', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#fff3f0"},"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"className":"gutena-pattern gutena-h202020-b555555 gutena-link-decoration-line-none","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern gutena-h202020-b555555 gutena-link-decoration-line-none has-background" style="background-color:#fff3f0;padding-top:100px;padding-bottom:100px"><!-- wp:heading {"textAlign":"center","level":1,"style":{"color":{"text":"#202020"},"typography":{"lineHeight":"1.4","fontStyle":"normal","fontWeight":"700"}},"fontSize":"extra-large"} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"backgroundColor":"quaternary","className":"gutena-pattern  gutena-link-decoration-line-none","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern gutena-link-decoration-line-none has-quaternary-background-color has-background" style="padding-top:100px;padding-bottom:100px"><!-- wp:heading {"textAlign":"center","level":1,"style":{"color":{"text":"#202020"},"typography":{"lineHeight":"1.4","fontStyle":"normal","fontWeight":"700"}},"fontSize":"extra-large"} -->
     <h1 class="has-text-align-center has-text-color has-extra-large-font-size" id="portfolio" style="color:#202020;font-style:normal;font-weight:700;line-height:1.4">'. esc_html__( 'Portfolio', 'gutena' ).'</h1>
     <!-- /wp:heading -->
     

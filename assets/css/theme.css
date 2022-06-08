@@ -11,6 +11,7 @@ border:2px solid var(--wp--preset--color--secondary);
    padding: 2px 7px;
    color: var(--wp--preset--color--secondary);
    border: 1px solid var(--wp--preset--color--secondary);
+   text-decoration: none;
 }
 .is-style-gutena-border-box-pagination .wp-block-query-pagination-numbers .page-numbers.current{   
    color: white;
@@ -41,4 +42,13 @@ margin: 0 !important;
    font-family: var(--wp--preset--font-family--manrope-font);
    font-weight: var(--wp--custom--typography--font-weight--semi-bold);
    line-height: var(--wp--custom--typography--line-height--hfive);
+}
+
+/*Post Comment Form*/
+.gutena-post-comment-container .wp-block-post-comments .comment-reply-title {
+   padding-bottom: 10px;
+}
+.gutena-post-comment-container .wp-block-post-comments .comment-form-cookies-consent {
+   padding-top: 10px;
+   padding-bottom: 10px;
 }

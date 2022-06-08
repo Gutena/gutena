@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Call to action with background color, text and button', 'gutena' ),
 	'categories' => array( 'gutena-cta' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"backgroundColor":"orange","className":"gutena-pattern gutena-h202020-b555555","layout":{"inherit":true}} -->
-	<div class="wp-block-group alignfull gutena-pattern gutena-h202020-b555555 has-orange-background-color has-background" style="padding-top:100px;padding-bottom:100px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"35px"}}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px"}}},"gradient":"primary-gradient","className":"gutena-pattern gutena-h202020-b555555","layout":{"inherit":true}} -->
+	<div class="wp-block-group alignfull gutena-pattern gutena-h202020-b555555 has-primary-gradient-gradient-background has-background" style="padding-top:100px;padding-bottom:100px"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"35px"}}} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.4"}},"textColor":"white","fontSize":"medium-large"} -->
 	<h2 class="has-white-color has-text-color has-medium-large-font-size" id="convinced-well-let-s-have-a-talk" style="line-height:1.4">' . esc_html__('Convinced ? Well Let’s have a talk', 'gutena') . '.</h2>
