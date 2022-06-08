@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Left image right content with icon title groups', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
-	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"50px","bottom":"90px"}}},"className":"gutena-pattern gutena-h202020-b555555"} -->
-    <div class="wp-block-group alignwide gutena-pattern gutena-h202020-b555555" style="padding-top:50px;padding-bottom:90px"><!-- wp:columns {"style":{"spacing":{"blockGap":"80px"}}} -->
+	'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"50px","bottom":"90px"}}},"className":"gutena-pattern"} -->
+    <div class="wp-block-group alignwide gutena-pattern" style="padding-top:50px;padding-bottom:90px"><!-- wp:columns {"style":{"spacing":{"blockGap":"80px"}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":""} -->
     <div class="wp-block-column"><!-- wp:image {"id":117,"sizeSlug":"full","linkDestination":"none"} -->
     <figure class="wp-block-image size-full"><img src="' . GUTENA_THEME_URI . '/assets/img/common/gutena-placeholder-1080x1020.jpg" alt="'. esc_html__( 'work', 'gutena' ).'" class="wp-image-117"/></figure>
@@ -115,8 +115,8 @@ return array(
     <!-- /wp:group -->
     
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-    <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"orange","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
-    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-orange-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">'. esc_html__( 'Get Started', 'gutena' ).'    <img class="wp-image-1140" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="'. esc_html__( 'Get Started', 'gutena' ).'"></a></div>
+    <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
+    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">'. esc_html__( 'Get Started', 'gutena' ).'    <img class="wp-image-1140" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="'. esc_html__( 'Get Started', 'gutena' ).'"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:column --></div>

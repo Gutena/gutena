@@ -36,8 +36,8 @@ return array(
 	<div class="wp-block-group alignwide"><!-- wp:columns {"style":{"spacing":{"blockGap":"50px"}}} -->
 	<div class="wp-block-columns"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
-	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1598,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/aspect-ratio.svg" alt="Digital Marketing" class="wp-image-1598"/></figure>
+	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1598,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}},"className":"gutena-foreground-and-primary-duotone"} -->
+	<figure class="wp-block-image size-large gutena-foreground-and-primary-duotone"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/aspect-ratio.svg" alt="Digital Marketing" class="wp-image-1598"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"top":"22px","bottom":"12px"}}}} -->
@@ -58,8 +58,8 @@ return array(
 	
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
-	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1599,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/subway.svg" alt="Ecommerce" class="wp-image-1599"/></figure>
+	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1599,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}},"className":"gutena-foreground-and-primary-duotone"} -->
+	<figure class="wp-block-image size-large gutena-foreground-and-primary-duotone"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/subway.svg" alt="Ecommerce" class="wp-image-1599"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"top":"22px","bottom":"12px"}}}} -->
@@ -80,8 +80,8 @@ return array(
 	
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
-	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1600,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/open-book.svg" alt="Hosting Service" class="wp-image-1600"/></figure>
+	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1600,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}},"className":"gutena-foreground-and-primary-duotone"} -->
+	<figure class="wp-block-image size-large gutena-foreground-and-primary-duotone"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/open-book.svg" alt="Hosting Service" class="wp-image-1600"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"top":"22px","bottom":"12px"}}}} -->
@@ -108,8 +108,8 @@ return array(
 	<!-- wp:columns {"style":{"spacing":{"blockGap":"50px"}}} -->
 	<div class="wp-block-columns"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
-	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1601,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/node-link.svg" alt="PPC Advertising" class="wp-image-1601"/></figure>
+	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1601,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}},"className":"gutena-foreground-and-primary-duotone"} -->
+	<figure class="wp-block-image size-large gutena-foreground-and-primary-duotone"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/node-link.svg" alt="PPC Advertising" class="wp-image-1601"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"top":"22px","bottom":"12px"}}}} -->
@@ -130,8 +130,8 @@ return array(
 	
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
-	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1602,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/user.svg" alt="Tax Planning" class="wp-image-1602"/></figure>
+	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1602,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}},"className":"gutena-foreground-and-primary-duotone"} -->
+	<figure class="wp-block-image size-large gutena-foreground-and-primary-duotone"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/user.svg" alt="Tax Planning" class="wp-image-1602"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"top":"22px","bottom":"12px"}}}} -->
@@ -152,8 +152,8 @@ return array(
 	
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"45px","right":"35px","bottom":"40px","left":"40px"}}},"className":"guten-box-shadow is-style-gutena-box-shadow"} -->
-	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1603,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}}} -->
-	<figure class="wp-block-image size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/desktop-play-button.svg" alt="Online Investment" class="wp-image-1603"/></figure>
+	<div class="wp-block-group guten-box-shadow is-style-gutena-box-shadow" style="padding-top:45px;padding-right:35px;padding-bottom:40px;padding-left:40px"><!-- wp:image {"id":1603,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#3F6DE4","#3F6DE4"]}},"className":"gutena-foreground-and-primary-duotone"} -->
+	<figure class="wp-block-image size-large gutena-foreground-and-primary-duotone"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/desktop-play-button.svg" alt="Online Investment" class="wp-image-1603"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"top":"22px","bottom":"12px"}}}} -->

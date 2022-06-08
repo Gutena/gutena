@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Team members with text, image and social media icons', 'gutena' ),
 	'categories' => array( 'gutena-team-members' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#ebf3ff"},"spacing":{"padding":{"top":"80px","bottom":"35px","right":"20px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern has-background" style="background-color:#ebf3ff;padding-top:80px;padding-right:20px;padding-bottom:35px;padding-left:20px"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"50px"}}}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px","right":"20px","left":"20px"}}},"backgroundColor":"quaternary","className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-quaternary-background-color has-background" style="padding-top:100px;padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"50px"}}}} -->
     <div class="wp-block-group alignwide" style="padding-bottom:50px"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.9"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"primary","fontSize":"extra-small"} -->
     <h6 class="has-primary-color has-text-color has-extra-small-font-size" id="our-core-values" style="font-style:normal;font-weight:700;line-height:1.9;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.25em">' . esc_html__( 'OUR TEAM', 'gutena' ) . '</h6>
     <!-- /wp:heading -->

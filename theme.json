@@ -69,6 +69,31 @@
                     "slug": "system-font"
                 },
                 {
+                    "fontFamily": "\"Bitter\", sans-serif",
+                    "name": "Bitter Font",
+                    "slug": "bitter-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Bitter",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/bitter/bitter-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Bitter",
+                            "fontWeight": "100 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/bitter/bitter-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
                     "fontFamily": "\"Inter\", sans-serif",
                     "name": "Inter Font",
                     "slug": "inter-font",
@@ -101,6 +126,31 @@
                     ]
                 },
                 {
+                    "fontFamily": "\"Nunito\", sans-serif",
+                    "name": "Nunito Font",
+                    "slug": "nunito-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Nunito",
+                            "fontWeight": "200 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/nunito/nunito-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Nunito",
+                            "fontWeight": "200 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/nunito/nunito-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
                     "fontFamily": "\"Outfit\", sans-serif",
                     "name": "Outfit Font",
                     "slug": "outfit-font",
@@ -112,6 +162,72 @@
                             "fontStretch": "normal",
                             "src": [
                                 "file:./assets/fonts/outfit/outfit-variable-font-wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Open Sans\", sans-serif",
+                    "name": "Open Sans Font",
+                    "slug": "opensans-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Open Sans",
+                            "fontWeight": "300 800",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/open-sans/opensans-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Open Sans",
+                            "fontWeight": "300 800",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/open-sans/opensans-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
+                    "fontFamily": "\"Playfair Display\", sans-serif",
+                    "name": "Playfair Display Font",
+                    "slug": "playfairdisplay-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Playfair Display",
+                            "fontWeight": "400 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/playfair-display/playfairdisplay-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Playfair Display",
+                            "fontWeight": "400 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/playfair-display/playfairdisplay-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
+                    "fontFamily": "\"Roboto Slab\", sans-serif",
+                    "name": "Roboto Slab Font",
+                    "slug": "robotoslab-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Roboto Slab",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/robotoslab-variable-font-wght.ttf"
                             ]
                         }
                     ]
@@ -128,6 +244,13 @@
             "custom": true,
             "link": true,
             "gardient": true,
+            "gradients": [
+				{
+					"slug": "primary-gradient",
+					"gradient": "linear-gradient(to bottom, #3F6DE4 0%, #3F6DE4 100%)",
+					"name": "Primary Gradient"
+				}
+			],
             "palette": [
                 {
                     "slug": "background",
@@ -148,6 +271,11 @@
                     "slug": "tertiary",
                     "color": "#575B7A",
                     "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#E7F0FF",
+                    "name": "Quaternary"
                 },
                 {
                     "slug": "orange",

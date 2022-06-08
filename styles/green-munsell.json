@@ -1,0 +1,94 @@
+{
+	"version": 2,
+	"title": "Green Munsell",
+	"settings": {
+		"color": {
+            "gradients": [
+				{
+					"slug": "primary-gradient",
+					"gradient": "linear-gradient(to bottom, #006565 0%, #007878 100%)",
+					"name": "Primary Gradient"
+				}
+			],
+			"palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#05B184",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#222547",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#474C70",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#ECFCF9",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "orange",
+                    "color": "#E7694E",
+                    "name": "Orange"
+                },
+                {
+                    "slug": "light-gray",
+                    "color": "rgba(37,39,64,0.25)",
+                    "name": "Light gray"
+                }
+            ],
+            "duotone": [
+                {
+                    "colors": [
+                        "#05B184",
+                        "#05B184"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+            ]
+		}
+	},
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfairdisplay-font)"
+                }
+            },
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfairdisplay-font)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfairdisplay-font)"
+                }
+            },
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfairdisplay-font)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfairdisplay-font)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--opensans-font)"
+        }
+    }
+}

@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Testimonial with image, text and name', 'gutena' ),
 	'categories' => array( 'gutena-testimonials' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#ebf3ff"},"spacing":{"padding":{"top":"100px","right":"20px","bottom":"100px","left":"20px"}}},"className":"gutena-pattern","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern has-background" style="background-color:#ebf3ff;padding-top:100px;padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"bottom":"25px"},"blockGap":"35px"}}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","right":"20px","bottom":"100px","left":"20px"}}},"backgroundColor":"quaternary","className":"gutena-pattern","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-quaternary-background-color has-background" style="padding-top:100px;padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"bottom":"25px"},"blockGap":"35px"}}} -->
     <div class="wp-block-columns alignwide" style="padding-bottom:25px"><!-- wp:column {"width":"50%"} -->
     <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group -->
     <div class="wp-block-group"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.9"}},"textColor":"primary","fontSize":"extra-small"} -->

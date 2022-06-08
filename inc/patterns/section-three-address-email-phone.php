@@ -6,9 +6,9 @@ return array(
 	'title'      => __( 'Three columns with address, email and phone', 'gutena' ),
 	'categories' => array( 'gutena-section' ),
 	'content'    => '<!-- wp:group {"align":"wide","className":"gutena-pattern","layout":{"inherit":false,"wideSize":"730px"}} -->
-    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"40px","bottom":"100px","right":"20px","left":"20px"},"blockGap":"50px"}}} -->
-    <div class="wp-block-columns" style="padding-top:40px;padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:column {"width":"40%"} -->
-    <div class="wp-block-column" style="flex-basis:40%"><!-- wp:group -->
+    <div class="wp-block-group alignwide gutena-pattern"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"40px","bottom":"70px","right":"20px","left":"20px"},"blockGap":"50px"}}} -->
+    <div class="wp-block-columns" style="padding-top:40px;padding-right:20px;padding-bottom:70px;padding-left:20px"><!-- wp:column {"width":"40%"} -->
+    <div class="wp-block-column" style="flex-basis:40%"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}}} -->
     <div class="wp-block-group"><!-- wp:heading {"level":5} -->
     <h5 id="location">' . esc_html__( 'Location', 'gutena' ) . '</h5>
     <!-- /wp:heading -->
@@ -20,7 +20,7 @@ return array(
     <!-- /wp:column -->
     
     <!-- wp:column {"width":"40%"} -->
-    <div class="wp-block-column" style="flex-basis:40%"><!-- wp:group -->
+    <div class="wp-block-column" style="flex-basis:40%"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}}} -->
     <div class="wp-block-group"><!-- wp:heading {"level":5} -->
     <h5 id="location">' . esc_html__( 'Email', 'gutena' ) . '</h5>
     <!-- /wp:heading -->
@@ -32,7 +32,7 @@ return array(
     <!-- /wp:column -->
     
     <!-- wp:column {"width":"20%"} -->
-    <div class="wp-block-column" style="flex-basis:20%"><!-- wp:group -->
+    <div class="wp-block-column" style="flex-basis:20%"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}}} -->
     <div class="wp-block-group"><!-- wp:heading {"level":5} -->
     <h5 id="location">' . esc_html__( 'Phone', 'gutena' ) . '</h5>
     <!-- /wp:heading -->
