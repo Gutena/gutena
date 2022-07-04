@@ -1,0 +1,91 @@
+{
+	"version": 2,
+	"title": "Gamboge",
+	"settings": {
+		"color": {
+            "gradients": [
+				{
+					"slug": "primary-gradient",
+					"gradient": "linear-gradient(to bottom, #123284 0%, #0033B5 100%)",
+					"name": "Primary Gradient"
+				}
+			],
+			"palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#EE930B",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#001447",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#2B344D",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#FFF4E3",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "orange",
+                    "color": "#E7694E",
+                    "name": "Orange"
+                },
+                {
+                    "slug": "light-gray",
+                    "color": "rgba(37,39,64,0.25)",
+                    "name": "Light gray"
+                }
+            ],
+            "duotone": [
+                {
+                    "colors": [
+                        "#EE930B",
+                        "#EE930B"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+            ]
+		}
+	},
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito-font)"
+                }
+            },
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito-font)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito-font)"
+                }
+            },
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito-font)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito-font)"
+                }
+            }
+        }
+    }
+}

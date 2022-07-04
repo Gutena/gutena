@@ -5,7 +5,7 @@
 
 define('GUTENA_THEME_DIR',get_template_directory());
 define('GUTENA_THEME_URI',esc_url(get_template_directory_uri()));
-define('GUTENA_THEME_VERSION','1.0.6');
+define('GUTENA_THEME_VERSION','1.0.8');
 define( 'GUTENA_THEME_WEB_URI', esc_url( 'https://gutena.io/' ) );
 
 /* -------------------------------------------
@@ -13,7 +13,8 @@ define( 'GUTENA_THEME_WEB_URI', esc_url( 'https://gutena.io/' ) );
 ---------------------------------------------  */
 if ( ! function_exists( 'gutena_is_webfont_api_enable' ) ) {
 	function gutena_is_webfont_api_enable() {
-		return function_exists( 'wp_register_webfonts' );
+		global $wp_version;
+		return ( function_exists( 'wp_register_webfonts' ) || ( ! empty( $wp_version ) && version_compare( $wp_version, '6.0', '>=' ) ) );
 	}
 }
 

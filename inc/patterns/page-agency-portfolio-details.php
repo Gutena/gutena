@@ -5,10 +5,10 @@
 return array(
 	'title'      => __( 'Portfolio details page with heading, image, description and button', 'gutena' ),
 	'categories' => array( 'gutena-pages' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#fff3f0"}},"layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull has-background" style="background-color:#fff3f0"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"50px","bottom":"100px"}}},"className":"gutena-pattern gutena-h202020-b555555"} -->
-    <div class="wp-block-group alignwide gutena-pattern gutena-h202020-b555555" style="padding-top:50px;padding-bottom:100px"><!-- wp:heading {"textAlign":"center","level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.6"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"orange","fontSize":"small"} -->
-    <h6 class="has-text-align-center has-orange-color has-text-color has-small-font-size" id="branding" style="font-style:normal;font-weight:700;line-height:1.6;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.25em">' . esc_html__( 'BRANDING', 'gutena' ) . '</h6>
+	'content'    => '<!-- wp:group {"align":"full","backgroundColor":"quaternary","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull has-quaternary-background-color has-background"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"50px","bottom":"100px"}}},"className":"gutena-pattern "} -->
+        <div class="wp-block-group alignwide gutena-pattern" style="padding-top:50px;padding-bottom:100px"><!-- wp:heading {"textAlign":"center","level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.6"},"spacing":{"margin":{"bottom":"10px"}}},"textColor":"primary","fontSize":"small"} -->
+        <h6 class="has-text-align-center has-primary-color has-text-color has-small-font-size" id="branding" style="margin-bottom:10px;font-style:normal;font-weight:700;letter-spacing:0.25em;line-height:1.6;text-transform:uppercase">' . esc_html__( 'BRANDING', 'gutena' ) . '</h6>
     <!-- /wp:heading -->
     
     <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"10px","bottom":"50px"}}}} -->
@@ -28,8 +28,8 @@ return array(
     <!-- /wp:paragraph -->
     
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"40px"}}}} -->
-    <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"backgroundColor":"orange","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
-    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-orange-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="' . esc_html__( 'Get Started', 'gutena' ) . '"></a></div>
+    <div class="wp-block-buttons" style="margin-top:40px"><!-- wp:button {"style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}}} -->
+    <div class="wp-block-button has-custom-font-size" style="font-size:17px"><a class="wp-block-button__link" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1140" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="' . esc_html__( 'Get Started', 'gutena' ) . '"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:group --></div>

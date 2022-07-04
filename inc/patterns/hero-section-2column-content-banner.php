@@ -5,12 +5,12 @@
 return array(
 	'title'      => __( 'Two column content, banner and client logos', 'gutena' ),
 	'categories' => array( 'gutena-hero-section' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"color":{"background":"#fff3f0"},"spacing":{"padding":{"top":"100px"}}},"className":"gutena-pattern gutena-h202020-b555555","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull gutena-pattern gutena-h202020-b555555 has-background" style="background-color:#fff3f0;padding-top:100px"><!-- wp:group {"align":"wide"} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"0px"}}},"backgroundColor":"quaternary","className":"gutena-pattern ","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull gutena-pattern has-quaternary-background-color has-background" style="padding-top:100px;padding-bottom:0px"><!-- wp:group {"align":"wide"} -->
     <div class="wp-block-group alignwide"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"width":"32%"} -->
-    <div class="wp-block-column" style="flex-basis:32%"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.6"},"spacing":{"margin":{"bottom":"10px","top":"25px"}}},"textColor":"orange","fontSize":"small"} -->
-    <h6 class="has-orange-color has-text-color has-small-font-size" id="why-choose-us-1" style="font-style:normal;font-weight:700;line-height:1.6;margin-top:25px;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.25em">' . esc_html__( 'OUR SERVICES', 'gutena' ) . '</h6>
+    <div class="wp-block-column" style="flex-basis:32%"><!-- wp:heading {"level":6,"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700","letterSpacing":"0.25em","lineHeight":"1.6"},"spacing":{"margin":{"bottom":"10px","top":"25px"}}},"textColor":"primary","fontSize":"small"} -->
+    <h6 class="has-primary-color has-text-color has-small-font-size" id="why-choose-us-1" style="margin-top:25px;margin-bottom:10px;font-style:normal;font-weight:700;letter-spacing:0.25em;line-height:1.6;text-transform:uppercase">' . esc_html__( 'OUR SERVICES', 'gutena' ) . '</h6>
     <!-- /wp:heading --></div>
     <!-- /wp:column -->
     

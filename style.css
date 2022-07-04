@@ -3,11 +3,11 @@ Theme Name: Gutena
 Theme URI: https://gutena.io/
 Author: ExpressTech
 Author URI: https://expresstech.io
-Description: Gutena is a future looking block based theme with full site editing in mind. It comes with block patterns and ready to use full page templates. 
+Description: Gutena is a free block theme for WordPress with modern block patterns in-built. It comes packed with beautiful design elements which suits a variety of use cases. Gutena aims to be the forefont of WordPress FSE (Full Site Editing) philosphy. Building on top of the core editor Gutena promises a performant website with a score of 95 and above on core web vitals for speed. Using Gutena is very easy, just import a pre-built demo via our companion plugin (Gutena Kit) or use fully built block patterns. Our customer love us for our simplicity and following the block standards. 
 Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
-Version: 1.0.6
+Version: 1.0.8
 Requires at least: 5.8
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -85,10 +85,16 @@ body.single-post main .wp-block-post-content{
    box-shadow: inset 0 0 0 100px rgba(0,0,0,.1);
 }
  /* Navigation active and hover color */
- .wp-block-navigation .wp-block-navigation-item.current-menu-item a,.wp-block-navigation .wp-block-navigation-item a:hover,.wp-block-navigation .wp-block-navigation-item a:focus {
+ .wp-block-navigation .wp-block-navigation-item.current-menu-item > a,.wp-block-navigation .wp-block-navigation-item > a:hover,.wp-block-navigation .wp-block-navigation-item > a:focus {
    color:var(--wp--preset--color--primary);
  }
- 
+
+ /*Sub menu container spacing*/
+ .wp-block-navigation .has-child:where(:not(.open-on-click)):hover>.wp-block-navigation__submenu-container {
+    padding-top: calc( var(--wp--custom--spacing--small, 20px) - 5px );
+    padding-bottom: calc( var(--wp--custom--spacing--small, 20px) - 5px );
+ }
+
 /* Input Focus */
 input:not([type="submit"]):not([type="checkbox"]):focus,textarea:focus{
    outline:solid 1px var(--wp--preset--color--primary);
@@ -138,9 +144,15 @@ padding-top: var(--wp--custom--spacing--small);
 .gutena-link-decoration-line-none a{
    text-decoration-line:none;
 }
+
  @media only screen and (max-width: 600px) {
    /* Header button */
-   .gutena-header-with-button .wp-block-buttons.hide-in-mobile{
+   .gutena-header-with-button .hide-in-mobile{
       display: none;
    }
  }
+
+/*Duotone for style vaiartion*/
+figure.gutena-foreground-and-primary-duotone img {
+   filter: var(--wp--preset--duotone--foreground-and-primary) !important;
+}
