@@ -14,6 +14,13 @@ Gutena is a free block theme for WordPress with modern block patterns in-built. 
 
 == Changelog ==
 
+= 1.0.8 | 4th July 2022 =
+* Fixed navigation link active color
+* Added top and bottom spacing in sub menu container
+* Fixed webfont api check for WordPress version 6.0 or later
+* Made compatible block patterns with Global Style Variations
+* Made compatible Agency demo with Global Style Variations
+
 = 1.0.7 | 8th June 2022 =
 * Added 5 more Global Style Variations as Pink, Green Munsell, Gamboge, Madder Lake and Ruber
 * Added 5 more Google fonts as Bitter, Nunito, Open Sans, Playfair Display and Roboto Slab

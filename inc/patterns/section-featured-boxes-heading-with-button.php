@@ -20,8 +20,8 @@ return array(
 	
 	<!-- wp:column {"verticalAlignment":"top","width":"55%"} -->
 	<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:55%"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"},"style":{"spacing":{"margin":{"top":"20px"}}}} -->
-	<div class="wp-block-buttons" style="margin-top:20px"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"16px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}},"className":"be-cover-button"} -->
-	<div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:16px"><a class="wp-block-button__link has-primary-background-color has-background" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1594" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
+	<div class="wp-block-buttons" style="margin-top:20px"><!-- wp:button {"style":{"border":{"radius":"0px"},"typography":{"fontSize":"16px"},"spacing":{"padding":{"top":"13px","bottom":"13px","left":"27px","right":"27px"}}}} -->
+	<div class="wp-block-button has-custom-font-size" style="font-size:16px"><a class="wp-block-button__link" href="#" style="border-radius:0px;padding-top:13px;padding-right:27px;padding-bottom:13px;padding-left:27px">' . esc_html__( 'Get Started', 'gutena' ) . '    <img class="wp-image-1594" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons --></div>
 	<!-- /wp:column --></div>
