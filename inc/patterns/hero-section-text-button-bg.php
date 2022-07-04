@@ -19,8 +19,8 @@ return array(
     <!-- /wp:group -->
     
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-    <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"primary","style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"15px","bottom":"15px","left":"21px","right":"21px"}}},"className":"be-cover-button"} -->
-    <div class="wp-block-button has-custom-font-size be-cover-button" style="font-size:17px"><a class="wp-block-button__link has-primary-background-color has-background" href="#our-services" style="border-radius:0px;padding-top:15px;padding-right:21px;padding-bottom:15px;padding-left:21px">' . esc_html__( 'Explore Our Services', 'gutena' ) . '    <img class="wp-image-1594" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
+    <div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"0px"},"typography":{"fontSize":"17px"},"spacing":{"padding":{"top":"15px","bottom":"15px","left":"21px","right":"21px"}}}} -->
+    <div class="wp-block-button has-custom-font-size" style="font-size:17px"><a class="wp-block-button__link" href="#our-services" style="border-radius:0px;padding-top:15px;padding-right:21px;padding-bottom:15px;padding-left:21px">' . esc_html__( 'Explore Our Services', 'gutena' ) . '    <img class="wp-image-1594" style="width: 15px;" src="' . GUTENA_THEME_URI . '/assets/img/icons/arrow-right.svg" alt="arrow-right"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons -->
     
