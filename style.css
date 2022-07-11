@@ -48,7 +48,7 @@ body.single-post main .wp-block-post-content{
 /* Post Excerpt More link */
 .gutena-pattern .wp-block-post-excerpt__more-link{
     font-size: var(--wp--custom--typography--font-size--p);
-    font-family: var(--wp--preset--font-family--manrope-font);
+    font-family: var(--wp--custom--typography--font-family--primary);
  }
  
  /*Link*/
@@ -65,7 +65,7 @@ body.single-post main .wp-block-post-content{
 .wp-block-search__button:not(.has-icon),
 .wp-block-file .wp-block-file__button {
    background-color: var(--wp--preset--color--primary);
-   font-family: var(--wp--preset--font-family--manrope-font);
+   font-family: var(--wp--custom--typography--font-family--primary);
    font-weight: var(--wp--custom--typography--font-weight--bold);
    line-height: 1.4;
    padding: 12px 18px;

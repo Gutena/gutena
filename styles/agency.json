@@ -1,12 +1,12 @@
 {
 	"version": 2,
-	"title": "Gamboge",
+	"title": "Agency",
 	"settings": {
 		"color": {
             "gradients": [
 				{
 					"slug": "primary-gradient",
-					"gradient": "linear-gradient(to bottom, #123284 0%, #0033B5 100%)",
+					"gradient": "linear-gradient(to bottom, #FB7B60 0%, #E76246 100%)",
 					"name": "Primary Gradient"
 				}
 			],
@@ -18,22 +18,22 @@
                 },
                 {
                     "slug": "primary",
-                    "color": "#EE930B",
+                    "color": "#E7694E",
                     "name": "Primary"
                 },
                 {
                     "slug": "secondary",
-                    "color": "#001447",
+                    "color": "#202020",
                     "name": "Secondary"
                 },
                 {
                     "slug": "tertiary",
-                    "color": "#2B344D",
+                    "color": "#555555",
                     "name": "Tertiary"
                 },
                 {
                     "slug": "quaternary",
-                    "color": "#FFF4E3",
+                    "color": "#FFF3F0",
                     "name": "Quaternary"
                 },
                 {
@@ -50,21 +50,13 @@
             "duotone": [
                 {
                     "colors": [
-                        "#EE930B",
-                        "#EE930B"
+                        "#E7694E",
+                        "#E7694E"
                     ],
                     "slug": "foreground-and-primary",
                     "name": "Foreground and primary"
                 }
             ]
-		},
-        "custom": {
-            "typography": {
-                "font-family": {
-                    "primary": "var(--wp--preset--font-family--nunito-font)",
-                    "secondary": "var(--wp--preset--font-family--nunito-font)"
-                }
-            }
-        }
+		}
 	}
 }
