@@ -31,7 +31,7 @@ var zipPath = [
     '!./inc/dashboard/admin-notice/package-lock.json', 
     '!./inc/dashboard/view/package.json', 
     '!./inc/dashboard/view/package-lock.json',
-    // '!./styles/agency.json',
+    '!./styles/agency.json',
     '!./LICENSE',
     '!./README.md' 
 ];
