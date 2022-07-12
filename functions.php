@@ -166,9 +166,14 @@ require GUTENA_THEME_DIR . '/inc/block-patterns.php';
 // Block Styles.
 require GUTENA_THEME_DIR . '/inc/block-styles.php';
 
-if ( function_exists( 'is_admin' ) && is_admin() ) {
-	// Theme dashboard
-	require GUTENA_THEME_DIR . '/inc/dashboard/class-dashboard.php';
+// Theme dashboard
+if ( ! function_exists( 'gutena_admin_dashboard' ) ) {
+	function gutena_admin_dashboard(){
+		if ( function_exists( 'is_admin' ) && is_admin() ) {
+			require GUTENA_THEME_DIR . '/inc/dashboard/class-dashboard.php';
+		}
+	}
+	add_action( 'init', 'gutena_admin_dashboard' );
 }
 
 ?>
