@@ -14,7 +14,7 @@ Gutena is a free block theme for WordPress with modern block patterns in-built. 
 
 == Changelog ==
 
-= 1.0.9 | Beta =
+= 1.0.9 | 14th July 2022 =
 * Created Global custom font-family variables in theme.json
 * Used Global custom font-family variables in theme.json and style variation
 * Updated style.css for Global custom font-family variables
