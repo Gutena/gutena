@@ -9,7 +9,10 @@ const gulp = require( 'gulp' ),
     del = require( 'del' ),
     zip = require( 'gulp-zip' );
 const {series, parallel} = require('gulp');
-
+/**
+ * Zip path : 
+ * ignore style json file which is not a style variation
+ * */
 var zipPath = [ 
     './',
     './**',
@@ -28,6 +31,7 @@ var zipPath = [
     '!./inc/dashboard/admin-notice/package-lock.json', 
     '!./inc/dashboard/view/package.json', 
     '!./inc/dashboard/view/package-lock.json',
+    '!./styles/agency.json',
     '!./LICENSE',
     '!./README.md' 
 ];

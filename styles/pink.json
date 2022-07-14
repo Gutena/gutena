@@ -57,35 +57,14 @@
                     "name": "Foreground and primary"
                 }
             ]
-		}
-	},
-    "styles": {
-        "blocks": {
-            "core/button": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
-                }
-            },
-            "core/navigation": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
-                }
-            },
-            "core/site-title": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
-                }
-            },
-            "core/heading": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
-                }
-            },
-            "core/post-title": {
-                "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--outfit-font)"
+		},
+        "custom": {
+            "typography": {
+                "font-family": {
+                    "primary": "var(--wp--preset--font-family--outfit-font)",
+                    "secondary": "var(--wp--preset--font-family--inter-font)"
                 }
             }
         }
-    }
+	}
 }
