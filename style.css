@@ -5,7 +5,7 @@ Author: ExpressTech
 Author URI: https://expresstech.io
 Description: Gutena is a free block theme for WordPress with modern block patterns in-built. It comes packed with beautiful design elements which suits a variety of use cases. Gutena aims to be the forefont of WordPress FSE (Full Site Editing) philosphy. Building on top of the core editor Gutena promises a performant website with a score of 95 and above on core web vitals for speed. Using Gutena is very easy, just import a pre-built demo via our companion plugin (Gutena Kit) or use fully built block patterns. Our customer love us for our simplicity and following the block standards. 
 Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
-Version: 1.0.8
+Version: 1.0.9
 Requires at least: 5.8
 Tested up to: 6.0
 Requires PHP: 5.6
@@ -48,7 +48,7 @@ body.single-post main .wp-block-post-content{
 /* Post Excerpt More link */
 .gutena-pattern .wp-block-post-excerpt__more-link{
     font-size: var(--wp--custom--typography--font-size--p);
-    font-family: var(--wp--preset--font-family--manrope-font);
+    font-family: var(--wp--custom--typography--font-family--primary);
  }
  
  /*Link*/
@@ -65,7 +65,7 @@ body.single-post main .wp-block-post-content{
 .wp-block-search__button:not(.has-icon),
 .wp-block-file .wp-block-file__button {
    background-color: var(--wp--preset--color--primary);
-   font-family: var(--wp--preset--font-family--manrope-font);
+   font-family: var(--wp--custom--typography--font-family--primary);
    font-weight: var(--wp--custom--typography--font-weight--bold);
    line-height: 1.4;
    padding: 12px 18px;
