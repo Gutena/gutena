@@ -5,7 +5,7 @@ Author: ExpressTech
 Author URI: https://expresstech.io
 Description: Gutena is a free block theme for WordPress with modern block patterns in-built. It comes packed with beautiful design elements which suits a variety of use cases. Gutena aims to be the forefont of WordPress FSE (Full Site Editing) philosphy. Building on top of the core editor Gutena promises a performant website with a score of 95 and above on core web vitals for speed. Using Gutena is very easy, just import a pre-built demo via our companion plugin (Gutena Kit) or use fully built block patterns. Our customer love us for our simplicity and following the block standards. 
 Tags: one-column, custom-colors, custom-logo, editor-style, featured-images, full-site-editing, block-patterns
-Version: 1.0.9
+Version: 1.1.0
 Requires at least: 5.8
 Tested up to: 6.0
 Requires PHP: 5.6
@@ -31,9 +31,24 @@ html,body{
    margin-right: calc(-1 * var(--wp--custom--spacing--small)) !important;
    width: unset;
 }
+
+/*Prevent stacking of negative margin for alignfull*/
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.wp-site-blocks .alignfull > .alignfull > .alignfull,
+.wp-site-blocks .alignfull > .alignfull{
+   margin-left: auto !important;
+   margin-right: auto !important;
+   width: inherit;
+}
+
 /* Block gap in single post */
 body.single-post main .wp-block-post-content{
    --wp--style--block-gap: var(--wp--custom--spacing--small);
+}
+
+/* negative margin small*/
+.gutena-margin-top-samll-negative{
+   margin-top: calc(-1 * var(--wp--custom--spacing--small)) !important;
 }
 /* Site-logo size */
 .gutena-pattern .wp-block-site-logo.is-default-size img {
@@ -141,13 +156,14 @@ padding-top: var(--wp--custom--spacing--small);
    padding-left: 0px;
  }
 /*Link Underline*/
-.gutena-link-decoration-line-none a{
+a.wp-block-button__link, .gutena-link-decoration-line-none a{
    text-decoration-line:none;
 }
 
  @media only screen and (max-width: 600px) {
    /* Header button */
-   .gutena-header-with-button .hide-in-mobile{
+   .gutena-header-with-button .wp-block-buttons.hide-in-mobile,
+   .gutena-pattern .hide-in-mobile{
       display: none;
    }
  }
@@ -155,4 +171,13 @@ padding-top: var(--wp--custom--spacing--small);
 /*Duotone for style vaiartion*/
 figure.gutena-foreground-and-primary-duotone img {
    filter: var(--wp--preset--duotone--foreground-and-primary) !important;
+}
+
+/*Post Comment Form*/
+.gutena-post-comment-container .wp-block-post-comments .comment-reply-title {
+   padding-bottom: 10px;
+}
+.gutena-post-comment-container .wp-block-post-comments .comment-form-cookies-consent {
+   padding-top: 10px;
+   padding-bottom: 10px;
 }

@@ -217,6 +217,31 @@
                     ]
                 },
                 {
+                    "fontFamily": "\"Plus Jakarta Sans\", sans-serif",
+                    "name": "Plus Jakarta Sans",
+                    "slug": "plusjakartasans-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Plus Jakarta Sans",
+                            "fontWeight": "200 800",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/plus-jakarta-sans/plusjakartasans-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Plus Jakarta Sans",
+                            "fontWeight": "200 800",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/plus-jakarta-sans/plusjakartasans-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
                     "fontFamily": "\"Roboto Slab\", sans-serif",
                     "name": "Roboto Slab Font",
                     "slug": "robotoslab-font",
@@ -230,6 +255,31 @@
                                 "file:./assets/fonts/roboto-slab/robotoslab-variable-font-wght.ttf"
                             ]
                         }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Urbanist\", sans-serif",
+                    "name": "Urbanist Font",
+                    "slug": "urbanist-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Urbanist",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/urbanist/urbanist-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Urbanist",
+                            "fontWeight": "100 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/urbanist/urbanist-italic-variable-font-wght.ttf"
+                            ]
+						}
                     ]
                 }
             ]

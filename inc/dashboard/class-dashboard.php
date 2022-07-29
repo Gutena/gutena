@@ -91,6 +91,11 @@ if ( ! class_exists( 'Gutena_Theme_Dashboard' ) ) {
                                     'link' => esc_url( GUTENA_THEME_WEB_URI . 'how-to-create-sidebar-with-block-theme' ),
                                     'description' => esc_html__( '', 'gutena' ),
                                 ),
+                                array(
+                                    'heading' =>  esc_html__( 'How to fix demo page navigation link issue?', 'gutena'),
+                                    'link' => esc_url( GUTENA_THEME_WEB_URI . 'fix-navigation-link-not-working-issue' ),
+                                    'description' => esc_html__( '', 'gutena' ),
+                                ),
                             ),
                             'support' => array(
                                 'title' => esc_html__( 'Need Help?', 'gutena' ),
