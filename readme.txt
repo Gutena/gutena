@@ -27,6 +27,7 @@ Gutena is a free block theme for WordPress with modern block patterns in-built. 
 * Updated single-content template part
 * Updated query-default pattern
 * Added Archive Title in main-default template part
+* Added 2 more Google fonts as Urbanist, Plus Jakarta Sans
 
 = 1.0.9 | 14th July 2022 =
 * Created Global custom font-family variables in theme.json
