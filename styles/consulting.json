@@ -1,0 +1,106 @@
+{
+	"version": 2,
+	"title": "Consulting",
+	"settings": {
+		"color": {
+            "gradients": [
+				{
+					"slug": "primary-gradient",
+					"gradient": "linear-gradient(to bottom, #38393F 0%, #5E606F 100%)",
+					"name": "Primary Gradient"
+				}
+			],
+			"palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#FF7D3E",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#165153",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#293340",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#4C4C65",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "peach",
+                    "color": "#FFF2EC",
+                    "name": "Peach"
+                },
+                {
+                    "slug": "light-gray",
+                    "color": "rgba(37,39,64,0.25)",
+                    "name": "Light gray"
+                }
+            ],
+            "duotone": [
+                {
+                    "colors": [
+                        "#E73B95",
+                        "#E73B95"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+            ]
+		},
+        "custom": {
+            "typography": {
+                "font-family": {
+                    "primary": "var(--wp--preset--font-family--outfit-font)",
+                    "secondary": "var(--wp--preset--font-family--inter-font)"
+                },
+                "font-size": {
+                    "hone": "clamp(40px,4.4vw,54px)",
+                    "htwo": "clamp(34px,3.4vw,46px)",
+                    "hthree": "clamp(30px,2.8vw,34px)",
+                    "hfour": "clamp(26px,2.3vw,28px)",
+                    "hfive": "22px",
+                    "hsix": "18px",
+                    "p": "1rem",
+                    "post-title": "clamp(35px,3.1vw,42px)"
+                }
+            }
+        }
+	},
+    "styles": {
+        "blocks": {
+			 "core/navigation": {
+                "color": {
+                    "text": "var(--wp--preset--color--background)"
+                },
+                "typography": {
+                    "fontSize": "var(--wp--preset--typography--font-size--small)",
+                    "fontFamily": "var(--wp--custom--typography--font-family--primary)",
+                    "lineHeight": "1.2",
+                    "fontWeight": "var(--wp--custom--typography--font-weight--semi-bold)"
+                }
+            },
+            "core/post-navigation-link": {
+                "color": {
+                    "text": "var(--wp--preset--color--background)"
+                },
+                "typography": {
+                    "fontSize": "var(--wp--preset--typography--font-size--p)",
+                    "fontFamily": "var(--wp--custom--typography--font-family--primary)",
+                    "lineHeight": "1.7",
+                    "fontWeight": "400"
+                }
+            }
+        }
+    }
+}

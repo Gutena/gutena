@@ -14,6 +14,21 @@ Gutena is a free block theme for WordPress with modern block patterns in-built. 
 
 == Changelog ==
 
+= 1.1.0 | 29th July 2022 =
+* Added Meta Box Post theme color in block editor
+* Added feature for apply post theme color in background of hero section of posts
+* Added Border box drop shadow style for post-featured-image block
+* Added Box style for post-terms block to convert them in to boxes from comma separated text
+* Added Border box (big) style for query-pagination block
+* Added Position fixed - top and Position fixed - bottom style for group block
+* Added Light border style for social-links block
+* Added Background transparent and border none style for search block
+* Made all registered styles to inline styles
+* Updated single-content template part
+* Updated query-default pattern
+* Added Archive Title in main-default template part
+* Added 2 more Google fonts as Urbanist, Plus Jakarta Sans
+
 = 1.0.9 | 14th July 2022 =
 * Created Global custom font-family variables in theme.json
 * Used Global custom font-family variables in theme.json and style variation

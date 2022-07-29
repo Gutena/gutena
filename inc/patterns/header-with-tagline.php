@@ -6,8 +6,8 @@ return array(
 	'title'      => __( 'Header with logo, tagline and menu', 'gutena' ),
 	'categories' => array( 'gutena-header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"15px","bottom":"15px","right":"20px","left":"18px"}}},"className":"guten-pattern-hero guten-header-with-taglineguten-pattern-hero guten-header-default","layout":{"inherit":true}} -->
-    <div class="wp-block-group alignfull guten-pattern-hero guten-header-with-taglineguten-pattern-hero guten-header-default" style="padding-top:15px;padding-right:20px;padding-bottom:15px;padding-left:18px"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"15px","bottom":"15px","right":"20px","left":"18px"}}},"className":"guten-pattern-hero guten-header-with-taglineguten-pattern-hero guten-header-default gutena-post-theme-color","layout":{"inherit":true}} -->
+    <div class="wp-block-group alignfull guten-pattern-hero guten-header-with-taglineguten-pattern-hero guten-header-default gutena-post-theme-color" style="padding-top:15px;padding-right:20px;padding-bottom:15px;padding-left:18px"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
     <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex"}} -->
     <div class="wp-block-group"><!-- wp:site-logo /-->
     
