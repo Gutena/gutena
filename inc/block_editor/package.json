@@ -1,0 +1,16 @@
+{
+  "name": "gutena",
+  "version": "1.0.0",
+  "description": "wordpress gutena theme add settings in editor",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "expresstech",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^22.3.0"
+  }
+}

@@ -18,6 +18,8 @@ var zipPath = [
     './**',
     '!./node_modules',
     '!./node_modules/**',
+    '!./inc/block_editor/node_modules',
+    '!./inc/block_editor/node_modules/**',
     '!./inc/dashboard/admin-notice/node_modules',
     '!./inc/dashboard/admin-notice/node_modules/**',
     '!./inc/dashboard/view/node_modules',
