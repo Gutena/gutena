@@ -128,8 +128,8 @@ return array(
 	<!-- /wp:separator -->
 	
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"32px","bottom":"32px"}}}} -->
-	<div class="wp-block-columns alignwide" style="padding-top:32px;padding-bottom:32px"><!-- wp:column {"width":"25%"} -->
-	<div class="wp-block-column" style="flex-basis:25%"><!-- wp:group {"align":"wide","layout":{"type":"flex","allowOrientation":false,"justifyContent":"center"}} -->
+	<div class="wp-block-columns alignwide" style="padding-top:32px;padding-bottom:32px"><!-- wp:column {"width":"27%"} -->
+	<div class="wp-block-column" style="flex-basis:27%"><!-- wp:group {"align":"wide","layout":{"type":"flex","allowOrientation":false,"justifyContent":"center"}} -->
 	<div class="wp-block-group alignwide"><!-- wp:site-title {"level":0,"textAlign":"left","style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} /-->
 	
 	<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.9"}},"textColor":"secondary","fontSize":"small"} -->
@@ -138,8 +138,8 @@ return array(
 	<!-- /wp:group --></div>
 	<!-- /wp:column -->
 	
-	<!-- wp:column {"width":"55%","className":"is-style-gutena-column-no-margin"} -->
-	<div class="wp-block-column is-style-gutena-column-no-margin" style="flex-basis:55%"></div>
+	<!-- wp:column {"width":"53%","className":"is-style-gutena-column-no-margin"} -->
+	<div class="wp-block-column is-style-gutena-column-no-margin" style="flex-basis:53%"></div>
 	<!-- /wp:column -->
 	
 	<!-- wp:column {"width":"20%"} -->
