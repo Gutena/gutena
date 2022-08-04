@@ -63,6 +63,7 @@ function gutena_register_block_patterns() {
 		'footer-default',
 		'footer-four-column',
 		'header-default',
+		'header-static',
 		'header-with-button',
 		'header-with-tagline',
 		'team-members-with-name-position',
