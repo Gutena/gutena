@@ -19,6 +19,7 @@ Gutena is a free block theme for WordPress with modern block patterns in-built. 
 * Added Front Page template
 * Added filter to override Front Page template in case home page set by admin
 * Added a static header pattern
+* Updated header patterns
 * Updated Footer four column pattern
 * Updated Hero Section with text, button and BG pattern
 
