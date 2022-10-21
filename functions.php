@@ -52,20 +52,22 @@ if ( ! function_exists( 'gutena_setup' ) ){
 			add_editor_style(
 				( gutena_is_webfont_api_enable() ) ? array(
 					'style.css',
-					'./assets/css/theme.css'
+					'./assets/editor/css/editor.css'
 				) : array(
 					'https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap',
 					'style.css',
-					'./assets/css/theme.css'
+					'./assets/editor/css/editor.css'
 				)
 			);
 		}else{
 			add_editor_style( 
 				( gutena_is_webfont_api_enable() ) ? array(
-					'./assets/css/gutena.min.css'
+					'./assets/css/gutena.min.css',
+					'./assets/editor/css/editor.min.css'
 				) : array(
 					'https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap',
-					'./assets/css/gutena.min.css'
+					'./assets/css/gutena.min.css',
+					'./assets/editor/css/editor.min.css'
 				)
 			);
 		}
@@ -103,27 +105,14 @@ add_action( 'customize_register', '__return_true' );
 
 //Include CSS and JS
 function gutena_styles_and_scripts(){
-	if(defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG){
-		// Register theme stylesheet.
-		wp_enqueue_style(
-			'gutena-style',
-			GUTENA_THEME_URI . '/style.css',
-			array(),
-			GUTENA_THEME_VERSION
-		);
-		//registered theme styles
-		wp_enqueue_style( 'gutena-theme-style', GUTENA_THEME_URI.'/assets/css/theme.css', array(), GUTENA_THEME_VERSION );
-		
-	}else{
-		//registered theme minify styles
-		wp_enqueue_style(
-			'gutena-style',
-			GUTENA_THEME_URI . '/assets/css/gutena.min.css',
-			array(),
-			GUTENA_THEME_VERSION
-		);
-		
-	}
+
+	//registered theme minify styles
+	wp_enqueue_style(
+		'gutena-style',
+		GUTENA_THEME_URI . ( ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '/style.css' : '/assets/css/gutena.min.css' ),
+		array(),
+		GUTENA_THEME_VERSION
+	);
 }
 add_action( 'wp_enqueue_scripts', 'gutena_styles_and_scripts' );
 

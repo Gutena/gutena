@@ -50,8 +50,8 @@
             "duotone": [
                 {
                     "colors": [
-                        "#E73B95",
-                        "#E73B95"
+                        "#FF7D3E",
+                        "#FF7D3E"
                     ],
                     "slug": "foreground-and-primary",
                     "name": "Foreground and primary"
@@ -76,31 +76,5 @@
                 }
             }
         }
-	},
-    "styles": {
-        "blocks": {
-			 "core/navigation": {
-                "color": {
-                    "text": "var(--wp--preset--color--background)"
-                },
-                "typography": {
-                    "fontSize": "var(--wp--preset--typography--font-size--small)",
-                    "fontFamily": "var(--wp--custom--typography--font-family--primary)",
-                    "lineHeight": "1.2",
-                    "fontWeight": "var(--wp--custom--typography--font-weight--semi-bold)"
-                }
-            },
-            "core/post-navigation-link": {
-                "color": {
-                    "text": "var(--wp--preset--color--background)"
-                },
-                "typography": {
-                    "fontSize": "var(--wp--preset--typography--font-size--p)",
-                    "fontFamily": "var(--wp--custom--typography--font-family--primary)",
-                    "lineHeight": "1.7",
-                    "fontWeight": "400"
-                }
-            }
-        }
-    }
+	}
 }

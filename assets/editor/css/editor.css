@@ -1,0 +1,5 @@
+/* Prevent group block margin top due to blockGap in page */
+.block-editor-block-list__block.wp-block-group.block-editor-block-list__layout,
+.block-editor-block-list__block.wp-block.wp-block-cover {
+   margin-top:0;
+}

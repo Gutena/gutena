@@ -50,14 +50,35 @@ body.single-post main .wp-block-post-content{
 .gutena-margin-top-samll-negative{
    margin-top: calc(-1 * var(--wp--custom--spacing--small)) !important;
 }
+
+/*Block gap for gutena-pattern*/
+.gutena-pattern {
+   --wp--style--block-gap:0;
+}
+
+/* Prevent group block margin top due to blockGap */
+main.wp-block-group, 
+body .wp-block-group,
+body .wp-block-cover {
+   margin-top:0;
+}
+
+/* gutena pattern*/
+.gutena-pattern .wp-block-button .wp-block-button__link{
+   font-weight: inherit;
+   line-height: inherit;
+   font-family: inherit;
+}
+
 /* Site-logo size */
 .gutena-pattern .wp-block-site-logo.is-default-size img {
    height: auto;
    width: 100%;
 }
 /* Inline Image gap */
-.gutena-pattern .wp-block-button a img, .gutena-pattern .wp-block-group h6 a img,.gutena-pattern .wp-block-post-excerpt__more-link img{
-    margin-left: 6px;
+.wp-block-button__link, h6 a{
+   display: flex;
+   gap: calc( var(--wp--custom--spacing--small) / 1.5 );
  }
 
 /* Post Excerpt More link */
@@ -166,6 +187,10 @@ a.wp-block-button__link, .gutena-link-decoration-line-none a{
    .gutena-pattern .hide-in-mobile{
       display: none;
    }
+
+   .gutena-column-reverse-in-mobile {
+      flex-direction: column-reverse;
+   }
  }
 
 /*Duotone for style vaiartion*/
@@ -185,4 +210,43 @@ figure.gutena-foreground-and-primary-duotone img {
 /*Block Editor reusable block full width */
 .block-editor-block-list__block.is-reusable.wp-block-block {
    max-width: 100%;
+}
+
+/*Line height for font preset*/
+.has-huge-font-size {
+   line-height: var(--wp--custom--typography--line-height--huge);
+   font-family: var(--wp--custom--typography--font-family--primary);
+   font-weight: var(--wp--custom--typography--font-weight--huge);
+}
+
+.has-extra-large-font-size {
+   line-height: var(--wp--custom--typography--line-height--extra-large);
+   font-family: var(--wp--custom--typography--font-family--primary);
+   font-weight: var(--wp--custom--typography--font-weight--heading);
+}
+
+.has-medium-large-font-size {
+   line-height: var(--wp--custom--typography--line-height--medium-large);
+   font-family: var(--wp--custom--typography--font-family--primary);
+   font-weight: var(--wp--custom--typography--font-weight--heading);
+}
+
+.has-large-font-size {
+   line-height: var(--wp--custom--typography--line-height--large);
+}
+
+.has-normal-font-size {
+   line-height: var(--wp--custom--typography--line-height--normal);
+}
+
+.has-small-font-size {
+   line-height: var(--wp--custom--typography--line-height--small);
+}
+
+.has-extra-small-font-size {
+   line-height: var(--wp--custom--typography--line-height--extra-small);
+}
+
+.has-tiny-font-size {
+   line-height: var(--wp--custom--typography--line-height--tiny);
 }
