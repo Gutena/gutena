@@ -79,6 +79,7 @@ function gutena_register_block_patterns() {
 		'page-agency-about',
 		'page-agency-services',
 		'page-agency-portfolio',
+		'page-single-template',
 		'page-agency-portfolio-details',
 		'query-default',
 		'query-image-left-content-right',

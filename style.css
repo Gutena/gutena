@@ -54,7 +54,8 @@ html,body{
 /* Prevent group block margin top due to blockGap */
 main.wp-block-group, 
 body .wp-block-group,
-body .wp-block-cover {
+body .wp-block-cover,
+body .wp-block-template-part {
    margin-top:0;
 }
 
@@ -269,3 +270,8 @@ figure.gutena-foreground-and-primary-duotone img {
    }
 }
 /*Query loop : end*/
+/*Single post feature image*/
+.single-post .wp-block-cover__image-background.wp-post-image {
+   border: 36px solid #ffffff;
+   box-shadow: 0px 4px 50px 10px rgba(0, 0, 0, 0.05);
+}
