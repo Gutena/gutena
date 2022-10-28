@@ -41,11 +41,6 @@ html,body{
    width: inherit;
 }
 
-/* Block gap in single post */
-body.single-post main .wp-block-post-content{
-   --wp--style--block-gap: var(--wp--custom--spacing--small);
-}
-
 /* negative margin small*/
 .gutena-margin-top-samll-negative{
    margin-top: calc(-1 * var(--wp--custom--spacing--small)) !important;
@@ -79,13 +74,12 @@ body .wp-block-cover {
 .wp-block-button__link, h6 a{
    display: flex;
    gap: calc( var(--wp--custom--spacing--small) / 1.5 );
- }
+}
 
-/* Post Excerpt More link */
-.gutena-pattern .wp-block-post-excerpt__more-link{
-    font-size: var(--wp--custom--typography--font-size--p);
-    font-family: var(--wp--custom--typography--font-family--primary);
- }
+/*On custom width button*/
+.wp-block-buttons > .wp-block-button.has-custom-width .wp-block-button__link {
+   justify-content: center;
+}
  
  /*Link*/
  a{
@@ -198,6 +192,13 @@ figure.gutena-foreground-and-primary-duotone img {
    filter: var(--wp--preset--duotone--foreground-and-primary) !important;
 }
 
+/* Image figcaption*/
+.wp-block-image figcaption {
+   color: var(--wp--preset--color--secondary,#21222F);
+   font-size: var(--wp--preset--font-size--small,0.9375rem);
+   line-height: var(--wp--custom--typography--line-height--small);
+}
+
 /*Post Comment Form*/
 .gutena-post-comment-container .wp-block-post-comments .comment-reply-title {
    padding-bottom: 10px;
@@ -250,3 +251,21 @@ figure.gutena-foreground-and-primary-duotone img {
 .has-tiny-font-size {
    line-height: var(--wp--custom--typography--line-height--tiny);
 }
+
+/*Query loop : start*/
+/* Cover block inner content width*/
+.wp-block-post > .wp-block-cover.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container {
+   width: 100%;
+}
+
+/*Query loop column gap : gap and column width are connected*/
+.wp-block-post-template.is-flex-container.columns-2 {
+   gap: 3.8rem;
+}
+
+@media (min-width: 600px){
+   .wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li, .wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li {
+      width: calc((100% / 2) - 3.8rem + (3.8rem / 2));
+   }
+}
+/*Query loop : end*/
