@@ -406,7 +406,9 @@
                 "normal": "3.125rem",
                 "medium": "clamp(2rem, 8vw,6.25rem)",
                 "medium-large": "clamp(3.125rem, 12vw,9.375rem)",
-                "large": "clamp(6.25rem, 16vw,12.5rem)"
+                "large": "clamp(6.25rem, 16vw,12.5rem)",
+                "single-post-feature-img-cover-minheight":"clamp(20rem, 20rem + ((1vw - 0.48rem) * 38.462), 40rem)",
+                "single-post-cover-feature-img-border": "clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 2.644), 2.25rem)"
             },
             "typography": {
                 "font-size": {
@@ -419,7 +421,7 @@
                     "navigation":"1.24",
                     "tiny":"1.7",
                     "extra-small":"1.7",
-                    "small": "1.8",
+                    "small": "1.73",
                     "normal":"1.9",
                     "large":"1.9",
                     "medium-large":"1.4",
@@ -539,11 +541,11 @@
                 }
             },
             "core/navigation": {
+                "color": {
+                    "text": "var(--wp--custom--color--navigation-text)"
+                },
 				"elements": {
 					"link": {
-                        "color": {
-                            "text": "var(--wp--custom--color--navigation-text)"
-                        },
 						":hover": {
                             "color": {
                                 "text": "var(--wp--custom--color--navigation-link-hover)"
@@ -593,10 +595,10 @@
                     "text": "var(--wp--preset--color--secondary)"
                 },
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--small,0.9375rem)",
+                    "fontSize": "14px",
                     "fontFamily": "var(--wp--custom--typography--font-family--secondary)",
-                    "lineHeight": "1.9",
-                    "fontWeight": "var(--wp--custom--typography--font-weight--normal)"
+                    "lineHeight": "2",
+                    "fontWeight": "500"
                 },
                 "elements": {
 					"link": {
@@ -646,12 +648,6 @@
 				"elements": {
 					"link": {
                         "spacing": {
-                            "padding": {
-                                "top": "5px",
-                                "right": "10px",
-                                "bottom": "5px",
-                                "left": "10px"
-                            },
                             "margin": {
                                 "left": "12px",
                                 "right": "12px"

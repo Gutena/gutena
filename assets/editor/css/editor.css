@@ -3,3 +3,7 @@
 .block-editor-block-list__block.wp-block.wp-block-cover {
    margin-top:0;
 }
+
+.block-editor-block-list__block.is-reusable {
+   margin-top:0 !important;
+}

@@ -62,20 +62,20 @@ if ( function_exists( 'register_block_style' ) ) {
 				'name'  => 'gutena-border-box-pagination',
 				'label' => esc_html__( 'Border box', 'gutena' ),
 				'inline_style' => '.is-style-gutena-border-box-pagination .wp-block-query-pagination-numbers .page-numbers{
-					font-size: 15px;
-					padding: 5px 10px;
 					color: var(--wp--preset--color--secondary);
 					border: 1px solid var(--wp--preset--color--secondary);
 					text-decoration: none;
+					display: inline-flex;
+					justify-content: center;
+					align-items: center;
+					width: 30px;
+					height: 30px;
 				 }
 				 .is-style-gutena-border-box-pagination .wp-block-query-pagination-numbers .page-numbers.current, .is-style-gutena-border-box-pagination .wp-block-query-pagination-numbers .page-numbers:not(.current):hover{   
 					color: white;
-					background: var(--wp--preset--color--senary,var(--wp--preset--color--secondary));
-				 }
-				 .is-style-gutena-border-box-pagination .wp-block-query-pagination-numbers .page-numbers:first-child{
-					padding: 5px 11px;
-				 }
-				 ',
+					background: var(--wp--preset--color--senary);
+					border: 1px solid var(--wp--preset--color--senary);
+				 }',
 			)
 		);
 
