@@ -1,6 +1,6 @@
 <?php
 /**
- * Gutena block pattern:404 Page with search
+ * Gutena template block pattern:404 Page with search
  *
  */
 

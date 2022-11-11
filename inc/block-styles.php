@@ -18,6 +18,45 @@ if ( function_exists( 'register_block_style' ) ) {
 	 */
 	function gutena_register_block_styles() {
 		
+		//Image: wave animation 
+		register_block_style(
+			'core/image',
+			array(
+				'name'  => 'gutena-image-wave-animation',
+				'label' => esc_html__( 'Wave animation', 'gutena' ),
+				'inline_style' => 'figure.is-style-gutena-image-wave-animation{
+					border-radius: 50%;
+					position: relative;
+					cursor:pointer;
+				}
+				.is-style-gutena-image-wave-animation:after, .is-style-gutena-image-wave-animation:before {
+					-webkit-animation: gutena-ripple 2.6s cubic-bezier(.25,.9,.2,1) .4s infinite;
+					animation: gutena-ripple 2.6s cubic-bezier(.25,.9,.2,1) .4s infinite;
+					border: 1px solid hsla(0,0%,100%,.5);
+					border-radius: 50%;
+					content: "";
+					display: block;
+					height: 100%;
+					left: -1px;
+					opacity: 0;
+					position: absolute;
+					top: -1px;
+					transform: scale(.35);
+					width: 100%;
+				}
+				@-webkit-keyframes gutena-ripple{0%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(1.7)}}@keyframes gutena-ripple{0%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(1.7)}}
+				.is-style-gutena-image-wave-animation:after {
+					-webkit-animation-delay: 0s;
+					animation-delay: 0s;
+				}
+				.is-style-gutena-image-wave-animation:before {
+					-webkit-animation-delay: .5s;
+					animation-delay: .5s;
+				}
+				',
+			)
+		);
+
 		// posts featured Image 
 		register_block_style(
 			'core/post-featured-image',

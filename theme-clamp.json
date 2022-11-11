@@ -654,6 +654,295 @@
             "fontFamily": "var(--wp--custom--typography--font-family--secondary)",
             "lineHeight": "var(--wp--custom--typography--line-height--p)",
             "fontSize": "var(--wp--custom--typography--font-size--p)"
+        },
+        "typography": {
+            "fluid": true,
+            "fontSizes": [
+                {
+                    "fluid": false,
+                    "slug": "tiny",
+                    "size": "0.8125rem",
+                    "name": "Tiny"
+                },
+                {
+                    "fluid": false,
+                    "slug": "extra-small",
+                    "size": "0.875rem",
+                    "name": "Extra Small"
+                },
+                {
+                    "fluid": false,
+                    "slug": "small",
+                    "size": "0.9375rem",
+                    "name": "Small"
+                },
+                {
+                    "slug": "normal",
+                    "size": "clamp(1.0625rem, 1.0625rem + ((1vw - 0.48rem) * 0.12), 1.125rem)",
+                    "fluid": {
+                        "min": "1.0625rem",
+                        "max": "1.125rem"
+                    },
+                    "name": "Normal"
+                },
+                {
+                    "slug": "large",
+                    "size": "clamp(1.15625rem, 1.15625rem + ((1vw - 0.48rem) * 0.18), 1.25rem)",
+                    "fluid": {
+                        "min": "1.15625rem",
+                        "max": "1.25rem"
+                    },
+                    "name": "Large"
+                },
+                {
+                    "slug": "medium-large",
+                    "size": "clamp(2.25rem, 2.25rem + ((1vw - 0.48rem) * 1.683), 3.125rem)",
+                    "fluid": {
+                        "min": "2.25rem",
+                        "max": "3.125rem"
+                    },
+                    "name": "Medium Large"
+                },
+                {
+                    "slug": "extra-large",
+                    "size": "clamp(2.625rem, 2.625rem + ((1vw - 0.48rem) * 2.885), 4.125rem)",
+                    "fluid": {
+                        "min": "2.625rem",
+                        "max": "4.125rem"
+                    },
+                    "name": "Extra large"
+                },
+                {
+                    "slug": "huge",
+                    "size": "clamp(3.125rem, 3.125rem + ((1vw - 0.48rem) * 3.606), 5rem)",
+                    "fluid": {
+                        "min": "3.125rem",
+                        "max": "5rem"
+                    },
+                    "name": "Huge"
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                },
+                {
+                    "fontFamily": "\"Bitter\", sans-serif",
+                    "name": "Bitter Font",
+                    "slug": "bitter-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Bitter",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/bitter/bitter-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Bitter",
+                            "fontWeight": "100 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/bitter/bitter-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
+                    "fontFamily": "\"Inter\", sans-serif",
+                    "name": "Inter Font",
+                    "slug": "inter-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/inter/inter-variable-font-wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Manrope\", sans-serif",
+                    "name": "Manrope Font",
+                    "slug": "manrope-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Manrope",
+                            "fontWeight": "200 800",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/manrope/manrope-variable-font-wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Nunito\", sans-serif",
+                    "name": "Nunito Font",
+                    "slug": "nunito-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Nunito",
+                            "fontWeight": "200 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/nunito/nunito-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Nunito",
+                            "fontWeight": "200 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/nunito/nunito-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
+                    "fontFamily": "\"Outfit\", sans-serif",
+                    "name": "Outfit Font",
+                    "slug": "outfit-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Outfit",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/outfit/outfit-variable-font-wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Open Sans\", sans-serif",
+                    "name": "Open Sans Font",
+                    "slug": "opensans-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Open Sans",
+                            "fontWeight": "300 800",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/open-sans/opensans-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Open Sans",
+                            "fontWeight": "300 800",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/open-sans/opensans-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
+                    "fontFamily": "\"Playfair Display\", sans-serif",
+                    "name": "Playfair Display Font",
+                    "slug": "playfairdisplay-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Playfair Display",
+                            "fontWeight": "400 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/playfair-display/playfairdisplay-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Playfair Display",
+                            "fontWeight": "400 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/playfair-display/playfairdisplay-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
+                    "fontFamily": "\"Plus Jakarta Sans\", sans-serif",
+                    "name": "Plus Jakarta Sans",
+                    "slug": "plusjakartasans-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Plus Jakarta Sans",
+                            "fontWeight": "200 800",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/plus-jakarta-sans/plusjakartasans-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Plus Jakarta Sans",
+                            "fontWeight": "200 800",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/plus-jakarta-sans/plusjakartasans-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                },
+                {
+                    "fontFamily": "\"Roboto Slab\", sans-serif",
+                    "name": "Roboto Slab Font",
+                    "slug": "robotoslab-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Roboto Slab",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/roboto-slab/robotoslab-variable-font-wght.ttf"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "\"Urbanist\", sans-serif",
+                    "name": "Urbanist Font",
+                    "slug": "urbanist-font",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Urbanist",
+                            "fontWeight": "100 900",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/urbanist/urbanist-variable-font-wght.ttf"
+                            ]
+                        },
+						{
+                            "fontFamily": "Urbanist",
+                            "fontWeight": "100 900",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": [
+                                "file:./assets/fonts/urbanist/urbanist-italic-variable-font-wght.ttf"
+                            ]
+						}
+                    ]
+                }
+            ]
         }
     },
     "templateParts": [
