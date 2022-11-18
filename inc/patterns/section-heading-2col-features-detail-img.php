@@ -7,14 +7,14 @@ return array(
 	'categories' => array( 'gutena-section' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"backgroundColor":"senary","layout":{"inherit":true,"type":"constrained"}} -->
 	<div class="wp-block-group alignfull has-senary-background-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:cover {"url":"' . GUTENA_THEME_URI . '/assets/img/icons/pattern-bottom.svg","id":36,"dimRatio":0,"isDark":false,"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"2.5rem","left":"2.5rem"}}}} -->
-	<div class="wp-block-cover alignfull is-light" style="padding-top:var(--wp--preset--spacing--medium);padding-right:2.5rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:2.5rem"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-36" alt="'. esc_html__( 'Gutena', 'background' ).'" src="' . GUTENA_THEME_URI . '/assets/img/icons/pattern-bottom.svg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","layout":{"inherit":false,"contentSize":"1000px","type":"constrained"}} -->
+	<div class="wp-block-cover alignfull is-light" style="padding-top:var(--wp--preset--spacing--medium);padding-right:2.5rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:2.5rem"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-36" alt="'. esc_html__( 'Gutena', 'gutena' ).'" src="' . GUTENA_THEME_URI . '/assets/img/icons/pattern-bottom.svg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1107px"}} -->
 	<div class="wp-block-group alignfull"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"3rem"}}},"layout":{"contentSize":"481px","type":"constrained"}} -->
 	<div class="wp-block-group" style="margin-bottom:3rem"><!-- wp:heading {"textAlign":"center","textColor":"white","fontSize":"medium-large"} -->
 	<h2 class="has-text-align-center has-white-color has-text-color has-medium-large-font-size">'. esc_html__( 'How our A.I works on your applications', 'gutena' ).'</h2>
 	<!-- /wp:heading --></div>
 	<!-- /wp:group -->
 	
-	<!-- wp:columns -->
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}}} -->
 	<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"40%","layout":{"contentSize":"370px"}} -->
 	<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:group {"style":{"spacing":{"blockGap":"3.5rem"}},"layout":{"contentSize":"370px","type":"constrained"}} -->
 	<div class="wp-block-group"><!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"blockGap":"1.25rem"}}} -->
@@ -60,9 +60,13 @@ return array(
 	<!-- /wp:column -->
 	
 	<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
-	<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:image {"align":"center","id":29,"sizeSlug":"large","linkDestination":"none"} -->
-	<figure class="wp-block-image aligncenter size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/reading.svg" alt="'. esc_html__( 'reading', 'gutena' ).'" class="wp-image-29"/></figure>
+	<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:group {"layout":{"type":"constrained","contentSize":"373px"}} -->
+	<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"41px","bottom":"41px","right":"41px","left":"41px"}}},"backgroundColor":"background","layout":{"type":"default"}} -->
+	<div class="wp-block-group has-background-background-color has-background" style="padding-top:41px;padding-right:41px;padding-bottom:41px;padding-left:41px"><!-- wp:image {"align":"center","id":947,"sizeSlug":"large","linkDestination":"none"} -->
+	<figure class="wp-block-image aligncenter size-large"><img src="' . GUTENA_THEME_URI . '/assets/img/icons/reading.svg" alt="'. esc_html__( 'reading', 'gutena' ).'" class="wp-image-947"/></figure>
 	<!-- /wp:image --></div>
+	<!-- /wp:group --></div>
+	<!-- /wp:group --></div>
 	<!-- /wp:column --></div>
 	<!-- /wp:columns --></div>
 	<!-- /wp:group --></div></div>

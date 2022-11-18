@@ -7,7 +7,7 @@
             "wideSize": "1169px"
         },
         "typography": {
-            "fluid": false,
+            "fluid": true,
             "fontSizes": [
                 {
                     "fluid": false,
@@ -29,7 +29,7 @@
                 },
                 {
                     "slug": "normal",
-                    "size": "clamp(1.0625rem, 1.0625rem + ((1vw - 0.48rem) * 0.12), 1.125rem)",
+                    "size": "1.125rem",
                     "fluid": {
                         "min": "1.0625rem",
                         "max": "1.125rem"
@@ -38,7 +38,7 @@
                 },
                 {
                     "slug": "large",
-                    "size": "clamp(1.15625rem, 1.15625rem + ((1vw - 0.48rem) * 0.18), 1.25rem)",
+                    "size": "1.25rem",
                     "fluid": {
                         "min": "1.15625rem",
                         "max": "1.25rem"
@@ -47,7 +47,7 @@
                 },
                 {
                     "slug": "medium-large",
-                    "size": "clamp(2.25rem, 2.25rem + ((1vw - 0.48rem) * 1.683), 3.125rem)",
+                    "size": "3.125rem",
                     "fluid": {
                         "min": "2.25rem",
                         "max": "3.125rem"
@@ -56,7 +56,7 @@
                 },
                 {
                     "slug": "extra-large",
-                    "size": "clamp(2.625rem, 2.625rem + ((1vw - 0.48rem) * 2.885), 4.125rem)",
+                    "size": "4.125rem",
                     "fluid": {
                         "min": "2.625rem",
                         "max": "4.125rem"
@@ -65,7 +65,7 @@
                 },
                 {
                     "slug": "huge",
-                    "size": "clamp(3.125rem, 3.125rem + ((1vw - 0.48rem) * 3.606), 5rem)",
+                    "size": "5rem",
                     "fluid": {
                         "min": "3.125rem",
                         "max": "5rem"
@@ -375,7 +375,7 @@
                 },
                 {
                     "slug": "medium",
-                    "size": "clamp(5.5rem, 5.5rem + ((1vw - 0.48rem) * 3.846), 7.5rem);",
+                    "size": "clamp(5.5rem, 5.5rem + ((1vw - 0.48rem) * 3.846), 7.5rem)",
                     "name": "Medium"
                 },
                 {
@@ -765,13 +765,6 @@
             "postTypes": [
                 "page",
                 "post"
-            ]
-        },
-        {
-            "name": "page-with-button-header",
-            "title": "Page (Button Header with 4 Column Footer)",
-            "postTypes": [
-                "page"
             ]
         },
         {

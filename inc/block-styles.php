@@ -262,7 +262,7 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		
-		// social-links
+		// social-links - round border
 		register_block_style(
 			'core/social-links',
 			array(
@@ -272,6 +272,41 @@ if ( function_exists( 'register_block_style' ) ) {
 					padding: 5px;
 					border: 1px solid rgba(0, 0, 0, 0.1);
 				 }
+				',
+			)
+		);
+
+		// social-links - square border with no space
+		register_block_style(
+			'core/social-links',
+			array(
+				'name'  => 'gutena-social-links-square-border',
+				'label' => esc_html__( 'Square border', 'gutena' ),
+				'inline_style' => '
+				.is-style-gutena-social-links-square-border.wp-block-social-links {
+					gap:0;
+				}
+				.is-style-gutena-social-links-square-border .wp-block-social-link:first-child { 
+					border-left: 1px solid #CBDAD7;
+				 }
+
+				.is-style-gutena-social-links-square-border .wp-block-social-link { 
+					padding: calc( var(--wp--custom--spacing--small, 20px) / 2 );
+					border: 1px solid #CBDAD7;
+					border-radius:0;
+					border-left: 0;
+					background-color: transparent !important;
+				}
+				
+				.is-style-gutena-social-links-square-border .wp-block-social-link:hover {
+					transform: none;
+					color: var(--wp--preset--color--primary) !important;
+				}
+
+				.is-style-gutena-social-links-square-border .wp-block-social-link:hover > a {
+					transform: scale(1.5);
+					transition-delay: 0.2s ease-in-out;
+				}
 				',
 			)
 		);

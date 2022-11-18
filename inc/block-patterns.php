@@ -6,36 +6,12 @@
  */
 
 /**
- * Registers block patterns and categories.
+ * Registers block patterns.
  *
  * @since Gutena 1.0
  */
+if(!function_exists( 'gutena_register_block_patterns')){
 function gutena_register_block_patterns() {
-	$block_pattern_categories = array(
-		'gutena-hero-section' => array( 'label' => __( 'Gutena Hero Section', 'gutena' ) ),
-		'gutena-section' => array( 'label' => __( 'Gutena Sections', 'gutena' ) ),
-		'gutena-cta'=> array( 'label' => __( 'Gutena Call to Action', 'gutena' ) ),
-		'gutena-header' => array( 'label' => __( 'Gutena Headers', 'gutena' ) ),
-		'gutena-footer' => array( 'label' => __( 'Gutena Footers', 'gutena' ) ),
-		'gutena-team-members'=> array( 'label' => __( 'Gutena Team Members', 'gutena' ) ),
-		'gutena-testimonials'=> array( 'label' => __( 'Gutena Testimonials', 'gutena' ) ),
-		'gutena-clients'=> array( 'label' => __( 'Gutena Clients', 'gutena' ) ),
-		'gutena-pages'   => array( 'label' => __( 'Gutena Pages', 'gutena' ) ),
-		'gutena-query'   => array( 'label' => __( 'Gutena Query', 'gutena' ) )
-	);
-
-	
-	/**
-	 * Filters the theme block pattern categories.
-	 *
-	 * @since gutena 1.0
-	 *
-	 */
-	$block_pattern_categories = apply_filters( 'gutena_block_pattern_categories', $block_pattern_categories );
-
-	foreach ( $block_pattern_categories as $name => $properties ) {
-		register_block_pattern_category( $name, $properties );
-	}
 
 	$block_patterns = array(
 		'hero-section-text-button-bg',
@@ -118,4 +94,21 @@ function gutena_register_block_patterns() {
 		);
 	}
 }
-add_action( 'init', 'gutena_register_block_patterns', 9 );
+//add_action( 'init', 'gutena_register_block_patterns', 9 );
+}
+
+//Get gutena theme pattern content: input parameter is an array of patterns name
+if(!function_exists( 'gutena_get_pattern_content')){
+	function gutena_get_pattern_content($patterns){
+		$pattern_content = '';
+		if(!empty($patterns) && is_array($patterns)){
+			foreach ($patterns as $pattern) {
+				if ( file_exists( GUTENA_THEME_DIR .'/inc/patterns/'.$pattern.'.php' ) ) {
+					$pattern = require GUTENA_THEME_DIR .'/inc/patterns/'.$pattern.'.php';
+					$pattern_content .= (empty($pattern) || !is_array($pattern))?'':$pattern['content'];
+				}
+			}
+		}
+		return $pattern_content;
+	}
+}
