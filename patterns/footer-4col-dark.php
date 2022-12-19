@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Footer four column with social icons.
+ * Title: Footer dark four column with social icons.
  * Slug: gutena/footer-4col-dark
  * Categories: gutena-footer
  * Block Types: core/template-part/footer

@@ -7,3 +7,8 @@
 .block-editor-block-list__block.is-reusable {
    margin-top:0 !important;
 }
+
+/*Block Editor reusable block full width */
+.block-editor-block-list__block.is-reusable.wp-block-block {
+   max-width: 100%;
+}

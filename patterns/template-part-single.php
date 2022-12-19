@@ -33,8 +33,8 @@ if ( file_exists( GUTENA_THEME_DIR .'/patterns/header-logo-nav-btn-for-dark-bg.p
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"backgroundColor":"quaternary","layout":{"inherit":false}} -->
-<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"isDark":false,"className":"gutena-single-post-cover-feature-image"} -->
-<div class="wp-block-cover is-light gutena-single-post-cover-feature-image"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"isDark":false,"className":"is-style-gutena-single-post-feature-image"} -->
+<div class="wp-block-cover is-light is-style-gutena-single-post-feature-image"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
 <p class="has-text-align-center has-large-font-size"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>

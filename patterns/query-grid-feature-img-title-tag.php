@@ -4,7 +4,7 @@
  * Slug: gutena/query-grid-feature-img-title-tag
  * Categories: gutena-query
  * Block Types: core/query
- * Keywords: posts, grid
+ * Keywords: blogs, posts, grid
  */
 ?>
 <!-- wp:query {"query":{"perPage":"6","pages":"3","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2}} -->

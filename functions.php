@@ -8,15 +8,6 @@ define('GUTENA_THEME_URI',esc_url(get_template_directory_uri()));
 define('GUTENA_THEME_VERSION','1.1.1');
 define( 'GUTENA_THEME_WEB_URI', esc_url( 'https://gutena.io/' ) );
 
-/* -------------------------------------------
-			Check Webfonts Api
----------------------------------------------  */
-if ( ! function_exists( 'gutena_is_webfont_api_enable' ) ) {
-	function gutena_is_webfont_api_enable() {
-		global $wp_version;
-		return ( function_exists( 'wp_register_webfonts' ) || ( ! empty( $wp_version ) && version_compare( $wp_version, '6.0', '>=' ) ) );
-	}
-}
 
 /* -------------------------------------------
 			Theme Setup
@@ -50,22 +41,14 @@ if ( ! function_exists( 'gutena_setup' ) ){
 		// Enqueue editor styles.
 		if(defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG){
 			add_editor_style(
-				( gutena_is_webfont_api_enable() ) ? array(
-					'style.css',
-					'./assets/editor/css/editor.css'
-				) : array(
-					'https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap',
+				array(
 					'style.css',
 					'./assets/editor/css/editor.css'
 				)
 			);
 		}else{
 			add_editor_style( 
-				( gutena_is_webfont_api_enable() ) ? array(
-					'./assets/css/gutena.min.css',
-					'./assets/editor/css/editor.min.css'
-				) : array(
-					'https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap',
+				array(
 					'./assets/css/gutena.min.css',
 					'./assets/editor/css/editor.min.css'
 				)
@@ -132,20 +115,6 @@ add_action( 'init', 'gutena_register_block_pattern_categories', 9 );
 //Enable customize submenu
 add_action( 'customize_register', '__return_true' );
 
-/* -------------------------------------------
-		Enqueue styles and scripts
----------------------------------------------  */
-if ( ! gutena_is_webfont_api_enable() && ! function_exists( 'gutena_preload_fonts' ) ) {
-	//Preload fonts
-	function gutena_preload_fonts() {
-		echo '
-		<link rel="preload" as="style" type="text/css"  href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Manrope:wght@400..800&family=Outfit:wght@400..800&display=swap" media="print" onload="this.media=\'all\'" crossorigin="anonymous">
-		';
-	}
-	add_action( 'wp_head' , 'gutena_preload_fonts' );
-}
-
 //Include CSS and JS
 function gutena_styles_and_scripts(){
 
@@ -165,7 +134,7 @@ add_action( 'wp_enqueue_scripts', 'gutena_styles_and_scripts' );
 //Set excerpt length
 add_filter( 'excerpt_length', 'gutena_excerpt_length' );
 function gutena_excerpt_length() {
-    return apply_filters( 'gutena_excerpt_length', empty( $GLOBALS['gutena_latest_post_theme_color'] ) ? 15: 85 );
+    return apply_filters( 'gutena_excerpt_length', 15 );
 }
 
 /** bypass the front-page.html template in case front page is set by Admin ***/
@@ -189,9 +158,6 @@ if ( ! function_exists( 'is_gutena_admin' ) ) {
 		return ( function_exists( 'current_user_can' ) && current_user_can( 'manage_options' ) && current_user_can( 'install_plugins' ) );
 	}
 }
-
-// Post theme color.
-require GUTENA_THEME_DIR . '/inc/post-theme-color.php';
 
 // Block Styles.
 require GUTENA_THEME_DIR . '/inc/block-styles.php';
