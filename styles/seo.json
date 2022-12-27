@@ -30,9 +30,9 @@
                     "name": "Quaternary"
                 },
                 {
-                    "slug": "light-purple",
+                    "slug": "quinary",
                     "color": "#ECE1FF",
-                    "name": "Light Purple"
+                    "name": "Quinary"
                 }
             ],
             "duotone": [
@@ -46,6 +46,7 @@
                 }
 			]
         },
+        
         "custom": {
             "typography": {
                 "font-family": {
