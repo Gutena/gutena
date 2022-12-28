@@ -7,7 +7,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'Gutena_Theme_Dashboard' ) ) {
+//Gutena_Kit dashboard will override gutena theme dashboard
+if ( ! class_exists( 'Gutena_Theme_Dashboard' ) && ! class_exists( 'Gutena_Kit' ) ) {
 
     class Gutena_Theme_Dashboard {
 

@@ -1,3 +1,12 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
-<!-- wp:template-part {"slug":"main-default","tagName":"main","className":"gutena-site-main"} /-->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|small","bottom":"6rem","left":"var:preset|spacing|small"}}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="padding-right:var(--wp--preset--spacing--small);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--small)">
+    <!-- wp:template-part {"slug":"header","tagName":"header","align":"wide","className":"site-header"} /-->
+    <!-- wp:pattern {"slug":"gutena/section-text-between-icons"} /-->
+    <!-- wp:group {"layout":{"type":"constrained","contentSize":"1070px"}} -->
+    <div class="wp-block-group">
+        <!-- wp:pattern {"slug":"gutena/query-grid-feature-img-title-tag"} /-->
+    </div>
+    <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 <!-- wp:template-part {"slug":"footer","tagName":"footer" ,"className":"site-footer"} /-->

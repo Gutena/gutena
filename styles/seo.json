@@ -1,0 +1,98 @@
+{
+    "version": 2,
+    "title": "Seo",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#F4AB00",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#5B25B3",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#2C1258",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#604B83",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "quinary",
+                    "color": "#ECE1FF",
+                    "name": "Quinary"
+                }
+            ],
+            "duotone": [
+				{
+                    "colors": [
+                        "#F4AB00",
+                        "#F4AB00"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+			]
+        },
+        
+        "custom": {
+            "typography": {
+                "font-family": {
+                    "primary": "var(--wp--preset--font-family--nunito-font)",
+                    "secondary": "var(--wp--preset--font-family--nunito-font)"
+                }
+            }
+        }
+    },
+    "styles": {
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "clamp(2.5rem, 2.5rem + ((1vw - 0.48rem) * 2.404), 3.75rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "clamp(2.125rem, 2.125rem + ((1vw - 0.48rem) * 0.962), 2.625rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "clamp(1.875rem, 1.875rem + ((1vw - 0.48rem) * 0.481), 2.125rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "clamp(1.375rem, 1.375rem + ((1vw - 0.48rem) * 1), 1.375rem)",
+                    "lineHeight": "1.46"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "clamp(1.25rem, 1.25rem + ((1vw - 0.48rem) * 1), 1.25rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "link": {
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+        }
+    }
+}
