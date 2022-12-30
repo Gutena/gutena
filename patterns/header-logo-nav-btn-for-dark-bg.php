@@ -15,8 +15,8 @@
     <!-- wp:navigation {"__unstableLocation":"main_nav","textColor":"white","className":"is-style-gutena-navigation-style white-hamburger-menu","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|normal"}}} /-->
     
     <!-- wp:buttons {"className":"hide-in-mobile hide-in-tablet"} -->
-<div class="wp-block-buttons hide-in-mobile hide-in-tablet"><!-- wp:button {"backgroundColor":"quinary","textColor":"secondary","style":{"spacing":{"padding":{"top":"1.1rem","bottom":"1.1rem","left":"1.5rem","right":"1.5rem"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-color has-quinary-background-color has-text-color has-background wp-element-button" style="padding-top:1.1rem;padding-right:1.5rem;padding-bottom:1.1rem;padding-left:1.5rem"><?php esc_html_e( 'Get in touch', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e( 'Get in touch', 'gutena' ); ?>"></a></div>
+<div class="wp-block-buttons hide-in-mobile hide-in-tablet"><!-- wp:button {"style":{"color":{"background":"#f6b642","text":"#21222f"},"spacing":{"padding":{"top":"1.1rem","bottom":"1.1rem","left":"1.5rem","right":"1.5rem"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link  has-text-color has-background wp-element-button" style="color:#21222f;background-color:#f6b642;padding-top:1.1rem;padding-right:1.5rem;padding-bottom:1.1rem;padding-left:1.5rem"><?php esc_html_e( 'Get in touch', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e( 'Get in touch', 'gutena' ); ?>"></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

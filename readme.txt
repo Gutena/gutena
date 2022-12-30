@@ -1,7 +1,7 @@
 === Gutena ===
 Contributors: expresstech
-Requires at least: 5.8
-Tested up to: 6.0
+Requires at least: 6.1
+Tested up to: 6.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,7 +14,7 @@ Gutena is a free block theme for WordPress with modern block patterns in-built. 
 
 == Changelog ==
 
-= 2.0.0 | Beta =
+= 2.0.0 =
 * Added 34 new block patterns
 * Added fluid typography
 * Added fluid spacing presets

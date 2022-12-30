@@ -61,14 +61,6 @@
     margin-right: 0.5rem;
 }
 
-.gutena-action-button.bg-orange {
-    background: linear-gradient(97.91deg, #e96245 11.27%, #e15e42 86.28%);
-}
-
-.gutena-action-button.bg-blue {
-    background: linear-gradient(97.91deg, #2a65ff 11.27%, #2a65ff 86.28%);
-}
-
 .gutena-action-button.success-btn {
     background: linear-gradient(97.91deg, #01ac83 11.27%, #01ac83 86.28%);
 }

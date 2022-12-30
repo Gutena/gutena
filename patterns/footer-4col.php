@@ -28,8 +28,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"20%","textColor":"secondary"} -->
-<div class="wp-block-column is-vertically-aligned-top has-secondary-color has-text-color" style="flex-basis:20%"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained","contentSize":"283px"}} -->
+<!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"color":{"text":"#21222f"}}} -->
+<div class="wp-block-column is-vertically-aligned-top has-text-color" style="color:#21222f;flex-basis:20%"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained","contentSize":"283px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"bottom":"20px"}}}} -->
 <h6 id="quick-links" style="margin-bottom:20px"><?php esc_html_e( 'Quick Links', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
@@ -52,8 +52,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"20%","textColor":"secondary"} -->
-<div class="wp-block-column is-vertically-aligned-top has-secondary-color has-text-color" style="flex-basis:20%"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained","contentSize":"283px"}} -->
+<!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"color":{"text":"#21222f"}}} -->
+<div class="wp-block-column is-vertically-aligned-top has-text-color" style="color:#21222f;flex-basis:20%"><!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained","contentSize":"283px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6,"style":{"spacing":{"margin":{"bottom":"20px"}}}} -->
 <h6 id="quick-links" style="margin-bottom:20px"><?php esc_html_e( 'Resources', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
@@ -76,8 +76,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"30%","textColor":"secondary"} -->
-<div class="wp-block-column is-vertically-aligned-top has-secondary-color has-text-color" style="flex-basis:30%"><!-- wp:group {"layout":{"type":"constrained","contentSize":"283px"}} -->
+<!-- wp:column {"verticalAlignment":"top","width":"30%","style":{"color":{"text":"#21222f"}}} -->
+<div class="wp-block-column is-vertically-aligned-top has-text-color" style="color:#21222f;flex-basis:30%"><!-- wp:group {"layout":{"type":"constrained","contentSize":"283px"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"19px"}},"layout":{"type":"constrained","contentSize":"230px","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6} -->
 <h6 id="quick-links"><?php esc_html_e( 'Get in touch', 'gutena' ); ?></h6>
@@ -139,8 +139,8 @@
 <div class="wp-block-group alignwide gutena-flex-wrap-in-mobile-only" style="margin-top:32px;margin-bottom:32px"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","allowOrientation":false,"justifyContent":"center"}} -->
 <div class="wp-block-group alignwide"><!-- wp:site-title {"level":0,"textAlign":"left","style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} /-->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.9"}},"textColor":"secondary","fontSize":"small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-small-font-size" style="line-height:1.9">© <?php echo date('Y'); ?>. <?php esc_html_e( 'All Rights Reserved', 'gutena' ); ?></p>
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#21222f"},"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+<p class="has-text-align-center has-text-color has-small-font-size" style="color:#21222f;line-height:1.9">© <?php echo date('Y'); ?>. <?php esc_html_e( 'All Rights Reserved', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -5,6 +5,7 @@ import DocTab from './components/doc-tab.js';
 import TabNotice from './components/tab-notice.js';
 import GetGutenaKitButton from './components/get-plugin.js';
 import TabContextProvider from './data/tab-context.js';
+import './style.scss';
 
 const { Component, Fragment, render } = wp.element;
 const { TabPanel } = wp.components;
@@ -49,7 +50,7 @@ class GutenaThemeDashboard extends Component {
                             <img src={gutena_dahboard_info.gutena_logo} />
                         </div>
                         <TabNotice />
-                        <GetGutenaKitButton addclass="bg-blue" />
+                        <GetGutenaKitButton addclass="" />
                     </div>
                     <TabPanel
                         className="gutena-tab-panel"

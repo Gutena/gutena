@@ -7,8 +7,8 @@
  * Keywords: section
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"backgroundColor":"senary","textColor":"background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-background-color has-senary-background-color has-text-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:cover {"url":"<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/pattern-top.svg'; ?>","id":16,"dimRatio":0,"isDark":false,"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#015d61","text":"#ffffff"},"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-text-color has-background" style="background-color:#015d61;color:#ffffff;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:cover {"url":"<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/pattern-top.svg'; ?>","id":16,"dimRatio":0,"isDark":false,"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}}} -->
     <div class="wp-block-cover alignfull is-light" style="padding-top:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-16" alt="<?php esc_attr_e(  'pattern', 'gutena' ); ?>" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/pattern-top.svg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"3rem","padding":{"bottom":"5rem"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group alignwide" style="padding-bottom:5rem"><!-- wp:heading {"textColor":"white","fontSize":"medium-large"} -->
@@ -16,8 +16,8 @@
     <!-- /wp:heading -->
     
     <!-- wp:buttons -->
-    <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"quinary","textColor":"secondary","style":{"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}}}} -->
-    <div class="wp-block-button"><a class="wp-block-button__link has-secondary-color has-quinary-background-color has-text-color has-background wp-element-button" href="#" style="padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e(  'Discover More', 'gutena' ); ?>"></a></div>
+    <div class="wp-block-buttons"><!-- wp:button {"style":{"color":{"background":"#f6b642","text":"#21222f"},"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}}}} -->
+    <div class="wp-block-button"><a class="wp-block-button__link  has-text-color has-background wp-element-button" href="#" style="background-color:#f6b642;color:#21222f;padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e(  'Discover More', 'gutena' ); ?>"></a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:group -->
@@ -29,8 +29,8 @@
     <figure class="wp-block-image  size-large"><img src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/marketing.svg'; ?>" alt="<?php esc_attr_e(  'marketing', 'gutena' ); ?>" class="wp-image-24"/></figure>
     <!-- /wp:image -->
     
-    <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"2.5rem"}}},"textColor":"background"} -->
-    <h5 class="has-background-color has-text-color" style="margin-top:2.5rem"><?php esc_html_e( 'Marketing', 'gutena' ); ?></h5>
+    <!-- wp:heading {"level":5,"style":{"color":{"text":"#ffffff"},"spacing":{"margin":{"top":"2.5rem"}}}} -->
+    <h5 class="has-text-color" style="color:#ffffff;margin-top:2.5rem"><?php esc_html_e( 'Marketing', 'gutena' ); ?></h5>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1rem"}}},"textColor":"white"} -->

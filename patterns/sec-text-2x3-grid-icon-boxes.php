@@ -8,14 +8,14 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/gutena-features.svg'; ?>","id":857,"dimRatio":0,"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"}}}} -->
-<div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-857" alt="<?php esc_attr_e(  'features', 'gutena' ); ?>" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/gutena-features.svg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","textColor":"tertiary","layout":{"inherit":true,"type":"constrained","contentSize":"1109px"}} -->
-<div class="wp-block-group alignwide has-tertiary-color has-text-color"><!-- wp:group {"layout":{"type":"constrained","contentSize":"487px"}} -->
+<div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-857" alt="<?php esc_attr_e(  'features', 'gutena' ); ?>" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/gutena-features.svg'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"color":{"text":"#484952"}},"layout":{"inherit":true,"type":"constrained","contentSize":"1109px"}} -->
+<div class="wp-block-group alignwide has-text-color" style="color:#484952"><!-- wp:group {"layout":{"type":"constrained","contentSize":"487px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"medium-large"} -->
 <h2 class="has-text-align-center has-medium-large-font-size" id="why-choose-us"><?php esc_html_e( 'Why choose us?', 'gutena' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.9","letterSpacing":"-0.01em"}},"textColor":"tertiary","fontSize":"normal"} -->
-<p class="has-text-align-center has-tertiary-color has-text-color has-normal-font-size" style="letter-spacing:-0.01em;line-height:1.9"><?php esc_html_e( 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia - there live the blind', 'gutena' ); ?></p>
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#484952"},"typography":{"lineHeight":"1.9","letterSpacing":"-0.01em"}},"fontSize":"normal"} -->
+<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#484952;letter-spacing:-0.01em;line-height:1.9"><?php esc_html_e( 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia - there live the blind', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

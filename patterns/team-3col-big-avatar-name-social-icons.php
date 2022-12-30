@@ -24,7 +24,7 @@
 <p class="has-text-align-center has-small-font-size"><?php esc_html_e( 'Managing Director', 'gutena' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222F","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.5rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222f","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.5rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-gutena-social-links-square-border" style="margin-top:1.5rem"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
@@ -50,7 +50,7 @@
 <p class="has-text-align-center has-small-font-size"><?php esc_html_e( 'Business Head', 'gutena' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222F","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.5rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222f","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.5rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-gutena-social-links-square-border" style="margin-top:1.5rem"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
@@ -76,7 +76,7 @@
 <p class="has-text-align-center has-small-font-size"><?php esc_html_e( 'Creative Director', 'gutena' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222F","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.5rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222f","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.5rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-gutena-social-links-square-border" style="margin-top:1.5rem"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->

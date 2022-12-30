@@ -7,8 +7,8 @@
  * Keywords: section, quote
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"},"margin":{"top":"0rem","bottom":"0rem"}}},"backgroundColor":"quaternary","layout":{"inherit":false,"contentSize":"1107px","type":"constrained"}} -->
-<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="margin-top:0rem;margin-bottom:0rem;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"style":{"spacing":{"blockGap":"7rem"}}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e2f2ef"},"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"},"margin":{"top":"0rem","bottom":"0rem"}}},"layout":{"inherit":false,"contentSize":"1107px","type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background" style="background-color:#e2f2ef;margin-top:0rem;margin-bottom:0rem;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"style":{"spacing":{"blockGap":"7rem"}}} -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:group {"layout":{"contentSize":"448px","type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"fontSize":"medium-large"} -->
@@ -32,8 +32,8 @@
 <h5 style="font-style:normal;font-weight:400;line-height:1.6"><?php esc_html_e( 'Far far away, behind the word mountains.', 'gutena' ); ?></h5>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php esc_html_e( 'Vikas Singhal', 'gutena' ); ?></p>
+<!-- wp:paragraph {"style":{"color":{"text":"#21222f"}},"fontSize":"small"} -->
+<p class="has-text-color has-small-font-size" style="color:#21222f"><?php esc_html_e( 'Vikas Singhal', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

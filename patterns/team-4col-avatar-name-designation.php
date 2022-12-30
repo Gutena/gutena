@@ -7,8 +7,8 @@
  * Keywords: team
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"}}},"backgroundColor":"quaternary","textColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-secondary-color has-quaternary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"4.5rem","left":"3rem"}}}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e2f2ef","text":"#21222f"},"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-text-color has-background" style="background-color:#e2f2ef;color:#21222f;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"4.5rem","left":"3rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained","contentSize":"240px"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":1008,"sizeSlug":"large","linkDestination":"none"} -->

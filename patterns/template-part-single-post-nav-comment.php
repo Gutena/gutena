@@ -17,8 +17,8 @@
 <div class="wp-block-group"><!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:post-title {"level":1} /-->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"6px","margin":{"top":"14px","bottom":"26px"}}},"textColor":"secondary","layout":{"type":"flex","allowOrientation":false}} -->
-<div class="wp-block-group has-secondary-color has-text-color" style="margin-top:14px;margin-bottom:26px"><!-- wp:post-date /-->
+<!-- wp:group {"style":{"color":{"text":"#21222f"},"spacing":{"blockGap":"6px","margin":{"top":"14px","bottom":"26px"}}},"layout":{"type":"flex","allowOrientation":false}} -->
+<div class="wp-block-group has-text-color" style="color:#21222f;margin-top:14px;margin-bottom:26px"><!-- wp:post-date /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size"> <?php esc_html_e( "by", "gutena" ) ; ?> </p>
@@ -31,8 +31,8 @@
 <!-- wp:post-content {"layout":{"inherit":true}} /-->
 
 <!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"top":"29px","bottom":"69px"}}},"textColor":"secondary","layout":{"type":"flex","allowOrientation":false}} -->
-<div class="wp-block-group has-secondary-color has-text-color" style="margin-top:29px;margin-bottom:69px"><!-- wp:paragraph {"fontSize":"small"} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"color":{"text":"#21222f"},"spacing":{"margin":{"top":"29px","bottom":"69px"}}},"layout":{"type":"flex","allowOrientation":false}} -->
+<div class="wp-block-group has-text-color" style="color:#21222f;margin-top:29px;margin-bottom:69px"><!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size"><?php esc_html_e( "Category", "gutena" ) ; ?>: </p>
 <!-- /wp:paragraph -->
 

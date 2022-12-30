@@ -19,23 +19,24 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"52.5%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:52.5%"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained","contentSize":"440px"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary"} /-->
+<div class="wp-block-group">
+ <!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"#21222f"}}},"color":{"text":"#21222f"}}} /-->
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"17px","bottom":"19px"},"blockGap":"5px"}},"textColor":"secondary","layout":{"type":"flex","allowOrientation":false}} -->
-<div class="wp-block-group has-secondary-color has-text-color" style="margin-top:17px;margin-bottom:19px"><!-- wp:post-date /-->
+<!-- wp:group {"style":{"color":{"text":"#21222f"},"spacing":{"margin":{"top":"17px","bottom":"19px"},"blockGap":"5px"}},"layout":{"type":"flex","allowOrientation":false}} -->
+<div class="wp-block-group has-text-color" style="color:#21222f;margin-top:17px;margin-bottom:19px"><!-- wp:post-date /-->
 
-<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size" style="line-height:1.9"><?php esc_html_e( 'by', 'gutena' ); ?> </p>
+<!-- wp:paragraph {"style":{"color":{"text":"#21222f"},"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+<p class="has-text-color has-small-font-size" style="color:#21222f;line-height:1.9"><?php esc_html_e( 'by', 'gutena' ); ?> </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-author {"showAvatar":false} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eRead Article \u003cimg class=\u0022wp-image-1595\u0022 style=\u0022width: 14px\u0022 src=\u0022<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/arrow-right-black.svg'; ?>\u0022 alt=\u0022arrow-right\u0022\u003e\u003c/strong\u003e","style":{"typography":{"lineHeight":"1.9","fontStyle":"normal","fontWeight":"500","letterSpacing":"-0.01em"},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"tertiary","fontSize":"normal"} /-->
+<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eRead Article \u003cimg class=\u0022wp-image-1595\u0022 style=\u0022width: 14px\u0022 src=\u0022<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/arrow-right-black.svg'; ?>\u0022 alt=\u0022arrow-right\u0022\u003e\u003c/strong\u003e","style":{"typography":{"lineHeight":"1.9","fontStyle":"normal","fontWeight":"500","letterSpacing":"-0.01em"},"elements":{"link":{"color":{"text":"#21222f"}}},"color":{"text":"#484952"}},"fontSize":"normal"} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px","margin":{"top":"15px"}}},"layout":{"type":"flex","allowOrientation":false}} -->
-<div class="wp-block-group" style="margin-top:15px"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size" style="line-height:1.9"><?php esc_html_e( 'Category', 'gutena' ); ?>: </p>
+<div class="wp-block-group" style="margin-top:15px"><!-- wp:paragraph {"style":{"color":{"text":"#21222f"},"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
+<p class="has-text-color has-small-font-size" style="color:#21222f;line-height:1.9"><?php esc_html_e( 'Category', 'gutena' ); ?>: </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:post-terms {"term":"category"} /--></div>
