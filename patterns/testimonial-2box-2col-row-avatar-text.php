@@ -7,8 +7,8 @@
  * Keywords: testimonials
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"}}},"backgroundColor":"quaternary","textColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-secondary-color has-quaternary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"4.5rem","left":"4.5rem"}}}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e2f2ef","text":"#21222f"},"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull  has-text-color has-background" style="background-color:#e2f2ef;color:#21222f;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"4.5rem","left":"4.5rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained","contentSize":"516px"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"18px","bottom":"18px","left":"18px","right":"18px"}}},"backgroundColor":"white","className":"is-style-gutena-box-shadow","layout":{"type":"constrained"}} -->
@@ -22,8 +22,8 @@
 <h6 style="margin-top:18px"><?php esc_html_e( 'Vikas Singhal', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"5px"}}},"textColor":"primary","fontSize":"extra-small"} -->
-<p class="has-primary-color has-text-color has-extra-small-font-size" style="margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
+<!-- wp:paragraph {"style":{"color":{"text":"#0da88c"},"spacing":{"margin":{"top":"5px"}}},"fontSize":"extra-small"} -->
+<p class="has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:media-text --></div>
@@ -44,8 +44,8 @@
 <h6 style="margin-top:18px"><?php esc_html_e( 'Vikas Singhal', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"5px"}}},"textColor":"primary","fontSize":"extra-small"} -->
-<p class="has-primary-color has-text-color has-extra-small-font-size" style="margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
+<!-- wp:paragraph {"style":{"color":{"text":"#0da88c"},"spacing":{"margin":{"top":"5px"}}},"fontSize":"extra-small"} -->
+<p class="has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:media-text --></div>

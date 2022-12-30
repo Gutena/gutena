@@ -7,8 +7,8 @@
  * Keywords: section, animation
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"},"margin":{"top":"0rem","bottom":"0rem"}}},"backgroundColor":"quaternary","layout":{"inherit":false,"contentSize":"1000px","type":"constrained"}} -->
-<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="margin-top:0rem;margin-bottom:0rem;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"style":{"spacing":{"blockGap":"7rem"}}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e2f2ef"},"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"},"margin":{"top":"0rem","bottom":"0rem"}}},"layout":{"inherit":false,"contentSize":"1000px","type":"constrained"}} -->
+<div class="wp-block-group alignfull  has-background" style="background-color:#e2f2ef;margin-top:0rem;margin-bottom:0rem;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"style":{"spacing":{"blockGap":"7rem"}}} -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:group {"layout":{"contentSize":"411px","type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"fontSize":"medium-large"} -->
@@ -20,8 +20,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"2.25rem"}}}} -->
-<div class="wp-block-buttons" style="margin-top:2.25rem"><!-- wp:button {"backgroundColor":"quinary","textColor":"secondary","style":{"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-color has-quinary-background-color has-text-color has-background wp-element-button" style="padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ) ; ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_html_e( 'Discover More', 'gutena' ) ; ?>"></a></div>
+<div class="wp-block-buttons" style="margin-top:2.25rem"><!-- wp:button {"style":{"color":{"background":"#f6b642","text":"#21222f"},"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link  has-text-color has-background wp-element-button" style="background-color:#f6b642;color:#21222f;padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ) ; ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_html_e( 'Discover More', 'gutena' ) ; ?>"></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -54,8 +54,8 @@
 <p class="has-outfit-font-font-family" style="margin-top:0.8rem;font-style:normal;font-weight:500;line-height:1.6"><?php esc_html_e( 'Zack Miller', 'gutena' ) ; ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"primary","fontSize":"tiny"} -->
-<p class="has-primary-color has-text-color has-tiny-font-size"><?php esc_html_e( 'Founder', 'gutena' ) ; ?></p>
+<!-- wp:paragraph {"style":{"color":{"text":"#0da88c"}},"fontSize":"tiny"} -->
+<p class="has-text-color has-tiny-font-size" style="color:#0da88c"><?php esc_html_e( 'Founder', 'gutena' ) ; ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

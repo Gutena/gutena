@@ -32,11 +32,8 @@ var zipPath = [
     '!./inc/dashboard/admin-notice/package-lock.json', 
     '!./inc/dashboard/view/package.json', 
     '!./inc/dashboard/view/package-lock.json',
-    // '!./styles/agency.json',
-    // '!./styles/architecture.json',
-    // '!./styles/blog.json',
-    // '!./styles/consulting.json',
-    // '!./styles/saas-company.json',
+    '!./styles',
+    '!./styles/**',
     '!./LICENSE',
     '!./README.md' 
 ];

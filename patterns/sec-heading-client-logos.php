@@ -7,8 +7,8 @@
  * Keywords: section, client-logos
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}},"backgroundColor":"senary"} -->
-<div class="wp-block-group alignfull has-senary-background-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium)"><!-- wp:heading {"textAlign":"center","level":3,"style":{"spacing":{"margin":{"bottom":"60px"}}},"textColor":"white"} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#015d61"},"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}}} -->
+<div class="wp-block-group alignfull  has-background" style="background-color:#015d61;padding-top:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium)"><!-- wp:heading {"textAlign":"center","level":3,"style":{"spacing":{"margin":{"bottom":"60px"}}},"textColor":"white"} -->
 <h3 class="has-text-align-center has-white-color has-text-color" id="trusted-by-enterprise-leaders" style="margin-bottom:60px"><?php esc_html_e( 'Trusted by enterprise leaders', 'gutena' ); ?></h3>
 <!-- /wp:heading -->
 

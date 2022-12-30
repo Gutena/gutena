@@ -16,8 +16,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":""} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"textColor":"secondary","layout":{"type":"constrained","contentSize":"480px"}} -->
-<div class="wp-block-group has-secondary-color has-text-color"><!-- wp:heading {"fontSize":"medium-large"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"color":{"text":"#21222f"}},"layout":{"type":"constrained","contentSize":"480px"}} -->
+<div class="wp-block-group has-text-color" style="color:#21222f"><!-- wp:heading {"fontSize":"medium-large"} -->
 <h2 class="has-medium-large-font-size" id="why-gutena-is-the-best-theme-in-the-market"><?php esc_html_e( 'Why gutena is the best theme in the Market?', 'gutena' ); ?></h2>
 <!-- /wp:heading -->
 
@@ -128,8 +128,8 @@
 <!-- /wp:columns -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"3rem"}}}} -->
-<div class="wp-block-buttons" style="margin-top:3rem"><!-- wp:button {"backgroundColor":"quinary","textColor":"secondary","style":{"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-color has-quinary-background-color has-text-color has-background wp-element-button" href="#" style="padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e(  'Discover More', 'gutena' ); ?>"></a></div>
+<div class="wp-block-buttons" style="margin-top:3rem"><!-- wp:button {"style":{"color":{"background":"#f6b642","text":"#21222f"},"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link  has-text-color has-background wp-element-button" href="#" style="background-color:#f6b642;color:#21222f;padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e(  'Discover More', 'gutena' ); ?>"></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

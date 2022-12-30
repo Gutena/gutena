@@ -7,8 +7,8 @@
  * Keywords: section, animation
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"},"margin":{"top":"0rem","bottom":"0rem"}}},"backgroundColor":"quaternary","layout":{"inherit":false,"contentSize":"1000px","type":"constrained"}} -->
-<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="margin-top:0rem;margin-bottom:0rem;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:group {"layout":{"contentSize":"970px","type":"constrained"}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e2f2ef"},"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"},"margin":{"top":"0rem","bottom":"0rem"}}},"layout":{"inherit":false,"contentSize":"1000px","type":"constrained"}} -->
+<div class="wp-block-group alignfull  has-background" style="background-color:#e2f2ef;margin-top:0rem;margin-bottom:0rem;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:group {"layout":{"contentSize":"970px","type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"4rem"}}},"fontSize":"medium-large"} -->
 <h2 class="has-text-align-center has-medium-large-font-size" style="margin-bottom:4rem"><?php esc_html_e( 'Start Gutena Journey..', 'gutena' ); ?></h2>
 <!-- /wp:heading -->

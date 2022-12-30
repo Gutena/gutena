@@ -3,7 +3,7 @@
  * Title: Creatives page with hero section, columns and recent posts.
  * Slug: gutena/page-creatives
  * Categories: gutena-pages
- * Block Types: core/post-content
+ * Block Types: core/group, core/cover
  * postTypes: page
  * Keywords: page
  */

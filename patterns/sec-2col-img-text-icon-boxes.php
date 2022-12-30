@@ -7,8 +7,8 @@
  * Keywords: section
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"1.25rem","bottom":"var:preset|spacing|medium","left":"1.25rem"}}},"backgroundColor":"quaternary","layout":{"inherit":true,"type":"constrained","contentSize":"972px"}} -->
-<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"55px"}}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e2f2ef"},"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"1.25rem","bottom":"var:preset|spacing|medium","left":"1.25rem"}}},"layout":{"inherit":true,"type":"constrained","contentSize":"972px"}} -->
+<div class="wp-block-group alignfull has-background" style="background-color:#e2f2ef;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"55px"}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":844,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/shield-1.svg'; ?>" alt="<?php esc_attr_e(  'shield', 'gutena' ); ?>" class="wp-image-844"/></figure>

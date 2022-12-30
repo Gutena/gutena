@@ -5,7 +5,7 @@
 
 define('GUTENA_THEME_DIR',get_template_directory());
 define('GUTENA_THEME_URI',esc_url(get_template_directory_uri()));
-define('GUTENA_THEME_VERSION','1.1.1');
+define('GUTENA_THEME_VERSION','2.0.0');
 define( 'GUTENA_THEME_WEB_URI', esc_url( 'https://gutena.io/' ) );
 
 

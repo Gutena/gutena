@@ -17,8 +17,8 @@
 	
 	<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
 	<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:group {"layout":{"contentSize":"422px","type":"constrained"}} -->
-	<div class="wp-block-group"><!-- wp:heading {"level":6,"style":{"typography":{"lineHeight":1.3,"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-	<h6 class="has-primary-color has-text-color" style="font-style:normal;font-weight:500;line-height:1.3"><?php esc_html_e( "WHAT'S NEW", "gutena" ); ?></h6>
+	<div class="wp-block-group"><!-- wp:heading {"level":6,"style":{"color":{"text":"#0da88c"},"typography":{"lineHeight":1.3,"fontStyle":"normal","fontWeight":"500"}}} -->
+	<h6 class="has-text-color" style="color:#0da88c;font-style:normal;font-weight:500;line-height:1.3"><?php esc_html_e( "WHAT'S NEW", "gutena" ); ?></h6>
 	<!-- /wp:heading -->
 	
 	<!-- wp:heading {"fontSize":"medium-large"} -->
@@ -30,8 +30,8 @@
 	<!-- /wp:paragraph -->
 	
 	<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"2.25rem"}}}} -->
-	<div class="wp-block-buttons" style="margin-top:2.25rem"><!-- wp:button {"backgroundColor":"quinary","textColor":"secondary","style":{"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-	<div class="wp-block-button" style="font-style:normal;font-weight:500"><a class="wp-block-button__link has-secondary-color has-quinary-background-color has-text-color has-background wp-element-button" style="padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e(  'Discover More', 'gutena' ); ?>"></a></div>
+	<div class="wp-block-buttons" style="margin-top:2.25rem"><!-- wp:button {"style":{"color":{"background":"#f6b642","text":"#21222f"},"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
+	<div class="wp-block-button" style="font-style:normal;font-weight:500"><a class="wp-block-button__link  has-text-color has-background wp-element-button" style="background-color:#f6b642;color:#21222f;padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ); ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e(  'Discover More', 'gutena' ); ?>"></a></div>
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons --></div>
 	<!-- /wp:group --></div>

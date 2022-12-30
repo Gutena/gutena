@@ -11,8 +11,8 @@
 <h1 class="has-text-align-center" id="oops-that-page-can-t-be-found"><?php esc_html_e( "404 PAGE NOT FOUND", "gutena" ) ; ?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.9"}},"textColor":"secondary","fontSize":"normal"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-normal-font-size" style="line-height:1.9"><?php esc_html_e( "It seems we can’t find what you’re looking for. Perhaps searching can help.", "gutena" ) ; ?></p>
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#21222f"},"typography":{"lineHeight":"1.9"}},"fontSize":"normal"} -->
+<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#21222f;line-height:1.9"><?php esc_html_e( "It seems we can’t find what you’re looking for. Perhaps searching can help.", "gutena" ) ; ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer -->

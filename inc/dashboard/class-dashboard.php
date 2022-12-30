@@ -48,7 +48,7 @@ if ( ! class_exists( 'Gutena_Theme_Dashboard' ) && ! class_exists( 'Gutena_Kit' 
         }
 
         public function theme_dashboard_styles() {
-            wp_enqueue_style( 'gutena-theme-dashboard-style', GUTENA_THEME_URI . '/inc/dashboard/assets/css/dashboard.css', array(), GUTENA_THEME_VERSION, 'all' );
+            wp_enqueue_style( 'gutena-theme-dashboard-style', GUTENA_THEME_URI . '/inc/dashboard/view/build/style-index.css', array(), GUTENA_THEME_VERSION, 'all' );
         }
 
         public function theme_dashboard_scripts() {
@@ -101,12 +101,14 @@ if ( ! class_exists( 'Gutena_Theme_Dashboard' ) && ! class_exists( 'Gutena_Kit' 
                             'support' => array(
                                 'title' => esc_html__( 'Need Help?', 'gutena' ),
                                 'description' => esc_html__( 'Have a question, we are happy to help! Get in touch with our support team.', 'gutena' ),
-                                'link_text' => esc_html__( 'Submit a Ticket', 'gutena' ),
+                                'documentation_link' => esc_url( GUTENA_THEME_WEB_URI . 'blog' ),
+                                'documentation_text' => esc_html__( 'Documentation', 'gutena' ),
+                                'link_text' => esc_html__( 'Submit Ticket', 'gutena' ),
                                 'link_url' => esc_url( 'https://wordpress.org/support/theme/gutena/' ),
                             )
                         ),
                     ),
-                   'gutena_logo' => esc_url( GUTENA_THEME_URI . '/inc/dashboard/assets/img/gutena-logo.svg' ),
+                   'gutena_logo' => esc_url( GUTENA_THEME_URI . '/inc/dashboard/assets/img/logo.png' ),
                 )
             );
         }
@@ -271,7 +273,7 @@ if ( ! class_exists( 'Gutena_Theme_Dashboard' ) && ! class_exists( 'Gutena_Kit' 
                     'plugin_action' => $this->get_plugin_require_install_or_active(),
                     'nonce' => wp_create_nonce( 'gutena-theme-nonce' ),
                     'ajax_url' => esc_url( admin_url('admin-ajax.php') ),
-                    'demo_import_page_url' => esc_url( admin_url( 'themes.php?page=gutenakit_demo_import' ) ),
+                    'demo_import_page_url' => esc_url( admin_url( 'themes.php?page=gutenakit_admin_dashboard' ) ),
                     'download_svg_url' => esc_url( GUTENA_THEME_URI . '/assets/img/icons/download.svg' ),
                     'success_svg_url' => esc_url( GUTENA_THEME_URI . '/assets/img/icons/circle-check.svg' ),
                     'install_plugin_text' => esc_html__( 'Install Gutena Kit', 'gutena' ),

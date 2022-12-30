@@ -10,7 +10,7 @@ const TemplatesTab = ( props ) => {
             <div className="gutena-details">
                 <h2 className="gutena-title" >{ props.details.title }</h2>
                 <p className="gutena-description" >{ props.details.description }</p>
-                <GetGutenaKitButton addclass="bg-orange margin-auto " />
+                <GetGutenaKitButton addclass="margin-auto " />
             </div>
             <div className="gutena-bottom-img">
                 <img src={ props.details.templates_img } alt={ props.details.title } title={ props.details.title } />

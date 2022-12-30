@@ -7,8 +7,8 @@
  * Keywords: team
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"}}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"4.5rem","left":"4.5rem"}}}} -->
+<!-- wp:group {"align":"full","style":{"color":{"background":"#e2f2ef"},"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"1.25rem","left":"1.25rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull  has-background" style="background-color:#e2f2ef;padding-top:var(--wp--preset--spacing--medium);padding-right:1.25rem;padding-bottom:var(--wp--preset--spacing--medium);padding-left:1.25rem"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"4.5rem","left":"4.5rem"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained","contentSize":"335px"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0px","padding":{"top":"48px","right":"34px","bottom":"34px","left":"34px"}},"color":{"gradient":"linear-gradient(180deg,rgb(255,255,255) 0%,rgba(255,255,255,0.6) 100%)"}},"className":"is-style-gutena-box-shadow","layout":{"type":"constrained","contentSize":"268px"}} -->
@@ -24,7 +24,7 @@
 <p class="has-text-align-center has-small-font-size" style="margin-top:5px"><?php esc_html_e( 'Managing Director', 'gutena' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222F","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.25rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222f","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.25rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-gutena-social-links-square-border" style="margin-top:1.25rem"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
@@ -50,7 +50,7 @@
 <p class="has-text-align-center has-small-font-size" style="margin-top:5px"><?php esc_html_e( 'Business Head', 'gutena' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222F","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.25rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222f","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.25rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-gutena-social-links-square-border" style="margin-top:1.25rem"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
@@ -76,7 +76,7 @@
 <p class="has-text-align-center has-small-font-size" style="margin-top:5px"><?php esc_html_e( 'Creative Director', 'gutena' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222F","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.25rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#21222f","size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"margin":{"top":"1.25rem"}}},"className":"is-style-gutena-social-links-square-border","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-gutena-social-links-square-border" style="margin-top:1.25rem"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
