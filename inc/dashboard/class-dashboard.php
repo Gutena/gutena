@@ -62,15 +62,16 @@ if ( ! class_exists( 'Gutena_Theme_Dashboard' ) && ! class_exists( 'Gutena_Kit' 
                         'welcome' => array(
                             'tab_title' =>  esc_html__( 'Getting Started', 'gutena' ),
                             'title' => esc_html__( 'Welcome to Gutena!', 'gutena' ),
-                            'description' => esc_html__( 'Gutena is a block theme for WordPress built to work with the core editor. Our focus is to use core blocks to create modern designs applicable to variety of businesses. We do not add any bloat to our theme. Gutena comes with pre-built full page demos, available to be imported in 1-click using our companion plugin.', 'gutena' ),
-                            'button_text' => esc_html__( 'Learn More', 'gutena' ),
-                            'button_link' => esc_url( 'https://www.youtube.com/watch?v=qmK16jI9X1A' ),
+                            'description' => esc_html__( 'Gutena is a free block theme for WordPress with modern block patterns in-built. It comes packed with beautiful design patterns which suits a variety of use cases. Gutena aims to be at the forefront of WordPress FSE (Full Site Editing) philosophy. ', 'gutena' ),
+                            'button_text' => esc_html__( 'Visit Website', 'gutena' ),
+                            'button_link' => esc_url( GUTENA_THEME_WEB_URI ),
+                            'video_link'   => esc_url( 'https://www.youtube.com/watch?v=qmK16jI9X1A' ),
                             'video_img_url' => esc_url( GUTENA_THEME_URI . '/inc/dashboard/assets/img/video.png' ),
                         ),
                         'templates' => array(
                             'tab_title' =>  esc_html__('Starter Templates', 'gutena'),
                             'title' => esc_html__( 'Gutena Starter Templates!', 'gutena' ),
-                            'description' => esc_html__( 'Get started with beautiful pre-built demos for Gutena. Our demos are well thought out and works for variety of use cases. Install light weight Gutena Kit plugin to enable 1-click demo imports.', 'gutena' ),
+                            'description' => esc_html__( 'Install Gutena Kit and import professional and stylish wordpress starter templates, Built using Gutena Kit and the Gutena theme. These can be imported in just a few clicks. Customise them easily and build beautiful websites in less time.', 'gutena' ),
                             'templates_img' => esc_url( GUTENA_THEME_URI . '/inc/dashboard/assets/img/templates.png' ),
                         ),
                         'changelog' => array(
