@@ -6,7 +6,7 @@ const WelcomeTab = ( props ) => {
     return(
         <div className="gutena-tab-body gutena-welcome-tab gutena-grid">
             <div className="gutena-video">
-                <a href={ props.details.button_link } target="_blank" >
+                <a href={ props.details.video_link } target="_blank" >
                     <img src={ props.details.video_img_url } alt={ props.details.title } title={ props.details.title } />
                 </a>
             </div>
