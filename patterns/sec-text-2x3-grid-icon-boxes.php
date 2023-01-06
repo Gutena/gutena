@@ -32,11 +32,11 @@
 <!-- wp:column {"width":"","className":"is-style-gutena-column-no-margin"} -->
 <div class="wp-block-column is-style-gutena-column-no-margin"><!-- wp:group {"style":{"spacing":{"blockGap":"11px"}},"layout":{"type":"constrained","contentSize":"213px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6} -->
-<h6 id="Digital-Marketing"><?php esc_attr_e(  'Digital Marketing', 'gutena' ); ?></h6>
+<h6 id="Digital-Marketing"><?php esc_html_e(  'Digital Marketing', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="line-height:1.9"><?php esc_attr_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
+<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -60,7 +60,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="line-height:1.9"><?php esc_attr_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
+<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -80,11 +80,11 @@
 <!-- wp:column {"width":"","className":"is-style-gutena-column-no-margin"} -->
 <div class="wp-block-column is-style-gutena-column-no-margin"><!-- wp:group {"style":{"spacing":{"blockGap":"11px"}},"layout":{"type":"constrained","contentSize":"213px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6} -->
-<h6 id="Digital-Marketing"><?php esc_attr_e(  'Hosting Service', 'gutena' ); ?></h6>
+<h6 id="Digital-Marketing"><?php esc_html_e(  'Hosting Service', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="line-height:1.9"><?php esc_attr_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
+<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -106,11 +106,11 @@
 <!-- wp:column {"width":"","className":"is-style-gutena-column-no-margin"} -->
 <div class="wp-block-column is-style-gutena-column-no-margin"><!-- wp:group {"style":{"spacing":{"blockGap":"11px"}},"layout":{"type":"constrained","contentSize":"213px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6} -->
-<h6 id="Digital-Marketing"><?php esc_attr_e(  'PPC Advertising', 'gutena' ); ?></h6>
+<h6 id="Digital-Marketing"><?php esc_html_e(  'PPC Advertising', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="line-height:1.9"><?php esc_attr_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
+<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -130,11 +130,11 @@
 <!-- wp:column {"width":"","className":"is-style-gutena-column-no-margin"} -->
 <div class="wp-block-column is-style-gutena-column-no-margin"><!-- wp:group {"style":{"spacing":{"blockGap":"11px"}},"layout":{"type":"constrained","contentSize":"213px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":6} -->
-<h6 id="Digital-Marketing"><?php esc_attr_e(  'Tax Planning', 'gutena' ); ?></h6>
+<h6 id="Digital-Marketing"><?php esc_html_e(  'Tax Planning', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="line-height:1.9"><?php esc_attr_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
+<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -158,7 +158,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.9"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="line-height:1.9"><?php esc_attr_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
+<p class="has-small-font-size" style="line-height:1.9"><?php esc_html_e(  'Consonantia there live the blind texts. Separated they live in Bookmarksgrove.', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

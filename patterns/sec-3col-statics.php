@@ -17,7 +17,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_attr_e(  'Client Retention', 'gutena' ); ?></p>
+<p><?php esc_html_e(  'Client Retention', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -27,7 +27,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_attr_e(  'Customer Satisfaction', 'gutena' ); ?></p>
+<p><?php esc_html_e(  'Customer Satisfaction', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

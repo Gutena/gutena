@@ -21,7 +21,7 @@
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"2.25rem"}}}} -->
 <div class="wp-block-buttons" style="margin-top:2.25rem"><!-- wp:button {"style":{"color":{"background":"#f6b642","text":"#21222f"},"spacing":{"padding":{"top":"1.4rem","bottom":"1.4rem","left":"1.63rem","right":"1.63rem"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link  has-text-color has-background wp-element-button" style="background-color:#f6b642;color:#21222f;padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ) ; ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_html_e( 'Discover More', 'gutena' ) ; ?>"></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link  has-text-color has-background wp-element-button" style="background-color:#f6b642;color:#21222f;padding-top:1.4rem;padding-right:1.63rem;padding-bottom:1.4rem;padding-left:1.63rem"><?php esc_html_e( 'Discover More', 'gutena' ) ; ?> <img class="wp-image-15" style="width: 10px;" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/top-right-arrow-black.svg'; ?>" alt="<?php esc_attr_e( 'Discover More', 'gutena' ) ; ?>"></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -30,9 +30,9 @@
 <!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:group {"layout":{"contentSize":"465px","type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:cover {"url":"<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/common/work.png'; ?>","id":29,"dimRatio":0,"minHeight":300,"contentPosition":"center center"} -->
-<div class="wp-block-cover" style="min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-29" alt="<?php esc_html_e( 'work', 'gutena' ) ; ?>" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/common/work.png'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover" style="min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-29" alt="<?php esc_attr_e( 'work', 'gutena' ) ; ?>" src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/common/work.png'; ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"align":"center","id":31,"sizeSlug":"large","linkDestination":"none","className":"is-style-gutena-image-wave-animation"} -->
-<figure class="wp-block-image aligncenter size-large is-style-gutena-image-wave-animation"><img src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/play.svg'; ?>" alt="<?php esc_html_e( 'play', 'gutena' ) ; ?>" class="wp-image-31"/></figure>
+<figure class="wp-block-image aligncenter size-large is-style-gutena-image-wave-animation"><img src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/play.svg'; ?>" alt="<?php esc_attr_e( 'play', 'gutena' ) ; ?>" class="wp-image-31"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->
@@ -40,7 +40,7 @@
 <!-- wp:columns {"verticalAlignment":"top","isStackedOnMobile":false,"style":{"spacing":{"margin":{"top":"2.8rem"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-top is-not-stacked-on-mobile" style="margin-top:2.8rem"><!-- wp:column {"verticalAlignment":"top","width":"22%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:22%"><!-- wp:image {"id":23,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/team-1.svg'; ?>" alt="<?php esc_html_e( 'team', 'gutena' ) ; ?>" class="wp-image-23"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( GUTENA_THEME_URI  ). '/assets/img/icons/team-1.svg'; ?>" alt="<?php esc_attr_e( 'team', 'gutena' ) ; ?>" class="wp-image-23"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

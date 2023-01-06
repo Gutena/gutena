@@ -25,7 +25,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"color":{"text":"#0da88c"},"spacing":{"margin":{"top":"5px"}}},"fontSize":"extra-small"} -->
-<p class="has-text-align-center has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
+<p class="has-text-align-center has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_html_e(  'CEO and Founder', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -48,7 +48,7 @@
 
 
 <!-- wp:paragraph {"align":"center","style":{"color":{"text":"#0da88c"},"spacing":{"margin":{"top":"5px"}}},"fontSize":"extra-small"} -->
-<p class="has-text-align-center has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
+<p class="has-text-align-center has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_html_e(  'CEO and Founder', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -70,7 +70,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"color":{"text":"#0da88c"},"spacing":{"margin":{"top":"5px"}}},"fontSize":"extra-small"} -->
-<p class="has-text-align-center has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
+<p class="has-text-align-center has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_html_e(  'CEO and Founder', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
