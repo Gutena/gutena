@@ -29,7 +29,7 @@
 <!-- wp:column {"width":""} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"0.4rem"}}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"textColor":"white"} -->
-<h4 class="has-white-color has-text-color"><?php esc_attr_e(  'Cutting Edge', 'gutena' ); ?></h4>
+<h4 class="has-white-color has-text-color"><?php esc_html_e(  'Cutting Edge', 'gutena' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"white"} -->

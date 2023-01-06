@@ -23,7 +23,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#0da88c"},"spacing":{"margin":{"top":"5px"}}},"fontSize":"extra-small"} -->
-<p class="has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
+<p class="has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_html_e(  'CEO and Founder', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:media-text --></div>
@@ -45,7 +45,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#0da88c"},"spacing":{"margin":{"top":"5px"}}},"fontSize":"extra-small"} -->
-<p class="has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_attr_e(  'CEO and Founder', 'gutena' ); ?></p>
+<p class="has-text-color has-extra-small-font-size" style="color:#0da88c;margin-top:5px"><?php esc_html_e(  'CEO and Founder', 'gutena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:media-text --></div>

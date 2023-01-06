@@ -64,7 +64,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":6,"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
-<h6 class="has-text-align-center" style="margin-top:1.5rem"><?php esc_attr_e(  'Christine Brown', 'gutena' ); ?></h6>
+<h6 class="has-text-align-center" style="margin-top:1.5rem"><?php esc_html_e(  'Christine Brown', 'gutena' ); ?></h6>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"5px"}}},"fontSize":"small"} -->
