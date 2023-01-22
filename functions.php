@@ -128,13 +128,26 @@ function gutena_styles_and_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'gutena_styles_and_scripts' );
 
+/* --------------------------------------------------------------
+	single post :Add class in HTML body if post has thumbnail
+-----------------------------------------------------------------  */
+if ( ! function_exists( 'gutena_single_post_has_thumbnail' ) ) {
+	function gutena_single_post_has_thumbnail( $classes ) {
+		if ( in_array( 'single-post', $classes ) && ! in_array( 'has-post-thumbnail', $classes ) && function_exists( 'has_post_thumbnail' ) && has_post_thumbnail() ) {
+			$classes[] = 'has-post-thumbnail';
+		}
+		return $classes;
+	}
+	add_filter( 'body_class', 'gutena_single_post_has_thumbnail' );
+}
+
 /* -------------------------------------------
 		Excerpt length
 ---------------------------------------------  */
 //Set excerpt length
 add_filter( 'excerpt_length', 'gutena_excerpt_length' );
 function gutena_excerpt_length() {
-    return apply_filters( 'gutena_excerpt_length', 15 );
+    return apply_filters( 'gutena_excerpt_length', 20 );
 }
 
 /** bypass the front-page.html template in case front page is set by Admin ***/
@@ -160,10 +173,12 @@ if ( ! function_exists( 'is_gutena_admin' ) ) {
 }
 
 // Block Styles.
-require GUTENA_THEME_DIR . '/inc/block-styles.php';
+if ( file_exists( GUTENA_THEME_DIR . '/inc/block-styles.php' ) ) {
+	require GUTENA_THEME_DIR . '/inc/block-styles.php';
+}
 
-if ( function_exists( 'is_admin' ) && is_admin() ) {
-	// Theme dashboard
+// Theme dashboard
+if ( function_exists( 'is_admin' ) && is_admin() && file_exists( GUTENA_THEME_DIR . '/inc/dashboard/class-dashboard.php' ) ) {
 	require GUTENA_THEME_DIR . '/inc/dashboard/class-dashboard.php';
 }
 

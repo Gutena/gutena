@@ -25,7 +25,7 @@ if ( file_exists( GUTENA_THEME_DIR .'/patterns/header-logo-nav-btn-for-dark-bg.p
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"1.5rem","bottom":"2rem"}}}} -->
-<div class="wp-block-group" style="margin-top:1.5rem;margin-bottom:2rem"><!-- wp:post-title {"textColor":"white"} /--></div>
+<div class="wp-block-group" style="margin-top:1.5rem;margin-bottom:2rem"><!-- wp:post-title {"level":1,"textColor":"white"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"3rem"}}}} -->
