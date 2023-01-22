@@ -14,8 +14,8 @@ Gutena is a free block theme for WordPress with modern block patterns in-built. 
 
 == Changelog ==
 
-= 2.0.0 | Beta =
-* Added 34 new block patterns
+= 2.0.0 | 23rd January 2023 =
+* Added 36 new block patterns
 * Added fluid typography
 * Added fluid spacing presets
 * Fixed Border box query-pagination block style
