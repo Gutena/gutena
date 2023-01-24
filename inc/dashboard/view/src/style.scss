@@ -1,0 +1,250 @@
+.appearance_page_gutena-theme-dashboard #wpcontent {
+    padding: 0;
+}
+
+$gutena_primary_color: #0EA489;
+$gutena_white_color: #ffffff;
+$gutena_body_text_color : #484952;
+$gutena_heading_color : #21222F;
+/*Hide gutena admin notice*/
+#gutena_recommended_plugin_notice{
+    display: none;
+}
+
+.gutena-theme-dashboard {
+	color: $gutena_body_text_color;
+/* Header */
+ .gutena-header {
+    background: $gutena_white_color;
+    display: flex;
+    padding: 1.25rem;
+    justify-content: space-between;
+
+	.gutena-admin-logo img{
+		max-width: 182px;
+	}
+}
+
+/* Tabs */
+.gutena-tab-panel {
+
+	.components-tab-panel__tabs {
+		background-color: $gutena_white_color;
+		display: flex;
+		justify-content: center;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+	}
+	
+	.components-tab-panel__tabs-item {
+		border: none;
+		border-left: 1px solid #E5E7EB;;
+		background: $gutena_white_color;
+		color: $gutena_heading_color;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 0.9375rem;
+		line-height: 1.25;
+		padding: 1rem 3.75rem;
+		cursor: pointer;
+	}
+	
+	.components-tab-panel__tabs-item:nth-child(1) {
+		border: none;
+	}
+	
+	/* Active Tab */
+	.components-tab-panel__tabs-item.active-tab {
+		color: $gutena_primary_color;
+		border-bottom: 2px solid $gutena_primary_color;
+	}
+
+	#tab-panel-0-templates-view {
+		max-width: 1030px;
+	}
+	
+	/* Tab Body */
+	.components-tab-panel__tab-content {
+		max-width: 900px;
+		margin: 0 auto;
+
+		.gutena-tab-body {
+			margin-top: 3.75rem;
+		}
+
+		.gutena-title {
+			font-weight: 600;
+			font-size: 1.75rem;
+			line-height: 1.32;
+			color: $gutena_heading_color;
+		}
+
+		p{
+			font-style: normal;
+			font-weight: 400;
+			font-size: 0.9375rem;
+			line-height: 1.6;
+		}
+
+		/* Tab Body :thematic break */
+		hr {
+			border: 1px solid $gutena_heading_color;
+			opacity: 0.1;
+			height: 0;
+		}
+
+		/* Tab Body :Welcome Tab */
+		.gutena-grid {
+			display: grid;
+			grid-template-columns: repeat( 2, 1fr);
+			grid-gap: 3.1rem;
+		}
+
+		.gutena-welcome-tab .gutena-title {
+		margin-bottom: 1rem;
+		}
+
+		.gutena-description {
+			padding-bottom: 1.75rem;
+		}
+
+		/* Tab Body :Templates Tab */
+		.gutena-templates-tab .gutena-details{
+			text-align: center;
+			max-width: 506px;
+			margin: 0 auto;
+			padding-bottom: 4rem;
+		}
+
+		.gutena-templates-tab .gutena-title{
+			margin-bottom: 1rem;
+		}
+
+		/* Tab Body :Changelog Tab */
+		.gutena-tab-body.gutena-changelog-tab,
+		.gutena-tab-body.gutena-doc-tab {
+			margin-top: 2.5rem;
+			background: $gutena_white_color;
+			padding: 2.5rem 2.875rem;
+		}
+
+		.gutena-changelog-tab {
+			.gutena-title {
+				margin-bottom: 1rem;
+			}
+			
+			 .gutena-description {
+				white-space: pre;
+			}
+			
+			 .version {
+				color: $gutena_heading_color;
+				font-weight: 600;
+				font-size: 1.125rem;
+				line-height: 1.3;
+			}
+			
+			 hr:nth-child(1) {
+				display: none;
+			}
+		}
+
+		/* Tab Body :Doc Tab */
+		.gutena-doc-tab {
+			hr {
+				margin: 3.8rem 0;
+			 }
+			 
+			 .gutena-topics a {
+				 color: $gutena_heading_color;
+				 font-weight: 600;
+				 font-size: 1rem;
+				 line-height: 1.6;
+				 text-decoration-line: none;
+			 }
+			 
+			.gutena-support {
+				max-width: 321px;
+				.gutena-title, .gutena-description {
+					margin: 0;
+				}
+
+				.gutena-description {
+					padding: 0.85rem 0 1.8rem 0;
+				}
+
+			}
+		}
+		
+	}
+	
+}
+
+.gutena-buttons {
+	display: flex;
+	gap: 21px;
+	a:visited{
+		color:$gutena_white_color;
+	}
+}
+
+.gk-black-btn.gutena-button {
+	background-color: $gutena_heading_color;
+	display: flex;
+    align-items: center;
+}
+
+/* Tab Body : button */
+.gutena-button {
+	background: $gutena_primary_color;
+	border-radius: 5px;
+	color: $gutena_white_color;
+	font-weight: 600;
+
+	font-size: 1rem;
+	line-height: 1.31;
+	padding: 0.8125rem 1.1875rem;
+	text-decoration: none;
+	display: flex;
+    align-items: center;
+	width: max-content;
+}
+
+/* Tab Body : Button hover */
+.gutena-button:hover {
+	color: $gutena_white_color;
+	box-shadow: inset 0 0 0 100px rgb(0 0 0 / 10%);
+}
+
+
+.margin-auto{
+    margin: auto;
+}
+
+.gutena-notice {
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    padding: 1rem;
+
+	&.failed-notice {
+		border-right: 5px solid #cc1818;
+		background: #f4a2a2;
+	}
+
+	&.success-notice {
+		border-right: 5px solid #4ab866;
+		background: #eff9f1;
+	}
+
+	.gutena-dismiss-notice {
+		font-weight: 1.5rem;
+		font-weight: 900;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+
+	&.notice-dismissed {
+		display: none;
+	}
+}
+}

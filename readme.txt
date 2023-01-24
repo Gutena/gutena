@@ -1,7 +1,7 @@
 === Gutena ===
 Contributors: expresstech
-Requires at least: 5.8
-Tested up to: 6.0
+Requires at least: 6.1
+Tested up to: 6.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,6 +13,16 @@ Gutena is a block based theme with a goal of modern & clean design.
 Gutena is a free block theme for WordPress with modern block patterns in-built. It comes packed with beautiful design elements which suits a variety of use cases. Gutena aims to be the forefont of WordPress FSE (Full Site Editing) philosphy. Building on top of the core editor Gutena promises a performant website with a score of 95 and above on core web vitals for speed. Using Gutena is very easy, just import a pre-built demo via our companion plugin (Gutena Kit) or use fully built block patterns. Our customer love us for our simplicity and following the block standards.
 
 == Changelog ==
+
+= 2.0.0 | 23rd January 2023 =
+* Added 36 new block patterns
+* Added fluid typography
+* Added fluid spacing presets
+* Fixed Border box query-pagination block style
+* Added Square border social-links block style
+* Added Wave animation image block style
+* Removed support for core-block-patterns 
+* Modified front page template
 
 = 1.1.1 | 4th August 2022 =
 * Updated Archive template

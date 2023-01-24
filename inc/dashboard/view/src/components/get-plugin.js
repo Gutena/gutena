@@ -26,7 +26,7 @@ const GetGutenaKitButton = ( props ) => {
     });
 
     return(
-        <button className={ `gutena-action-button ${installationStatus}-btn ${props.addclass}` } onClick={ install_or_actiavte_plugin } > { (( '' !== buttonIconSrc )?<img src={ buttonIconSrc } alt={ buttonText } title={ buttonText } />:'') } <span>{buttonText}</span> </button>
+        <button className={ `gutena-action-button gutena-button ${installationStatus}-btn ${props.addclass}` } onClick={ install_or_actiavte_plugin } > { (( '' !== buttonIconSrc )?<img src={ buttonIconSrc } alt={ buttonText } title={ buttonText } />:'') } <span>{buttonText}</span> </button>
     )
 }
 

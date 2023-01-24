@@ -14,6 +14,7 @@ const TabContextProvider = (props) =>{
         button_icon_src = gutena_theme_admin.download_svg_url;
     } else if ( 'activate-plugin' === gutena_theme_admin.plugin_action ) {
         button_text = gutena_theme_admin.activate_plugin_text;
+        button_icon_src = gutena_theme_admin.download_svg_url;
     } else {
         button_text = gutena_theme_admin.success_plugin_text;
         button_link = gutena_theme_admin.demo_import_page_url;

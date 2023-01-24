@@ -24,7 +24,14 @@
                 <div className="gutena-support">
                     <h2 className="gutena-title" >{ props.details.support.title }</h2>
                     <p className="gutena-description" >{ props.details.support.description }</p>
-                    <a href={ props.details.support.link_url } className="gutena-support-link" target="_blank" >{ props.details.support.link_text }</a> 
+                    <div className="gutena-buttons">
+                        <a href={ props.details.support.documentation_link } className='gk-black-btn gutena-button' target='_blank' >  
+                        { props.details.support.documentation_text }
+                        </a>
+                        <a href={ props.details.support.link_url } className={ `gutena-support-link gutena-button` } target="_blank" >  
+                        { props.details.support.link_text }
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
