@@ -1,0 +1,94 @@
+{
+    "version": 2,
+    "title": "Mobile App",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#F24570",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#353964",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#5E6989",
+                    "name": "Tertiary"
+                }
+            ],
+            "duotone": [
+				{
+                    "colors": [
+                        "#F24570",
+                        "#353964"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+			]
+        },
+        
+        "custom": {
+            "typography": {
+                "font-family": {
+                    "primary": "var(--wp--preset--font-family--manrope-font)",
+                    "secondary": "var(--wp--preset--font-family--inter-font)"
+                }
+            }
+        }
+    },
+    "styles": {
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "clamp(2.5rem, 2.5rem + ((1vw - 0.48rem) * 2.163), 3.625rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "clamp(2.125rem, 2.125rem + ((1vw - 0.48rem) * 0.481), 2.375rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "clamp(1.125rem, 1.125rem + ((1vw - 0.48rem) * 0.24), 1.25rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "clamp(1rem, 1rem + ((1vw - 0.48rem) * 0.24), 1.125rem)",
+                    "lineHeight": "1.46"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 0.24), 1rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "clamp(0.75rem, 0.75rem + ((1vw - 0.48rem) * 0.24), 0.875rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "link": {
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "version": 2,
+    "title": "Finance",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#34BD6B",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#2D3745",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#5E6773",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#F0FAFC",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "quinary",
+                    "color": "#34BD6B",
+                    "name": "Quinary"
+                }
+            ],
+            "duotone": [
+				{
+                    "colors": [
+                        "#DFA245",
+                        "#2D3745"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+			]
+        },
+        
+        "custom": {
+            "typography": {
+                "font-family": {
+                    "primary": "var(--wp--preset--font-family--manrope-font)",
+                    "secondary": "var(--wp--preset--font-family--inter-font)"
+                }
+            }
+        }
+    },
+    "styles": {
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "clamp(2.5rem, 2.5rem + ((1vw - 0.48rem) * 1.683), 3.375rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "clamp(2.125rem, 2.125rem + ((1vw - 0.48rem) * 0.721), 2.5rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "clamp(1.125rem, 1.125rem + ((1vw - 0.48rem) * 1.683), 2rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "clamp(1rem, 1rem + ((1vw - 0.48rem) * 0.481), 1.25rem)",
+                    "lineHeight": "1.46"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 0.481), 1.125rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "clamp(0.75rem, 0.75rem + ((1vw - 0.48rem) * 0.481), 1rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "link": {
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+        }
+    }
+}

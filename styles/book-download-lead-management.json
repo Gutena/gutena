@@ -1,0 +1,99 @@
+{
+    "version": 2,
+    "title": "Book Download Lead Management",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#F13434",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#200F47",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#6C6087",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#5D2DC3",
+                    "name": "Quaternary"
+                }
+            ],
+            "duotone": [
+				{
+                    "colors": [
+                        "#200F47",
+                        "#200F47"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+			]
+        },
+        
+        "custom": {
+            "typography": {
+                "font-family": {
+                    "primary": "var(--wp--preset--font-family--inter-font)",
+                    "secondary": "var(--wp--preset--font-family--inter-font)"
+                }
+            }
+        }
+    },
+    "styles": {
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "clamp(2.5rem, 2.5rem + ((1vw - 0.48rem) * 2.404), 3.75rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "clamp(2.125rem, 2.125rem + ((1vw - 0.48rem) * 1.683), 3rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "clamp(1.125rem, 1.125rem + ((1vw - 0.48rem) * 0.721), 1.5rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "clamp(1rem, 1rem + ((1vw - 0.48rem) * 0.481), 1.25rem",
+                    "lineHeight": "1.46"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 0.481), 1.125rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "clamp(0.75rem, 0.75rem + ((1vw - 0.48rem) * 0.481), 1rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "link": {
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+        }
+    }
+}
