@@ -1,0 +1,104 @@
+{
+    "version": 2,
+    "title": "Skin Care",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "primary",
+                    "color": "#12B6B6",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#2D3745",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#647487",
+                    "name": "Tertiary"
+                },
+                {
+                    "slug": "quaternary",
+                    "color": "#EFFDFD",
+                    "name": "Quaternary"
+                },
+                {
+                    "slug": "quinary",
+                    "color": "#EB5757",
+                    "name": "Quinary"
+                }
+            ],
+            "duotone": [
+				{
+                    "colors": [
+                        "#DFA245",
+                        "#2D3745"
+                    ],
+                    "slug": "foreground-and-primary",
+                    "name": "Foreground and primary"
+                }
+			]
+        },
+        
+        "custom": {
+            "typography": {
+                "font-family": {
+                    "primary": "var(--wp--preset--font-family--inter-font)",
+                    "secondary": "var(--wp--preset--font-family--inter-font)"
+                }
+            }
+        }
+    },
+    "styles": {
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "clamp(2.5rem, 2.5rem + ((1vw - 0.48rem) * 3.125), 4.125rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "clamp(2.12rem, 2.12rem + ((1vw - 0.48rem) * 0.49), 2.375rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "clamp(1.125rem, 1.125rem + ((1vw - 0.48rem) * 1.442), 1.875rem)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "clamp(1rem, 1rem + ((1vw - 0.48rem) * 0.481), 1.25rem)",
+                    "lineHeight": "1.46"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "clamp(0.875rem, 0.875rem + ((1vw - 0.48rem) * 0.24), 1rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "clamp(0.75rem, 0.75rem + ((1vw - 0.48rem) * 0.24), 0.875rem)",
+                    "lineHeight": "1.45"
+                }
+            },
+            "link": {
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+        }
+    }
+}
