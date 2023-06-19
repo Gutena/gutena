@@ -15,6 +15,7 @@ $gutena_heading_color : #21222F;
 	color: $gutena_body_text_color;
 /* Header */
  .gutena-header {
+	border-bottom: 1px solid #e5e7eb;
     background: $gutena_white_color;
     display: flex;
     padding: 1.25rem;
